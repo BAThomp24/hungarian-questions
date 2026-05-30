@@ -104,8 +104,6 @@ function nextRow() {
 }
 
 // ---- Render ---------------------------------------------------------------
-function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
-
 function resetReveals() {
   [ui.enQ, ui.huA, ui.enA].forEach((node) => { node.hidden = true; });
   ui.speakA.hidden = true;
@@ -122,7 +120,7 @@ function play() {
   }
   const row = nextRow();
   if (!row) return;
-  const phrasing = pick(row.hu_q);
+  const phrasing = row.hu_q;
   current = { row, phrasing };
 
   ui.empty.classList.add("hidden");
