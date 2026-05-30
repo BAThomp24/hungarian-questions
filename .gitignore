@@ -1,0 +1,10 @@
+# PRIVATE — never publish. These contain real personal data.
+Big List.html
+resources/
+data.real.json
+redactions.js
+extract.js
+
+# misc
+node_modules/
+.DS_Store

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Magyar Interjú — Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <h1>Magyar interjú gyakorlás</h1>
+      <p class="sub">Hungarian citizenship interview practice</p>
+    </header>
+
+    <section class="controls">
+      <label class="field">
+        <span>Topic</span>
+        <select id="category"></select>
+      </label>
+
+      <div class="field">
+        <span>Question range <b id="rangeLabel"></b></span>
+        <div class="range-inputs">
+          <input id="rangeFrom" type="number" min="1" value="1">
+          <span class="dash">–</span>
+          <input id="rangeTo" type="number" min="1">
+          <button id="rangeReset" type="button">All</button>
+        </div>
+      </div>
+
+      <label class="field">
+        <span>Speech speed: <b id="rateLabel">0.9×</b></span>
+        <input id="rate" type="range" min="0.5" max="1.2" step="0.05" value="0.9">
+      </label>
+
+      <label class="field voice">
+        <span>Voice</span>
+        <select id="voice"></select>
+      </label>
+
+      <label class="toggle">
+        <input id="hideText" type="checkbox">
+        <span>Interview mode <em>(hide question text — answer out loud, then reveal)</em></span>
+      </label>
+    </section>
+
+    <section class="card" id="card">
+      <div class="card-empty" id="empty">
+        <p>Press <b>Play</b> to hear a random question in Hungarian.</p>
+        <p class="hint" id="voiceWarning"></p>
+      </div>
+
+      <div class="card-body hidden" id="body">
+        <div class="block question">
+          <div class="label"><span class="qnum" id="qnum"></span>Kérdés — question
+            <button class="speak" id="speakQ" title="Replay">🔊</button>
+          </div>
+          <div class="hu" id="huQ"></div>
+          <div class="reveal en" id="enQ" hidden></div>
+        </div>
+
+        <div class="block answer">
+          <div class="label">Válasz — answer
+            <button class="speak" id="speakA" title="Speak answer" hidden>🔊</button>
+          </div>
+          <div class="reveal hu" id="huA" hidden></div>
+          <div class="reveal en" id="enA" hidden></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reveal-buttons" id="revealButtons">
+      <button data-target="enQ" id="btnEnQ">English question</button>
+      <button data-target="huA" id="btnHuA">My answer (HU) 🔊</button>
+      <button data-target="enA" id="btnEnA">Answer (English)</button>
+    </section>
+
+    <section class="main-buttons">
+      <button class="primary" id="play">▶ Play / Next</button>
+    </section>
+
+    <footer class="status">
+      <span id="progress"></span>
+    </footer>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
