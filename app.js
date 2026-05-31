@@ -139,14 +139,19 @@ function play() {
     `${filtered.length - queue.length} / ${filtered.length} in “${ui.category.options[ui.category.selectedIndex].textContent}”`;
 }
 
-function reveal(targetId, btn) {
+function toggleReveal(targetId, btn) {
   const node = el(targetId);
-  node.hidden = false;
-  if (btn) btn.classList.add("active");
+  const show = node.hidden;                    // hidden now -> reveal; visible -> hide again
+  node.hidden = !show;
+  if (btn) btn.classList.toggle("active", show);
   if (targetId === "huA") {
-    ui.huQ.hidden = false;                    // reveal also un-hides the question text
-    ui.speakA.hidden = false;
-    speak(current.row.hu_a);
+    ui.speakA.hidden = !show;
+    if (show) {
+      ui.huQ.hidden = false;                   // revealing the answer also shows the question
+      speak(current.row.hu_a);
+    } else if (synth) {
+      synth.cancel();                          // hiding the answer stops it speaking
+    }
   }
 }
 
@@ -158,7 +163,7 @@ ui.speakA.addEventListener("click", () => current && speak(current.row.hu_a));
 ui.revealButtons.addEventListener("click", (e) => {
   const btn = e.target.closest("button");
   if (!btn || !current) return;
-  reveal(btn.dataset.target, btn);
+  toggleReveal(btn.dataset.target, btn);
 });
 
 ui.rate.addEventListener("input", () => { ui.rateLabel.textContent = `${parseFloat(ui.rate.value).toFixed(2)}×`; });

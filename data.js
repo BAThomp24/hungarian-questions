@@ -119,7 +119,14 @@ window.HUNGARIAN_DATA = [
     "category": "Small talk & weather"
   },
   {
-    "hu_q": "Igen",
+    "hu_q": "Rendelkezik minden szükséges dokumentummal a pályázat benyújtásához?",
+    "en_q": "Do you have everything you need to submit your application?",
+    "hu_a": "Igen, itt van minden.",
+    "en_a": "Yes, I have everything here.",
+    "category": "Documents & application"
+  },
+  {
+    "hu_q": "Minden megvan a kérelem beadásához?",
     "en_q": "Do you have everything you need to submit your application?",
     "hu_a": "Igen, itt van minden.",
     "en_a": "Yes, I have everything here.",
@@ -149,14 +156,14 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Hogy jött ide?",
     "en_q": "How did you come here?",
-    "hu_a": "[CITY] jöttünk autóval ide.",
+    "hu_a": "[CITY] jöttünk autóval",
     "en_a": "We drove here from [CITY]",
     "category": "Greeting & closing"
   },
   {
     "hu_q": "Mivel utazott?",
     "en_q": "How did you travel?",
-    "hu_a": "[CITY] jöttünk autóval ide.",
+    "hu_a": "[CITY] jöttünk autóval",
     "en_a": "We drove here from [CITY]",
     "category": "Greeting & closing"
   },
@@ -184,22 +191,22 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Milyen közlekedési eszközt használt amikor jött a konzulátusra?",
     "en_q": "What means of transport did you use when you came to the consulate?",
-    "hu_a": "[CITY] jöttünk autóval ide.",
+    "hu_a": "[CITY] jöttünk autóval",
     "en_a": "We drove here from [CITY]",
     "category": "Daily life & food"
   },
   {
     "hu_q": "Mivel érkezett?",
     "en_q": "With what you arrived? (How did you get here?)",
-    "hu_a": "[CITY] jöttünk autóval ide.",
+    "hu_a": "[CITY] jöttünk autóval",
     "en_a": "We drove here from [CITY]",
     "category": "Greeting & closing"
   },
   {
     "hu_q": "Volt nagy tömeg a közlekedésben?",
     "en_q": "Was there a lot of traffic?",
-    "hu_a": "Nem, nem volt nagy tömeg a közlekedésben.\nIgen, egy kis forgalom.",
-    "en_a": "No, there was not a lot of traffic.\nYes, a bit of traffic.",
+    "hu_a": "Igen, egy kis forgalom.",
+    "en_a": "Yes, a bit of traffic.",
     "category": "Small talk & weather"
   },
   {
@@ -219,22 +226,22 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Hogy hívják?",
     "en_q": "What is your name? What the birth family name? What is your maiden name?",
-    "hu_a": "[MY NAME] vagyok. Nem változtattam meg a nevemet.",
-    "en_a": "I am [MY NAME]. I have not changed my name.",
+    "hu_a": "[MY NAME] vagyok.",
+    "en_a": "I am [MY NAME].",
     "category": "Personal details"
   },
   {
     "hu_q": "Mi a születési családi neve?",
     "en_q": "What is your name? What the birth family name? What is your maiden name?",
-    "hu_a": "[MY NAME] vagyok. Nem változtattam meg a nevemet.",
-    "en_a": "I am [MY NAME]. I have not changed my name.",
+    "hu_a": "[MY NAME] vagyok.",
+    "en_a": "I am [MY NAME].",
     "category": "Personal details"
   },
   {
     "hu_q": "Mi a lánykori neve?",
     "en_q": "What is your name? What the birth family name? What is your maiden name?",
-    "hu_a": "[MY NAME] vagyok. Nem változtattam meg a nevemet.",
-    "en_a": "I am [MY NAME]. I have not changed my name.",
+    "hu_a": "[MY NAME] vagyok.",
+    "en_a": "I am [MY NAME].",
     "category": "Personal details"
   },
   {
@@ -296,8 +303,8 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "A gyerekei is fognak tanulni magyarul?",
     "en_q": "Will your children learn Hungarian too?",
-    "hu_a": "Igen, a lányom egy kicsit tanul magyarul. Egy kicsit magyarul beszelek bela.",
-    "en_a": "Yes, my daughter is learning a little Hungarian. I speak a little with her.",
+    "hu_a": "Igen, a lányom egy kicsit tanul magyarul.",
+    "en_a": "Yes, my daughter is learning a little Hungarian.",
     "category": "Language learning"
   },
   {
@@ -338,8 +345,8 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Milyen hosszú egy magyar óra a tanárral?",
     "en_q": "How long is a Hungarian lesson with the teacher?",
-    "hu_a": "Általában egy óra hosszúságú.",
-    "en_a": "Usually one hour long.",
+    "hu_a": "Körülbelül egy órás.",
+    "en_a": "About one hour long.",
     "category": "Language learning"
   },
   {
@@ -513,15 +520,15 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Házas?",
     "en_q": "Are you married?",
-    "hu_a": "Igen! A férjem neve [SPOUSE]. Négy éve vagyunk házasok. Ő szoftverfejlesztő.",
-    "en_a": "Yes! My husband's name is [SPOUSE]. We have been married for four years. He is a software developer.",
+    "hu_a": "Igen! A férjem neve [SPOUSE]. Öt éve vagyunk házasok. Ő szoftverfejlesztő.",
+    "en_a": "Yes! My husband's name is [SPOUSE]. We have been married for five years. He is a software developer.",
     "category": "Home & residence"
   },
   {
     "hu_q": "Ön házas?",
     "en_q": "Are you married?",
-    "hu_a": "Igen! A férjem neve [SPOUSE]. Négy éve vagyunk házasok. Ő szoftverfejlesztő.",
-    "en_a": "Yes! My husband's name is [SPOUSE]. We have been married for four years. He is a software developer.",
+    "hu_a": "Igen! A férjem neve [SPOUSE]. Öt éve vagyunk házasok. Ő szoftverfejlesztő.",
+    "en_a": "Yes! My husband's name is [SPOUSE]. We have been married for five years. He is a software developer.",
     "category": "Home & residence"
   },
   {
@@ -702,22 +709,22 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Mi a kedvenc magyar könyved?",
     "en_q": "What is your favorite Hungarian book? And who is it written by?",
-    "hu_a": "A kedvenc magyar könyvem az Utas és holdvilág. Szerzője Szerb Antal.",
-    "en_a": "My favorite Hungarian book is Utas és holdvilág. It is written by Antal Szerb.",
+    "hu_a": "Még nem olvastam igazi magyar könyveket, csak babakönyveket a lányomnak — de azokat nagyon élvezem!",
+    "en_a": "I haven't read real Hungarian books yet, only picture books for my daughter — but I really enjoy those!",
     "category": "Hobbies & free time"
   },
   {
     "hu_q": "És ki írta?",
     "en_q": "What is your favorite Hungarian book? And who is it written by?",
-    "hu_a": "A kedvenc magyar könyvem az Utas és holdvilág. Szerzője Szerb Antal.",
-    "en_a": "My favorite Hungarian book is Utas és holdvilág. It is written by Antal Szerb.",
+    "hu_a": "Még nem olvastam igazi magyar könyveket, csak babakönyveket a lányomnak — de azokat nagyon élvezem!",
+    "en_a": "I haven't read real Hungarian books yet, only picture books for my daughter — but I really enjoy those!",
     "category": "Hobbies & free time"
   },
   {
     "hu_q": "Mesélj nekem arról a könyvről.",
     "en_q": "Tell me about that book.",
-    "hu_a": "Ez egy férfiról szól, aki a jelenben próbál megélni.",
-    "en_a": "It is about a man struggling to live in the present.",
+    "hu_a": "Még nem olvastam igazi magyar könyveket, csak babakönyveket a lányomnak — de azokat nagyon élvezem!",
+    "en_a": "I haven't read real Hungarian books yet, only picture books for my daughter — but I really enjoy those!",
     "category": "Hobbies & free time"
   },
   {
@@ -842,8 +849,8 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Mi volt az előző munkád?",
     "en_q": "What was your job before that?",
-    "hu_a": "Most négy különböző cégnél dolgoztam üzleti elemzőként. Mindegyik cégnél nagyon hasonló munkaköröm volt.",
-    "en_a": "I have been a business analyst at four different companies now. Very similar job at each company.",
+    "hu_a": "Előtte egy közműcégnél dolgoztam pár évig üzleti elemzőként.",
+    "en_a": "Before that, I worked for a public utility company for a few years as a business analyst.",
     "category": "Education & work"
   },
   {
@@ -1148,6 +1155,34 @@ window.HUNGARIAN_DATA = [
     "category": "Ancestry & origin"
   },
   {
+    "hu_q": "Mit csinált Magyarországon?",
+    "en_q": "What did you do in Hungary? What did you do in Budapest?",
+    "hu_a": "Láttuk a Bazilikát és a Parlamentet. Nagyon szerettem a Duna-parton sétálni.",
+    "en_a": "We saw Saint [FATHER]'s Cathedral and the Parliament. I adored walking along the Danube.",
+    "category": "Ancestry & origin"
+  },
+  {
+    "hu_q": "Mit csinált Budapesten?",
+    "en_q": "What did you do in Hungary? What did you do in Budapest?",
+    "hu_a": "Láttuk a Bazilikát és a Parlamentet. Nagyon szerettem a Duna-parton sétálni.",
+    "en_a": "We saw Saint [FATHER]'s Cathedral and the Parliament. I adored walking along the Danube.",
+    "category": "Visiting Hungary"
+  },
+  {
+    "hu_q": "Mivel töltötte az idejét Magyarországon?",
+    "en_q": "What did you do in Hungary? What did you do in Budapest?",
+    "hu_a": "Láttuk a Bazilikát és a Parlamentet. Nagyon szerettem a Duna-parton sétálni.",
+    "en_a": "We saw Saint [FATHER]'s Cathedral and the Parliament. I adored walking along the Danube.",
+    "category": "Ancestry & origin"
+  },
+  {
+    "hu_q": "Mit nézett meg Budapesten?",
+    "en_q": "What did you do in Hungary? What did you do in Budapest?",
+    "hu_a": "Láttuk a Bazilikát és a Parlamentet. Nagyon szerettem a Duna-parton sétálni.",
+    "en_a": "We saw Saint [FATHER]'s Cathedral and the Parliament. I adored walking along the Danube.",
+    "category": "Visiting Hungary"
+  },
+  {
     "hu_q": "Milyen okiratokat/iratokat/dokumentumokat hozott magával?",
     "en_q": "What documents did you brought with you?",
     "hu_a": "A dédanyám születési anyakönyvi kivonata.\nA dédanyám házassági anyakönyvi kivonata.\nA nagymamám születési anyakönyvi kivonata.\nA nagymamám házassági anyakönyvi kivonata.\nAz apukám születési anyakönyvi kivonata.\nAz apukám házassági anyakönyvi kivonata.\nA születési anyakönyvi kivonatom.\nA házassági anyakönyvi kivonatom.\nA lányom születési anyakönyvi kivonata.",
@@ -1311,22 +1346,22 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Milyen az idő [CITY]?",
     "en_q": "What's the weather like in [CITY]?",
-    "hu_a": "[CITY] időjárása nagyszerű! Lehet párás, de általában enyhe az idő.",
-    "en_a": "The weather in [CITY] is great! It can get humid but in general mild weather.",
+    "hu_a": "[CITY] szinte egész évben enyhe az idő.",
+    "en_a": "The weather in [CITY] is mild almost year-round.",
     "category": "Home & residence"
   },
   {
     "hu_q": "Milyen az idő/időjárás ott ahol él?",
     "en_q": "What's the weather like in [CITY]?",
-    "hu_a": "[CITY] időjárása nagyszerű! Lehet párás, de általában enyhe az idő.",
-    "en_a": "The weather in [CITY] is great! It can get humid but in general mild weather.",
+    "hu_a": "[CITY] szinte egész évben enyhe az idő.",
+    "en_a": "The weather in [CITY] is mild almost year-round.",
     "category": "Home & residence"
   },
   {
     "hu_q": "Milyen az éghajlat [CITY]?",
     "en_q": "What's the climate in [CITY]?",
-    "hu_a": "[CITY] időjárása nagyszerű! Lehet párás, de általában enyhe az idő.",
-    "en_a": "The weather in [CITY] is great! It can get humid but in general mild weather.",
+    "hu_a": "[CITY] szinte egész évben enyhe az idő.",
+    "en_a": "The weather in [CITY] is mild almost year-round.",
     "category": "Home & residence"
   },
   {
@@ -1402,15 +1437,15 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Miért találja érdekesnek a magyar kultúrát?",
     "en_q": "Why do you find Hungarian Culture Interesting?",
-    "hu_a": "Szeretem a nyelvet, a találmányok, mint például a Rubik-kocka történetét, és a finom konyhát.",
-    "en_a": "I love the language, the history of inventions like Rubik's cube, and delicious cuisine.",
+    "hu_a": "Nagyon tetszik a magyar nyelv, és szeretem a magyar kultúrát — a konyhát, a hagyományokat és a vendégszeretetet.",
+    "en_a": "I really like the Hungarian language and I like the Hungarian culture — the cuisine, the traditions and the hospitality.",
     "category": "Culture & history"
   },
   {
     "hu_q": "Mit tud a magyar kulturárol?",
     "en_q": "What do you know about Hungarian culture?",
-    "hu_a": "Szeretem a nyelvet, a találmányok, mint például a Rubik-kocka történetét, és a finom konyhát.",
-    "en_a": "I love the language, the history of inventions like Rubik's cube, and delicious cuisine.",
+    "hu_a": "Nagyon tetszik a magyar nyelv, és szeretem a magyar kultúrát — a konyhát, a hagyományokat és a vendégszeretetet.",
+    "en_a": "I really like the Hungarian language and I like the Hungarian culture — the cuisine, the traditions and the hospitality.",
     "category": "Culture & history"
   },
   {
@@ -1423,8 +1458,8 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Tud főzni magyar ételt?",
     "en_q": "Can you cook Hungarian meals?",
-    "hu_a": "Igen, tudok gulyást és leveseket készíteni.",
-    "en_a": "Yes, I can make goulash and soups.",
+    "hu_a": "Tudok magyar ételt főzni, de egyelőre csak gulyást.",
+    "en_a": "I can cook Hungarian food, but for now only goulash.",
     "category": "Culture & history"
   },
   {
@@ -1463,43 +1498,36 @@ window.HUNGARIAN_DATA = [
     "category": "Family"
   },
   {
-    "hu_q": "Hova szeretne utazni ezen a nyáron és mit csinálna ott?",
-    "en_q": "Where would you like to travel this summer and what would you do there?",
-    "hu_a": "Idén nyáron Magyarországra utazunk. Meg fogjuk nézni a Parlamentet, körbejárjuk a Dunát, és sok finom ételt fogunk enni.",
-    "en_a": "We are traveling to Hungary this summer. We will see parliament, tour the Danube, and eat a lot of great food.",
-    "category": "Greeting & closing"
-  },
-  {
     "hu_q": "Hol nyaralt ezen a nyáron?",
     "en_q": "Where did you vacation this summer?",
-    "hu_a": "Idén nyáron Magyarországra utazunk. Meg fogjuk nézni a Parlamentet, körbejárjuk a Dunát, és sok finom ételt fogunk enni.",
-    "en_a": "We are traveling to Hungary this summer. We will see parliament, tour the Danube, and eat a lot of great food.",
+    "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
+    "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
     "category": "Hobbies & free time"
   },
   {
     "hu_q": "Hova szeret utazni?",
     "en_q": "Where do you like travelling?",
-    "hu_a": "Olyan helyre, ahol még nem jártunk. Mind a hideg, mind a meleg éghajlatot élvezzük.",
-    "en_a": "Anywhere we haven't been before. We enjoy both cold and warm weather climates.",
+    "hu_a": "Szeretünk utazni a családunkhoz. Ott a gyerekekkel játszunk, és közben utolérjük egymást.",
+    "en_a": "We like to travel to our family. There we play with the kids and catch up with each other.",
     "category": "Greeting & closing"
   },
   {
     "hu_q": "Hova szoktak utazni nyáron?",
     "en_q": "Where do you usually travel in the summer?",
-    "hu_a": "Olyan helyre, ahol még nem jártunk. Mind a hideg, mind a meleg éghajlatot élvezzük.",
-    "en_a": "Anywhere we haven't been before. We enjoy both cold and warm weather climates.",
+    "hu_a": "Szeretünk utazni a családunkhoz. Ott a gyerekekkel játszunk, és közben utolérjük egymást.",
+    "en_a": "We like to travel to our family. There we play with the kids and catch up with each other.",
     "category": "Greeting & closing"
   },
   {
     "hu_q": "Hová utaztál a nyáron és mit csináltál ott?",
     "en_q": "Where did you travel over the summer and what did you do there?",
-    "hu_a": "Idén nyáron Magyarországra utazunk. Meg fogjuk nézni a Parlamentet, körbejárjuk a Dunát, és sok finom ételt fogunk enni.",
-    "en_a": "We are traveling to Hungary this summer. We will see parliament, tour the Danube, and eat a lot of great food.",
+    "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
+    "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
     "category": "Greeting & closing"
   },
   {
     "hu_q": "Mit szeretsz csinálni a nyaralás alatt?",
-    "en_q": "What do you like to do on Vacation.",
+    "en_q": "What do you like to do on Vacation?",
     "hu_a": "Szeretek éttermekbe járni, múzeumokat látogatni, és közben pihenni.",
     "en_a": "I like to go to restaurants, visit the museums, and relax inbetween.",
     "category": "Hobbies & free time"
@@ -1514,8 +1542,8 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Szokott olvasni magyar könyveket?",
     "en_q": "Do you usually read Hungarian books?",
-    "hu_a": "A lányommal magyar gyerekkönyveket olvasok, és az állatokról és a színekről szólnak.",
-    "en_a": "I've been reading Hungarian kid books with my daughter and animals and colors.",
+    "hu_a": "Még nem olvastam igazi magyar könyveket, csak babakönyveket a lányomnak — de azokat nagyon élvezem!",
+    "en_a": "I haven't read real Hungarian books yet, only picture books for my daughter — but I really enjoy those!",
     "category": "Hobbies & free time"
   },
   {
@@ -1569,16 +1597,9 @@ window.HUNGARIAN_DATA = [
   },
   {
     "hu_q": "Mit reggelizett ma?",
-    "en_q": "Ebédre csirkét és salátát ettem.",
-    "hu_a": "Ma reggelire kávét, joghurtot és granolát ettem. A lányom tejet és gyümölcsöt fogyasztott.",
+    "en_q": "What did you have for breakfast today?",
+    "hu_a": "Ma reggelire kávét, joghurtot és granolát ettem. A lányom tejet és gyümölcsöt ivott.",
     "en_a": "I had coffee, yogurt and granola for breakfast this morning. My daughter had milk and fruit.",
-    "category": "Daily life & food"
-  },
-  {
-    "hu_q": "Mit ebédelt ma?",
-    "en_q": "What did you have lunch today?",
-    "hu_a": "Ebédre salátát ettem.",
-    "en_a": "I had a salad for lunch.",
     "category": "Daily life & food"
   },
   {
@@ -1591,8 +1612,8 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Milyen nap van ma?",
     "en_q": "What day is it today?",
-    "hu_a": "Ma hétfő van. Ma kedd van. Ma szerda van. Ma csütörtök van. Ma péntek van. Ma szombat van. Ma vasárnap van.",
-    "en_a": "Today is Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.",
+    "hu_a": "Ma péntek van.",
+    "en_a": "Today is Friday",
     "category": "Daily life & food"
   },
   {
@@ -1633,8 +1654,8 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Milyen idő van most?",
     "en_q": "What is the weather now?",
-    "hu_a": "Nagyon szép idő van ma, süt a nap, és kellemes az idő.",
-    "en_a": "It's very nice today, the sun is shining and the weather is pleasant.",
+    "hu_a": "Az idő szép és meleg.",
+    "en_a": "The weather is nice and warm.",
     "category": "Small talk & weather"
   },
   {
@@ -1703,15 +1724,15 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Melyik városban élne és miért?",
     "en_q": "In which city would you live and why?",
-    "hu_a": "Valószínűleg Budapest, sok ember, szeretem a termálfürdő kultúrát. Nagyon sok gyönyörű hely van, gazdag történelemmel. Az ételek finomak.",
-    "en_a": "Probably Budapest, lots of people, I love the thermal bath culture. There are many beautiful places with a rich history. The food is delicious.",
+    "hu_a": "Budapesten élnék! Imádom a termálfürdő‑kultúrát, a gyönyörű építészetet és a kedves embereket.",
+    "en_a": "I would live in Budapest! I love the thermal bath culture, the beautiful architecture, and the friendly people.",
     "category": "Home & residence"
   },
   {
     "hu_q": "Hol szeretne élni Budapesten?",
     "en_q": "Where do you want to live in Budapest?",
-    "hu_a": "Még nem tudom, melyik környéken.",
-    "en_a": "I don't know which neighborhood yet.",
+    "hu_a": "Szeretnék Budapesten a második kerületben élni, mert sok park van a lányom számára, és még mindig közel van a belvároshoz.",
+    "en_a": "I would like to live in the second district of Budapest because there are many parks for my daughter, and it is still close to the city center.",
     "category": "Home & residence"
   },
   {
@@ -1752,15 +1773,15 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Mit fog csinálni ha végzett a konzulátuson?",
     "en_q": "What will you do when you finish at the consulate?",
-    "hu_a": "A repülőtérre megyünk. Délután visszamegyünk [CITY].",
-    "en_a": "We are going to the airport. We are going back to [CITY] this afternoon.",
+    "hu_a": "Ebédelünk, aztán visszamegyünk a hotelbe, hogy a lányom aludjon.",
+    "en_a": "We have lunch, then we go back to the hotel so that my daughter can sleep.",
     "category": "Greeting & closing"
   },
   {
     "hu_q": "Mit csinált ma az interjú előtt?",
     "en_q": "What did you do today before the interview?",
-    "hu_a": "A családommal reggeliztem. Az interjú előtt felkeltem, lezuhanyoztam és reggeliztem a családommal.",
-    "en_a": "I had breakfast with my family. Before the interview, I woke up, showered and had breakfast with my family.",
+    "hu_a": "Az interjú előtt felkeltem és reggeliztem a családommal.",
+    "en_a": "Before the interview, I woke up and had breakfast with my family.",
     "category": "General"
   },
   {
@@ -1815,21 +1836,21 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Hol szeretné letenni az állampolgársági esküt?",
     "en_q": "Where do you want to take the citizenship oath?",
-    "hu_a": "Kérem itt [CITY].",
-    "en_a": "Here in [CITY], please",
+    "hu_a": "Itt, [STATE] [CITY]‑ben kérem.",
+    "en_a": "Here in [STATE] [CITY], please",
     "category": "Interview procedure"
   },
   {
     "hu_q": "Hol akarja az esküt letenni?",
     "en_q": "Where do you want to take the oath?",
-    "hu_a": "Kérem itt [CITY].",
-    "en_a": "Here in [CITY], please",
+    "hu_a": "Itt, [STATE] [CITY]‑ben kérem.",
+    "en_a": "Here in [STATE] [CITY], please",
     "category": "Interview procedure"
   },
   {
     "hu_q": "A hitelesitésért 23 dollárt kell fizetni egyenként és csak bankkártyával lehet fizetni. Ez így megfelel Önnek?",
     "en_q": "Authentication costs $23 each and can only be paid by credit card.",
-    "hu_a": "Rendben, értem. Igen megfelel.",
+    "hu_a": "Rendben, értem.",
     "en_a": "Okay, I understand.",
     "category": "Interview procedure"
   },
@@ -1863,9 +1884,9 @@ window.HUNGARIAN_DATA = [
   },
   {
     "hu_q": "Milyen volt a gyerekkora?",
-    "en_q": "How was your childhood.",
-    "hu_a": "Az én gyerekkorom jó volt. Nagy családunk volt, sok nagynénivel, nagybácsival és unokatestvérrel. Mindannyian nagyon közel álltunk egymáshoz.",
-    "en_a": "My childhood was good. We had a big family with a lot of aunts, uncles and cousins. We were all very close.",
+    "en_q": "How was your childhood?",
+    "hu_a": "Jó gyerekkorom volt. Sok gyerek élt a környéken, és semmi miatt nem aggódtam.",
+    "en_a": "I had a good childhood. Many children lived in the neighborhood, and I didn't worry about anything.",
     "category": "Daily life & food"
   },
   {
@@ -1885,21 +1906,21 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Hogyan használja a nevét?",
     "en_q": "How do you use your name?",
-    "hu_a": "Mi a nevem [LAST NAME] [MY NAME], de általában [MY NAME] vagy [MY NAME] hívnak.",
-    "en_a": "My name is [MY NAME] but I usually go by [MY NAME] or [MY NAME].",
+    "hu_a": "A leánykori nevemet használom, [MY NAME].",
+    "en_a": "I use my maiden name, [MY NAME].",
     "category": "Personal details"
   },
   {
     "hu_q": "Hányszor nyújtotta be a kérelmet a magyar állampolgárságra?",
     "en_q": "How many times have you applied for Hungarian citizenship?",
-    "hu_a": "Ez az első alkalom. Most először.",
+    "hu_a": "Most először.",
     "en_a": "This is the first time.",
     "category": "Documents & application"
   },
   {
     "hu_q": "Híres magyar embereket ismer?",
     "en_q": "Do you know famous Hungarian people?",
-    "hu_a": "Igen, ismerem Orbán Viktor miniszterelnököt, Rubik Ernő feltalálót és Petőfi Sándor költőt.",
+    "hu_a": "Igen, ismerem Magyar Petér miniszterelnököt, Rubik Ernő feltalálót és Petőfi Sándor költőt.",
     "en_a": "Yes, I know Prime Minister Viktor Orbán, inventor Ernő Rubik, and poet Sándor Petőfi.",
     "category": "Culture & history"
   },
@@ -1934,49 +1955,49 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Mit csinál holnap?",
     "en_q": "What are you going to do tomorrow?",
-    "hu_a": "Holnap pihenek.",
-    "en_a": "I will rest tomorrow.",
+    "hu_a": "A hétvégét itt töltjük. Lehet, hogy ellátogatunk a National Mall-ra.",
+    "en_a": "We are staying the weekend. We may visit the National Mall.",
     "category": "Daily life & food"
   },
   {
     "hu_q": "Milyen típusú könyveket szeret?",
     "en_q": "What kind of books do you like?",
-    "hu_a": "Szeretek mindenféle könyvet olvasni. Különösen szeretek tényirodalmat olvasni.",
-    "en_a": "I like to read all kinds of books. Especially I like to read non-fiction books.",
+    "hu_a": "Szeretek thriller és fantasy könyveket olvasni.",
+    "en_a": "I like to read thriller and fantasy books.",
     "category": "Hobbies & free time"
   },
   {
     "hu_q": "Milyen fajta zenét hallgat?",
     "en_q": "What kind of music do you listen to?",
-    "hu_a": "Szeretek rock és klasszikus zenét hallgatni.",
-    "en_a": "I like to listen to rock and classical music.",
+    "hu_a": "Szeretek indie zenét hallgatni.",
+    "en_a": "I like to listen to indie music.",
     "category": "Hobbies & free time"
   },
   {
     "hu_q": "Hol tanult meg főzni?",
     "en_q": "Where did you learn to cook?",
-    "hu_a": "Szüleim és nagyszüleim tanítottak gyerekkoromban.",
-    "en_a": "My parents and grandparents taught me during my childhood.",
+    "hu_a": "Megtanultam magamtól főzni.",
+    "en_a": "I taught myself to cook.",
     "category": "Language learning"
   },
   {
     "hu_q": "Meséljen a legjobb barátjáról.",
     "en_q": "Tell me about your best friend.",
-    "hu_a": "A legjobb barátnőm ápolónő. Nagyon okos. Gyönyörű és kedves. A szomszédom is. A gyerekeink is jó barátok.",
-    "en_a": "My best friend is a nurse. She is very smart. She is beautiful and kind. She is also my neighbor. Our kids are good friends, too.",
+    "hu_a": "A legjobb barátom szintén üzleti elemző. Kedves, okos és nagyon vicces.",
+    "en_a": "My best friend is also a business analyst. She is kind, smart, and very funny.",
     "category": "Family"
   },
   {
     "hu_q": "Hova járt álltalános iskolába?",
     "en_q": "Where did you go to elementary school?",
-    "hu_a": "A [ELEMENTARY SCHOOL]ába jártam.",
-    "en_a": "I went to [ELEMENTARY SCHOOL]",
+    "hu_a": "A Mary Esther Általános Iskolába jártam.",
+    "en_a": "I went to Mary Esther Elementary School",
     "category": "Visiting Hungary"
   },
   {
     "hu_q": "Hova járt középiskolába?",
     "en_q": "Where did you go to high school?",
-    "hu_a": "A [HIGH SCHOOL]ába jártam.",
+    "hu_a": "A Navarre Középiskolába jártam.",
     "en_a": "I went to [HIGH SCHOOL].",
     "category": "Visiting Hungary"
   },
@@ -1990,15 +2011,15 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Mi a terve a jövőben?/ Mi a terve a jövőre nézve?",
     "en_q": "What are your plans for the future?",
-    "hu_a": "Most nagyon boldog vagyok. Talán visszamegyek az egyetemre, talán nem.",
-    "en_a": "I am very happy now. Maybe I will go back to university or maybe not.",
+    "hu_a": "Folytatom a magyar tanulást, mert szeretnénk egyszer Magyarországra költözni.",
+    "en_a": "I continue learning Hungarian because we would like to move to Hungary someday.",
     "category": "Motivation & future"
   },
   {
     "hu_q": "Kérem hivja ide a férjét hogy ő is aláirja a nyomtatványokat. formanyomtatványokat",
     "en_q": "Please call your husband so that he can sign the forms as well.",
-    "hu_a": "",
-    "en_a": "",
+    "hu_a": "Rendben, köszönöm. [SPOUSE], come here.",
+    "en_a": "Ok, thank you. [SPOUSE], come here.",
     "category": "Interview procedure"
   }
 ];
