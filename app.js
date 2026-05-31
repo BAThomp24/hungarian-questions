@@ -8,7 +8,7 @@ DATA.forEach((r, i) => { r.n = i + 1; });
 const el = (id) => document.getElementById(id);
 const ui = {
   category: el("category"), rate: el("rate"), rateLabel: el("rateLabel"),
-  voice: el("voice"), hideText: el("hideText"),
+  voice: el("voice"), hideText: el("hideText"), varyOpenings: el("varyOpenings"),
   rangeFrom: el("rangeFrom"), rangeTo: el("rangeTo"), rangeReset: el("rangeReset"),
   rangeLabel: el("rangeLabel"), qnum: el("qnum"),
   empty: el("empty"), body: el("body"), voiceWarning: el("voiceWarning"),
@@ -21,6 +21,34 @@ let current = null;       // the active row + chosen phrasing
 let queue = [];           // shuffled indices into the filtered set, consumed for no-repeat
 let filtered = DATA;      // rows matching the current category
 let huVoices = [];        // available hu-HU voices
+
+// "Vary openings": ~1/3 of the time, preface the question with a softer open
+// prompt built from the card's topic (in the -ról/-ről "about …" case).
+const pickRand = (a) => a[Math.floor(Math.random() * a.length)];
+const OPENING_CHANCE = 0.35;
+const OPENINGS = [
+  (t) => `Meséljen ${t}.`,                 // Tell me about …
+  (t) => `Beszéljen ${t}.`,                // Talk about …
+  (t) => `Mondjon valamit ${t}.`,          // Say something about …
+  (t) => `Kérem, beszéljen ${t}.`,         // Please talk about …
+  (t) => `Kérem, mondja el, mit tud ${t}.`,// Please tell me what you know about …
+];
+const CATEGORY_TOPICS = {
+  "Personal details": "magáról",
+  "Family": "a családjáról",
+  "Ancestry & origin": "a származásáról",
+  "Language learning": "a magyartanulásáról",
+  "Education & work": "a munkájáról",
+  "Home & residence": "az otthonáról",
+  "Hobbies & free time": "a szabadidejéről",
+  "Daily life & food": "a mindennapjairól",
+  "Culture & history": "a magyar kultúráról",
+  "Documents & application": "a dokumentumairól",
+  "Motivation & future": "a terveiről",
+  "Visiting Hungary": "a magyarországi látogatásáról",
+  "General": "magáról",
+  // Greeting/closing, small talk, interview procedure: no natural "about …" topic.
+};
 
 // ---- Speech ---------------------------------------------------------------
 const synth = window.speechSynthesis;
@@ -120,7 +148,11 @@ function play() {
   }
   const row = nextRow();
   if (!row) return;
-  const phrasing = row.hu_q;
+  let phrasing = row.hu_q;
+  const topic = CATEGORY_TOPICS[row.category];
+  if (ui.varyOpenings.checked && topic && Math.random() < OPENING_CHANCE) {
+    phrasing = `${pickRand(OPENINGS)(topic)} ${phrasing}`;
+  }
   current = { row, phrasing };
 
   ui.empty.classList.add("hidden");
