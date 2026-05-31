@@ -98,9 +98,9 @@ function buildCategories() {
   });
 }
 
-// Filtered set = topic match AND question number within [from, to]. The range
-// uses the absolute table number so "30–50" means the same regardless of topic.
-function applyFilters() {
+// The range uses the absolute table number, so "30–50" means the same
+// regardless of topic.
+function computeRange() {
   let from = parseInt(ui.rangeFrom.value, 10);
   let to = parseInt(ui.rangeTo.value, 10);
   if (!Number.isFinite(from)) from = 1;
@@ -108,15 +108,27 @@ function applyFilters() {
   from = Math.max(1, Math.min(from, DATA.length));
   to = Math.max(1, Math.min(to, DATA.length));
   if (from > to) [from, to] = [to, from];
-  ui.rangeFrom.value = from;
-  ui.rangeTo.value = to;
-  ui.rangeLabel.textContent = from === 1 && to === DATA.length ? "(all)" : `(#${from}–${to})`;
+  return { from, to };
+}
 
+// Rebuild the active set and force a fresh shuffle. Called on EVERY range/topic
+// change (including each keystroke) so the next pick is always re-randomised.
+function rebuildFiltered() {
+  const { from, to } = computeRange();
   const c = ui.category.value;
   filtered = DATA.filter(
     (r) => (c === "__all" || r.category === c) && r.n >= from && r.n <= to
   );
-  queue = [];
+  queue = [];                              // discard old order -> reshuffle next pick
+}
+
+// Commit version: also normalises the input boxes + label (runs on blur/reset).
+function applyFilters() {
+  const { from, to } = computeRange();
+  ui.rangeFrom.value = from;
+  ui.rangeTo.value = to;
+  ui.rangeLabel.textContent = from === 1 && to === DATA.length ? "(all)" : `(#${from}–${to})`;
+  rebuildFiltered();
 }
 
 // Fisher–Yates over the filtered indices, refilled when exhausted (no-repeat).
@@ -200,6 +212,10 @@ ui.revealButtons.addEventListener("click", (e) => {
 
 ui.rate.addEventListener("input", () => { ui.rateLabel.textContent = `${parseFloat(ui.rate.value).toFixed(2)}×`; });
 ui.category.addEventListener("change", applyFilters);
+// `input` = recompute immediately as they type (no stale queue); `change` =
+// normalise the boxes on commit. Either way the queue is reset -> reshuffled.
+ui.rangeFrom.addEventListener("input", rebuildFiltered);
+ui.rangeTo.addEventListener("input", rebuildFiltered);
 ui.rangeFrom.addEventListener("change", applyFilters);
 ui.rangeTo.addEventListener("change", applyFilters);
 ui.rangeReset.addEventListener("click", () => {
