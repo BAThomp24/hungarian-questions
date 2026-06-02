@@ -183,6 +183,19 @@ input[type="range"] { accent-color: var(--accent); }
 }
 .primary:hover { filter: brightness(1.08); }
 
+.secondary {
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid var(--accent-dim);
+  border-radius: 12px;
+  padding: 16px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.secondary:hover { border-color: var(--accent); }
+
 .status { text-align: center; color: var(--muted); font-size: .8rem; margin-top: 14px; }
 
 .hidden { display: none; }

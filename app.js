@@ -29,6 +29,7 @@ const ui = {
   huQ: el("huQ"), enQ: el("enQ"), huA: el("huA"), enA: el("enA"),
   speakQ: el("speakQ"), speakA: el("speakA"), markBtn: el("markBtn"),
   revealButtons: el("revealButtons"), play: el("play"), progress: el("progress"),
+  practiceStarred: el("practiceStarred"),
 };
 
 let current = null;       // the active row + chosen phrasing
@@ -129,6 +130,16 @@ function buildCategories() {
 function refreshMarkedOption() {
   const opt = [...ui.category.options].find((o) => o.value === "__marked");
   if (opt) opt.textContent = `★ Needs help (${markedCount()})`;
+  ui.practiceStarred.textContent = `★ Practice Starred (${markedCount()})`;
+}
+
+// One click: drill ALL starred questions (ignores any active range).
+function practiceStarred() {
+  ui.rangeFrom.value = 1;
+  ui.rangeTo.value = DATA.length;
+  ui.category.value = "__marked";
+  applyFilters();
+  play();
 }
 
 // The range uses the absolute table number, so "30–50" means the same
@@ -220,7 +231,9 @@ function play() {
   if (filtered.length === 0) {
     ui.body.classList.add("hidden");
     ui.empty.classList.remove("hidden");
-    ui.empty.innerHTML = "<p>No questions match this topic and range. Widen the range or pick another topic.</p>";
+    ui.empty.innerHTML = ui.category.value === "__marked"
+      ? "<p>No starred questions yet. Tap the ☆ on a card (or press M) to add one, then come back.</p>"
+      : "<p>No questions match this topic and range. Widen the range or pick another topic.</p>";
     ui.progress.textContent = "";
     return;
   }
@@ -291,6 +304,7 @@ function toggleReveal(targetId, btn) {
 
 // ---- Wire up --------------------------------------------------------------
 ui.play.addEventListener("click", play);
+ui.practiceStarred.addEventListener("click", practiceStarred);
 ui.speakQ.addEventListener("click", () => current && speak(current.phrasing));
 ui.speakA.addEventListener("click", () => current && speak(current.row.hu_a));
 ui.markBtn.addEventListener("click", toggleMark);
@@ -346,6 +360,7 @@ if (synth) {
   synth.addEventListener("voiceschanged", loadVoices);
 }
 buildCategories();
+refreshMarkedOption();
 ui.rangeFrom.max = DATA.length;
 ui.rangeTo.max = DATA.length;
 ui.rangeTo.value = DATA.length;
