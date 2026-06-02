@@ -9,6 +9,8 @@ const el = (id) => document.getElementById(id);
 const ui = {
   category: el("category"), rate: el("rate"), rateLabel: el("rateLabel"),
   voice: el("voice"), hideText: el("hideText"), varyOpenings: el("varyOpenings"),
+  autoplay: el("autoplay"), autoInterval: el("autoInterval"), autoLabel: el("autoLabel"),
+  autoReadAnswer: el("autoReadAnswer"), autoOptions: el("autoOptions"),
   rangeFrom: el("rangeFrom"), rangeTo: el("rangeTo"), rangeReset: el("rangeReset"),
   rangeLabel: el("rangeLabel"), qnum: el("qnum"),
   empty: el("empty"), body: el("body"), voiceWarning: el("voiceWarning"),
@@ -75,15 +77,26 @@ function loadVoices() {
   }
 }
 
-function speak(text) {
-  if (!synth || huVoices.length === 0 || !text) return;
+// Speak one or more Hungarian texts in order; onDone fires after the last one
+// (or immediately if there's no voice, so autoplay can still advance on a timer).
+function speakSequence(texts, onDone) {
+  const list = texts.filter(Boolean);
+  if (!synth || huVoices.length === 0 || list.length === 0) {
+    if (onDone) onDone();
+    return;
+  }
   synth.cancel();
-  const u = new SpeechSynthesisUtterance(text.replace(/\n/g, ". "));
-  u.voice = huVoices[ui.voice.value] || huVoices[0];
-  u.lang = u.voice.lang;
-  u.rate = parseFloat(ui.rate.value);
-  synth.speak(u);
+  list.forEach((text, i) => {
+    const u = new SpeechSynthesisUtterance(text.replace(/\n/g, ". "));
+    u.voice = huVoices[ui.voice.value] || huVoices[0];
+    u.lang = u.voice.lang;
+    u.rate = parseFloat(ui.rate.value);
+    if (i === list.length - 1 && onDone) u.onend = onDone;
+    synth.speak(u);
+  });
 }
+
+function speak(text) { speakSequence([text]); }
 
 // ---- Category + queue -----------------------------------------------------
 function buildCategories() {
@@ -150,7 +163,23 @@ function resetReveals() {
   [...ui.revealButtons.children].forEach((b) => b.classList.remove("active"));
 }
 
+// ---- Autoplay -------------------------------------------------------------
+let autoTimer = null;
+let playToken = 0;            // guards against stale speech-end callbacks
+
+function clearAuto() {
+  if (autoTimer) { clearTimeout(autoTimer); autoTimer = null; }
+}
+
+function scheduleNext(token) {
+  clearAuto();
+  if (!ui.autoplay.checked || token !== playToken) return;
+  const secs = parseInt(ui.autoInterval.value, 10) || 10;
+  autoTimer = setTimeout(() => { if (ui.autoplay.checked) play(); }, secs * 1000);
+}
+
 function play() {
+  clearAuto();
   if (filtered.length === 0) {
     ui.body.classList.add("hidden");
     ui.empty.classList.remove("hidden");
@@ -178,7 +207,13 @@ function play() {
   ui.huA.textContent = row.hu_a;
   ui.enA.textContent = row.en_a;
 
-  speak(phrasing);
+  // Autoplay reading Q+A also reveals the answer so you can read along.
+  const readAnswer = ui.autoplay.checked && ui.autoReadAnswer.checked && row.hu_a;
+  if (readAnswer) { ui.huQ.hidden = false; ui.huA.hidden = false; ui.speakA.hidden = false; }
+
+  const token = ++playToken;
+  speakSequence(readAnswer ? [phrasing, row.hu_a] : [phrasing], () => scheduleNext(token));
+
   ui.progress.textContent =
     `${filtered.length - queue.length} / ${filtered.length} in “${ui.category.options[ui.category.selectedIndex].textContent}”`;
 }
@@ -225,6 +260,23 @@ ui.rangeReset.addEventListener("click", () => {
 });
 ui.hideText.addEventListener("change", () => { if (current) ui.huQ.hidden = ui.hideText.checked; });
 
+// Autoplay
+function refreshAutoUI() {
+  ui.autoLabel.textContent = `${ui.autoInterval.value}s`;
+  ui.autoOptions.classList.toggle("disabled", !ui.autoplay.checked);
+}
+ui.autoInterval.addEventListener("input", refreshAutoUI);
+ui.autoplay.addEventListener("change", () => {
+  refreshAutoUI();
+  if (ui.autoplay.checked) {
+    play();                                  // start the loop right away
+  } else {
+    clearAuto();
+    playToken++;                             // invalidate any pending speech-end callback
+    if (synth) synth.cancel();
+  }
+});
+
 // Keyboard: Space/Enter = next, R = replay question.
 document.addEventListener("keydown", (e) => {
   if (e.target.tagName === "SELECT" || e.target.tagName === "INPUT") return;
@@ -242,4 +294,5 @@ ui.rangeTo.max = DATA.length;
 ui.rangeTo.value = DATA.length;
 applyFilters();
 ui.rateLabel.textContent = `${parseFloat(ui.rate.value).toFixed(2)}×`;
+refreshAutoUI();
 if (DATA.length === 0) ui.empty.innerHTML = "<p>⚠ No data loaded. Run <code>node extract.js</code> first.</p>";

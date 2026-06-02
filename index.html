@@ -49,6 +49,20 @@
         <input id="varyOpenings" type="checkbox">
         <span>Vary openings <em>(sometimes prefaces the question with “Meséljen…”, “Beszéljen…”, etc.)</em></span>
       </label>
+
+      <label class="toggle">
+        <input id="autoplay" type="checkbox">
+        <span>Autoplay <em>(auto-advance to the next question)</em></span>
+      </label>
+
+      <div class="field auto-options" id="autoOptions">
+        <span>Pause between questions: <b id="autoLabel">10s</b></span>
+        <input id="autoInterval" type="range" min="5" max="60" step="1" value="10">
+        <label class="toggle">
+          <input id="autoReadAnswer" type="checkbox">
+          <span>Also read the answer in Hungarian <em>(default: question only)</em></span>
+        </label>
+      </div>
     </section>
 
     <section class="card" id="card">

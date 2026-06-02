@@ -94,6 +94,13 @@ input[type="range"] { accent-color: var(--accent); }
 .toggle em { color: var(--muted); font-style: normal; font-size: .8rem; display: block; }
 .toggle input { margin-top: 3px; accent-color: var(--accent); }
 
+.auto-options {
+  border-left: 2px solid var(--accent-dim);
+  padding-left: 12px;
+  margin-left: 2px;
+}
+.auto-options.disabled { opacity: .45; }
+
 .card {
   background: var(--panel);
   border-radius: 14px;
