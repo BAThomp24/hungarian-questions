@@ -144,15 +144,30 @@ function applyFilters() {
   rebuildFiltered();
 }
 
-// Fisher–Yates over the filtered indices, refilled when exhausted (no-repeat).
-function nextRow() {
-  if (queue.length === 0) {
-    queue = filtered.map((_, i) => i);
-    for (let i = queue.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
+// Build a shuffled, no-repeat play order. After a plain Fisher–Yates shuffle we
+// de-cluster: siblings split from the same source cell (same .group) shouldn't
+// land next to each other, otherwise reworded duplicates feel "un-random".
+function buildQueue() {
+  queue = filtered.map((_, i) => i);
+  for (let i = queue.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [queue[i], queue[j]] = [queue[j], queue[i]];
+  }
+  const grp = (qi) => filtered[qi].group;
+  for (let i = 1; i < queue.length; i++) {
+    if (grp(queue[i]) !== grp(queue[i - 1])) continue;
+    // pull in a later card from a different group (and not matching the next one)
+    for (let j = i + 1; j < queue.length; j++) {
+      if (grp(queue[j]) === grp(queue[i - 1])) continue;
+      if (i + 1 < queue.length && grp(queue[j]) === grp(queue[i + 1])) continue;
       [queue[i], queue[j]] = [queue[j], queue[i]];
+      break;
     }
   }
+}
+
+function nextRow() {
+  if (queue.length === 0) buildQueue();
   return filtered[queue.pop()];
 }
 
