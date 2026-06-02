@@ -139,6 +139,18 @@ input[type="range"] { accent-color: var(--accent); }
 }
 .speak:hover { background: var(--accent); }
 
+.mark {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 4px;
+}
+.mark:hover { color: var(--answer); }
+.mark.on { color: var(--answer); }
+
 .reveal-buttons {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

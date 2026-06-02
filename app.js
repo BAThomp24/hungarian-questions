@@ -5,6 +5,18 @@ const DATA = window.HUNGARIAN_DATA || [];
 // Stable 1-based question number = position in the full list (the table order).
 DATA.forEach((r, i) => { r.n = i + 1; });
 
+// "Needs help" marks, persisted in the browser (no backend). Keyed by question
+// text so marks survive data regeneration / reordering.
+const MARK_KEY = "hu-marked";
+const keyOf = (row) => row.hu_q;
+let marked = new Set();
+try { marked = new Set(JSON.parse(localStorage.getItem(MARK_KEY) || "[]")); } catch (e) { /* ignore */ }
+function saveMarks() {
+  try { localStorage.setItem(MARK_KEY, JSON.stringify([...marked])); } catch (e) { /* ignore */ }
+}
+const isMarked = (row) => marked.has(keyOf(row));
+const markedCount = () => DATA.filter(isMarked).length;
+
 const el = (id) => document.getElementById(id);
 const ui = {
   category: el("category"), rate: el("rate"), rateLabel: el("rateLabel"),
@@ -15,7 +27,7 @@ const ui = {
   rangeLabel: el("rangeLabel"), qnum: el("qnum"),
   empty: el("empty"), body: el("body"), voiceWarning: el("voiceWarning"),
   huQ: el("huQ"), enQ: el("enQ"), huA: el("huA"), enA: el("enA"),
-  speakQ: el("speakQ"), speakA: el("speakA"),
+  speakQ: el("speakQ"), speakA: el("speakA"), markBtn: el("markBtn"),
   revealButtons: el("revealButtons"), play: el("play"), progress: el("progress"),
 };
 
@@ -101,7 +113,9 @@ function speak(text) { speakSequence([text]); }
 // ---- Category + queue -----------------------------------------------------
 function buildCategories() {
   const cats = [...new Set(DATA.map((r) => r.category))].sort();
-  ui.category.innerHTML = `<option value="__all">All topics (${DATA.length})</option>`;
+  ui.category.innerHTML =
+    `<option value="__all">All topics (${DATA.length})</option>` +
+    `<option value="__marked">★ Needs help (${markedCount()})</option>`;
   cats.forEach((c) => {
     const n = DATA.filter((r) => r.category === c).length;
     const o = document.createElement("option");
@@ -109,6 +123,12 @@ function buildCategories() {
     o.textContent = `${c} (${n})`;
     ui.category.appendChild(o);
   });
+}
+
+// Keep the "Needs help" option's count fresh without rebuilding the dropdown.
+function refreshMarkedOption() {
+  const opt = [...ui.category.options].find((o) => o.value === "__marked");
+  if (opt) opt.textContent = `★ Needs help (${markedCount()})`;
 }
 
 // The range uses the absolute table number, so "30–50" means the same
@@ -129,9 +149,11 @@ function computeRange() {
 function rebuildFiltered() {
   const { from, to } = computeRange();
   const c = ui.category.value;
-  filtered = DATA.filter(
-    (r) => (c === "__all" || r.category === c) && r.n >= from && r.n <= to
-  );
+  filtered = DATA.filter((r) => {
+    if (r.n < from || r.n > to) return false;
+    if (c === "__marked") return isMarked(r);
+    return c === "__all" || r.category === c;
+  });
   queue = [];                              // discard old order -> reshuffle next pick
 }
 
@@ -215,6 +237,7 @@ function play() {
   ui.body.classList.remove("hidden");
 
   resetReveals();
+  updateMarkButton();
   ui.qnum.textContent = `#${row.n}`;
   ui.huQ.textContent = phrasing;
   ui.huQ.hidden = ui.hideText.checked;       // interview mode: audio only first
@@ -231,6 +254,23 @@ function play() {
 
   ui.progress.textContent =
     `${filtered.length - queue.length} / ${filtered.length} in “${ui.category.options[ui.category.selectedIndex].textContent}”`;
+}
+
+// ---- Needs-help marks -----------------------------------------------------
+function updateMarkButton() {
+  const on = current && isMarked(current.row);
+  ui.markBtn.textContent = on ? "★" : "☆";
+  ui.markBtn.classList.toggle("on", !!on);
+}
+
+function toggleMark() {
+  if (!current) return;
+  const k = keyOf(current.row);
+  if (marked.has(k)) marked.delete(k); else marked.add(k);
+  saveMarks();
+  updateMarkButton();
+  refreshMarkedOption();
+  if (ui.category.value === "__marked") rebuildFiltered();  // keep marked-only set current
 }
 
 function toggleReveal(targetId, btn) {
@@ -253,6 +293,7 @@ function toggleReveal(targetId, btn) {
 ui.play.addEventListener("click", play);
 ui.speakQ.addEventListener("click", () => current && speak(current.phrasing));
 ui.speakA.addEventListener("click", () => current && speak(current.row.hu_a));
+ui.markBtn.addEventListener("click", toggleMark);
 
 ui.revealButtons.addEventListener("click", (e) => {
   const btn = e.target.closest("button");
@@ -297,6 +338,7 @@ document.addEventListener("keydown", (e) => {
   if (e.target.tagName === "SELECT" || e.target.tagName === "INPUT") return;
   if (e.code === "Space" || e.code === "Enter") { e.preventDefault(); play(); }
   else if (e.key.toLowerCase() === "r" && current) speak(current.phrasing);
+  else if (e.key.toLowerCase() === "m") toggleMark();
 });
 
 if (synth) {

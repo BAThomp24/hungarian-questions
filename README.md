@@ -21,8 +21,12 @@ Just **double-click `index.html`** — it works straight from disk, no server or
   card is its position in the table). Combines with the topic filter; **All** resets it.
 - **Reveal buttons** — English question, your Hungarian answer (spoken), English answer.
 - **Interview mode** — hides the question text so you only hear it; answer aloud, then reveal.
+- **Mark for help** — tap the ☆ star (or press **M**) to flag a question you struggle with.
+  Marks are saved in the browser (per device, no account). Pick **★ Needs help** in the topic
+  dropdown to drill only the flagged ones.
+- **Autoplay** — auto-advance with a 5–60s pause; optionally reads the Hungarian answer too.
 - **Speech speed** slider and a **voice** picker.
-- Keyboard: **Space/Enter** = next, **R** = replay the question.
+- Keyboard: **Space/Enter** = next, **R** = replay the question, **M** = mark/unmark.
 
 ## Privacy / how the data is handled
 
