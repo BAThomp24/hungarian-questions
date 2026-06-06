@@ -730,7 +730,7 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Az édesanyja hol született?",
     "en_q": "Where was your mother born?",
-    "hu_a": "Anyám [CITY], [STATE] született.",
+    "hu_a": "Anyám [STATE] [CITY] született.",
     "en_a": "My mother was born in [CITY], [STATE].",
     "category": "Family",
     "group": 68
@@ -754,7 +754,7 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Az édesapja hol született?",
     "en_q": "Where was your father born?",
-    "hu_a": "Az apukám neve [CITY], [STATE] született.",
+    "hu_a": "Az apukám [STATE] [CITY] született.",
     "en_a": "My fathers name was born in [CITY], [STATE].",
     "category": "Family",
     "group": 71
@@ -960,7 +960,7 @@ window.HUNGARIAN_DATA = [
     "group": 89
   },
   {
-    "hu_q": "Mi volt a korábbi /előző munkája?",
+    "hu_q": "Mi volt a korábbi munkája?",
     "en_q": "What was your previous job?",
     "hu_a": "Az utolsó munkahelyem az [PREVIOUS EMPLOYER] volt, és körülbelül öt évig dolgoztam ott üzleti elemzőként.",
     "en_a": "The last company I worked at was [PREVIOUS EMPLOYER] and I worked there for about five years as a business analyst.",
@@ -968,7 +968,15 @@ window.HUNGARIAN_DATA = [
     "group": 90
   },
   {
-    "hu_q": "Mi volt az előző munkád?",
+    "hu_q": "Mi volt az előző munkája?",
+    "en_q": "What was your previous job?",
+    "hu_a": "Az utolsó munkahelyem az [PREVIOUS EMPLOYER] volt, és körülbelül öt évig dolgoztam ott üzleti elemzőként.",
+    "en_a": "The last company I worked at was [PREVIOUS EMPLOYER] and I worked there for about five years as a business analyst.",
+    "category": "Education & work",
+    "group": 90
+  },
+  {
+    "hu_q": "Mi volt a munkád előtte?",
     "en_q": "What was your job before that?",
     "hu_a": "Előtte egy közműcégnél dolgoztam pár évig üzleti elemzőként.",
     "en_a": "Before that, I worked for a public utility company for a few years as a business analyst.",
@@ -1090,7 +1098,7 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Mióta tudja, hogy magyar felmenői vannak?",
     "en_q": "Since when (how long) do you know you have Hungarian ancestors?",
-    "hu_a": "Mindig is tudtam a magyar származásomról, mert a családom nagyon büszke van rá.",
+    "hu_a": "Mindig is tudtam a magyar származásomról, mert a családom nagyon büszke rá.",
     "en_a": "I have always known about my Hungarian heritage because my family is very proud of it.",
     "category": "Ancestry & origin",
     "group": 106
@@ -2310,5 +2318,21 @@ window.HUNGARIAN_DATA = [
     "en_a": "Ok, thank you. [SPOUSE], come here.",
     "category": "Interview procedure",
     "group": 244
+  },
+  {
+    "hu_q": "Ön írta maga?",
+    "en_q": "Did you write by yourself?",
+    "hu_a": "Igen, magam írtam.",
+    "en_a": "Yes, I wrote by myself.",
+    "category": "General",
+    "group": 245
+  },
+  {
+    "hu_q": "Tud ön maga írni?",
+    "en_q": "Can you write by yourself?",
+    "hu_a": "Igen, tudok egyedül írni.",
+    "en_a": "Yes, I can write by myself.",
+    "category": "General",
+    "group": 246
   }
 ];
