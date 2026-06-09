@@ -81,11 +81,11 @@
   },
   {
     "hu_q": "Hány órakor van az időpontja?",
-    "en_q": "When is your appointment?",
+    "en_q": "What time is your appointment?",
     "hu_a": "Az időpontom tiz órákor van.",
     "en_a": "My appointment's at 10.",
     "category": "Small talk & weather",
-    "group": 7
+    "group": 8
   },
   {
     "hu_q": "Fáradjon be!",
@@ -93,7 +93,7 @@
     "hu_a": "Köszönöm.",
     "en_a": "Thank you.",
     "category": "Greeting & closing",
-    "group": 8
+    "group": 9
   },
   {
     "hu_q": "Jöjjön be!",
@@ -101,7 +101,7 @@
     "hu_a": "Köszönöm.",
     "en_a": "Thank you.",
     "category": "Greeting & closing",
-    "group": 9
+    "group": 10
   },
   {
     "hu_q": "Kérem foglaljon helyet!",
@@ -109,7 +109,7 @@
     "hu_a": "Köszönöm.",
     "en_a": "Thank you.",
     "category": "Greeting & closing",
-    "group": 10
+    "group": 11
   },
   {
     "hu_q": "Mindjárt szólok a kolléganőmnek.",
@@ -117,7 +117,7 @@
     "hu_a": "Rendben.",
     "en_a": "Alright-okay.",
     "category": "General",
-    "group": 11
+    "group": 12
   },
   {
     "hu_q": "Várjon itt egy kicsit a konzul mindjárt jön.",
@@ -125,7 +125,7 @@
     "hu_a": "Rendben, köszönöm.",
     "en_a": "Thank you.",
     "category": "Greeting & closing",
-    "group": 12
+    "group": 13
   },
   {
     "hu_q": "Szeretnék néhány kérdést kérdezni Öntől",
@@ -133,7 +133,7 @@
     "hu_a": "Rendben.",
     "en_a": "Alright-okay.",
     "category": "Small talk & weather",
-    "group": 13
+    "group": 14
   },
   {
     "hu_q": "Rendelkezik minden szükséges dokumentummal a pályázat benyújtásához?",
@@ -141,7 +141,7 @@
     "hu_a": "Igen, itt van minden.",
     "en_a": "Yes, I have everything here.",
     "category": "Documents & application",
-    "group": 14
+    "group": 15
   },
   {
     "hu_q": "Minden megvan a kérelem beadásához?",
@@ -149,7 +149,7 @@
     "hu_a": "Igen, itt van minden.",
     "en_a": "Yes, I have everything here.",
     "category": "Documents & application",
-    "group": 14
+    "group": 15
   },
   {
     "hu_q": "Ideges?",
@@ -157,7 +157,7 @@
     "hu_a": "Igen, egy kicsit izgulok.",
     "en_a": "Yes, I am a little nervous.",
     "category": "Greeting & closing",
-    "group": 15
+    "group": 16
   },
   {
     "hu_q": "Izgul?",
@@ -165,7 +165,7 @@
     "hu_a": "Igen, egy kicsit izgulok.",
     "en_a": "Yes, I am a little nervous.",
     "category": "Greeting & closing",
-    "group": 16
+    "group": 17
   },
   {
     "hu_q": "Hogy utazott?",
@@ -173,7 +173,7 @@
     "hu_a": "Köszönöm, Jól utaztam.",
     "en_a": "I had a good trip, thank you.",
     "category": "Greeting & closing",
-    "group": 17
+    "group": 18
   },
   {
     "hu_q": "Hogy jött ide?",
@@ -181,7 +181,7 @@
     "hu_a": "[CITY] jöttünk autóval",
     "en_a": "We drove here from [CITY]",
     "category": "Greeting & closing",
-    "group": 18
+    "group": 19
   },
   {
     "hu_q": "Mivel utazott?",
@@ -189,7 +189,7 @@
     "hu_a": "[CITY] jöttünk autóval",
     "en_a": "We drove here from [CITY]",
     "category": "Greeting & closing",
-    "group": 19
+    "group": 20
   },
   {
     "hu_q": "Honnan jött?",
@@ -197,7 +197,7 @@
     "hu_a": "[STATE], [CITY] jöttünk",
     "en_a": "We came from [CITY], [STATE].",
     "category": "Greeting & closing",
-    "group": 20
+    "group": 21
   },
   {
     "hu_q": "Kivel utazott?",
@@ -205,7 +205,7 @@
     "hu_a": "A férjemmel és a gyermekemmel vagyok itt",
     "en_a": "I am here with my husband and child.",
     "category": "Greeting & closing",
-    "group": 21
+    "group": 22
   },
   {
     "hu_q": "Mennyi ideig utazott?",
@@ -213,7 +213,7 @@
     "hu_a": "[CITY] körülbelül 5 órás az út autóval.",
     "en_a": "The drive from [CITY] is about 5 hours.",
     "category": "Greeting & closing",
-    "group": 22
+    "group": 23
   },
   {
     "hu_q": "Milyen közlekedési eszközt használt amikor jött a konzulátusra?",
@@ -221,7 +221,7 @@
     "hu_a": "[CITY] jöttünk autóval",
     "en_a": "We drove here from [CITY]",
     "category": "Daily life & food",
-    "group": 23
+    "group": 24
   },
   {
     "hu_q": "Mivel érkezett?",
@@ -229,7 +229,7 @@
     "hu_a": "[CITY] jöttünk autóval",
     "en_a": "We drove here from [CITY]",
     "category": "Greeting & closing",
-    "group": 24
+    "group": 25
   },
   {
     "hu_q": "Volt nagy tömeg a közlekedésben?",
@@ -237,7 +237,7 @@
     "hu_a": "Igen, egy kis forgalom.",
     "en_a": "Yes, a bit of traffic.",
     "category": "Small talk & weather",
-    "group": 25
+    "group": 26
   },
   {
     "hu_q": "Hány napot töltesz [STATE]?",
@@ -245,7 +245,7 @@
     "hu_a": "A hétvégét itt töltjük. Lehet, hogy ellátogatunk a National Mall-ra.",
     "en_a": "We are staying the weekend. We may visit the National Mall.",
     "category": "Greeting & closing",
-    "group": 26
+    "group": 27
   },
   {
     "hu_q": "Mit fogsz csinálni itt [STATE]?",
@@ -253,7 +253,7 @@
     "hu_a": "A hétvégét itt töltjük. Lehet, hogy ellátogatunk a National Mall-ra.",
     "en_a": "We are staying the weekend. We may visit the National Mall.",
     "category": "General",
-    "group": 26
+    "group": 27
   },
   {
     "hu_q": "Hogy hívják?",
@@ -261,7 +261,7 @@
     "hu_a": "[MY NAME] vagyok.",
     "en_a": "I am [MY NAME].",
     "category": "Personal details",
-    "group": 27
+    "group": 28
   },
   {
     "hu_q": "Mi a születési családi neve?",
@@ -269,7 +269,7 @@
     "hu_a": "[MY NAME] vagyok.",
     "en_a": "I am [MY NAME].",
     "category": "Personal details",
-    "group": 27
+    "group": 28
   },
   {
     "hu_q": "Mi a lánykori neve?",
@@ -277,7 +277,7 @@
     "hu_a": "[MY NAME] vagyok.",
     "en_a": "I am [MY NAME].",
     "category": "Personal details",
-    "group": 27
+    "group": 28
   },
   {
     "hu_q": "Meséljen magáról!",
@@ -285,7 +285,7 @@
     "hu_a": "",
     "en_a": "",
     "category": "General",
-    "group": 28
+    "group": 29
   },
   {
     "hu_q": "Kérem mutatkozzon be!",
@@ -293,7 +293,7 @@
     "hu_a": "",
     "en_a": "",
     "category": "General",
-    "group": 28
+    "group": 29
   },
   {
     "hu_q": "Beszéljen magáról!",
@@ -301,7 +301,7 @@
     "hu_a": "",
     "en_a": "",
     "category": "General",
-    "group": 28
+    "group": 29
   },
   {
     "hu_q": "Hol tanult meg magyarul beszélni?",
@@ -309,7 +309,7 @@
     "hu_a": "Körülbelül két éve tanulok magyarul, sok magyar youtube videót nézek, a MagyarOK tankönyvből tanulok a tanárnőmmel hetente kétszer.",
     "en_a": "I have been learning Hungarian for about two years, I watch a lot of Hungarian YouTube videos, and I study from the MagyarOK textbook with my teacher twice a week.",
     "category": "Language learning",
-    "group": 29
+    "group": 30
   },
   {
     "hu_q": "Mióta tanul magyarul?",
@@ -317,7 +317,7 @@
     "hu_a": "Körülbelül két éve tanulok magyarul, sok magyar youtube videót nézek, a MagyarOK tankönyvből tanulok a tanárnőmmel hetente kétszer.",
     "en_a": "I have been learning Hungarian for about two years, I watch a lot of Hungarian YouTube videos, and I study from the MagyarOK textbook with my teacher twice a week.",
     "category": "Language learning",
-    "group": 30
+    "group": 31
   },
   {
     "hu_q": "Mióta tanulja a magyar nyelvet?",
@@ -325,7 +325,7 @@
     "hu_a": "Körülbelül két éve tanulok magyarul, sok magyar youtube videót nézek, a MagyarOK tankönyvből tanulok a tanárnőmmel hetente kétszer.",
     "en_a": "I have been learning Hungarian for about two years, I watch a lot of Hungarian YouTube videos, and I study from the MagyarOK textbook with my teacher twice a week.",
     "category": "Language learning",
-    "group": 31
+    "group": 32
   },
   {
     "hu_q": "Mennyi ideje tanul?",
@@ -333,7 +333,7 @@
     "hu_a": "Körülbelül két éve tanulok magyarul, sok magyar youtube videót nézek, a MagyarOK tankönyvből tanulok a tanárnőmmel hetente kétszer.",
     "en_a": "I have been learning Hungarian for about two years, I watch a lot of Hungarian YouTube videos, and I study from the MagyarOK textbook with my teacher twice a week.",
     "category": "Language learning",
-    "group": 32
+    "group": 33
   },
   {
     "hu_q": "Ha magyar lesz, folytatni fogja a magyar nyelv tanulàsàt?",
@@ -341,7 +341,7 @@
     "hu_a": "Természetesen. Imádok magyarul tanulni.",
     "en_a": "Of course. I love learning Hungarian.",
     "category": "Language learning",
-    "group": 33
+    "group": 34
   },
   {
     "hu_q": "A gyerekei is fognak tanulni magyarul?",
@@ -349,7 +349,7 @@
     "hu_a": "Igen, a lányom egy kicsit tanul magyarul.",
     "en_a": "Yes, my daughter is learning a little Hungarian.",
     "category": "Language learning",
-    "group": 34
+    "group": 35
   },
   {
     "hu_q": "Miért kezdett el tanulni magyarul?",
@@ -357,7 +357,7 @@
     "hu_a": "Amikor megtudtam, hogy magyar állampolgár lehetek, mindig is szerettem volna megtanulni őseim nyelvét.",
     "en_a": "When I found out that I could become a Hungarian citizen. I always wanted to learn the language of my ancestors.",
     "category": "Language learning",
-    "group": 35
+    "group": 36
   },
   {
     "hu_q": "Mennyi ideje milyen gyakran van magyar órája?",
@@ -365,7 +365,7 @@
     "hu_a": "Minden nap tanulok, és hetente kétszer találkozom a magyar tanárnőmmel, körülbelül egy órára.",
     "en_a": "I study everyday and meet with my hungarian teacher twice a week for about an hour",
     "category": "Language learning",
-    "group": 36
+    "group": 37
   },
   {
     "hu_q": "Milyen gyakran van magyar órája?",
@@ -373,7 +373,7 @@
     "hu_a": "Minden nap tanulok, és hetente kétszer találkozom a magyar tanárnőmmel, körülbelül egy órára.",
     "en_a": "I study everyday and meet with my hungarian teacher twice a week for about an hour",
     "category": "Language learning",
-    "group": 36
+    "group": 37
   },
   {
     "hu_q": "Hányszor van magyar órája egy héten?",
@@ -381,7 +381,7 @@
     "hu_a": "Minden nap tanulok, és hetente kétszer találkozom a magyar tanárnőmmel, körülbelül egy órára.",
     "en_a": "I study everyday and meet with my hungarian teacher twice a week for about an hour",
     "category": "Language learning",
-    "group": 36
+    "group": 37
   },
   {
     "hu_q": "Hányszor hetente van magyar órája?",
@@ -389,7 +389,7 @@
     "hu_a": "Minden nap tanulok, és hetente kétszer találkozom a magyar tanárnőmmel, körülbelül egy órára.",
     "en_a": "I study everyday and meet with my hungarian teacher twice a week for about an hour",
     "category": "Language learning",
-    "group": 36
+    "group": 37
   },
   {
     "hu_q": "Milyen hosszú egy magyar óra a tanárral?",
@@ -397,7 +397,7 @@
     "hu_a": "Körülbelül egy órás.",
     "en_a": "About one hour long.",
     "category": "Language learning",
-    "group": 37
+    "group": 38
   },
   {
     "hu_q": "Mit csinálnak egy magyar órán a tanárral?",
@@ -405,7 +405,7 @@
     "hu_a": "Magyarul beszélünk, olvasunk és nyelvtant tanulunk.",
     "en_a": "We speak in Hungarian, read and study Hungarian grammar.",
     "category": "Language learning",
-    "group": 38
+    "group": 39
   },
   {
     "hu_q": "Melyik nyelviskolában tanult?",
@@ -413,7 +413,7 @@
     "hu_a": "Nem tanultam nyelviskolában. Egy online nyelvtanártóm tanultam magyarul.",
     "en_a": "I did not study at a language school.\nI learned Hungarian from an online language teacher.",
     "category": "Language learning",
-    "group": 39
+    "group": 40
   },
   {
     "hu_q": "Személyesen vagy online tanult?",
@@ -421,7 +421,7 @@
     "hu_a": "Egy online nyelvtanártóm tanultam magyarul.",
     "en_a": "I learned Hungarian from an online language teacher.",
     "category": "Language learning",
-    "group": 40
+    "group": 41
   },
   {
     "hu_q": "Hol lakik a tanára?",
@@ -429,7 +429,7 @@
     "hu_a": "A tanárnőm Szerbiában él és magyar állampolgár.",
     "en_a": "My teacher lives in Serbia and she is a Hungarian citizen.",
     "category": "Home & residence",
-    "group": 41
+    "group": 42
   },
   {
     "hu_q": "Milyen nyelven beszél?",
@@ -437,7 +437,7 @@
     "hu_a": "Beszélek angolul és magyarul.",
     "en_a": "I speak English and Hungarian.",
     "category": "Language learning",
-    "group": 42
+    "group": 43
   },
   {
     "hu_q": "Nehéz Önnek a magyar nyelv?",
@@ -445,7 +445,7 @@
     "hu_a": "Igen, nehéz",
     "en_a": "Yes, difficult",
     "category": "Language learning",
-    "group": 43
+    "group": 44
   },
   {
     "hu_q": "Milyen fokon beszél magyarul?",
@@ -453,7 +453,7 @@
     "hu_a": "Remélem hogy középfokon beszélek magyarul.",
     "en_a": "I hope that I speak intermediate Hungarian.",
     "category": "Language learning",
-    "group": 44
+    "group": 45
   },
   {
     "hu_q": "Milyen szinten beszél magyarul?",
@@ -461,7 +461,7 @@
     "hu_a": "Remélem hogy középfokon beszélek magyarul.",
     "en_a": "I hope that I speak intermediate Hungarian.",
     "category": "Language learning",
-    "group": 44
+    "group": 45
   },
   {
     "hu_q": "Kitől tanult meg magyarul beszélni?",
@@ -469,7 +469,7 @@
     "hu_a": "Egy online nyelvtanártóm tanultam magyarul.",
     "en_a": "I learned Hungarian from an online language teacher.",
     "category": "Language learning",
-    "group": 45
+    "group": 46
   },
   {
     "hu_q": "Ön magyar származású?",
@@ -477,7 +477,7 @@
     "hu_a": "Igen, apai ágon. Az állampolgárságot az dédanyám, [GREAT-GRANDMOTHER] alapján kérem. Ő [YEAR]. március 11-én született [VILLAGE], Magyarországon.",
     "en_a": "Yes, from my father's side.I am applying for citizenship based on my great-grandmother, [GREAT-GRANDMOTHER]. She was born on [DATE] in [VILLAGE], Hungary.",
     "category": "Ancestry & origin",
-    "group": 46
+    "group": 47
   },
   {
     "hu_q": "Le tudja vezetni magyar származását?",
@@ -485,7 +485,7 @@
     "hu_a": "A magyar felmenőm, a dédanyám [GREAT-GRANDMOTHER] [DATE] született [VILLAGE], Magyarországon, azután a nagyanyám [GRANDMOTHER] [YEAR] született [CITY], azután az apukám [FATHER] [YEAR] született [CITY] és azután én születtem.",
     "en_a": "My Hungarian ancestor, my great-grandmother [GREAT-GRANDMOTHER], was born on [DATE], in [VILLAGE], Hungary. Then my grandmother [GRANDMOTHER] was born in [YEAR] in [CITY], then my father [FATHER] was born in [YEAR] in [CITY], and then I was born.",
     "category": "Ancestry & origin",
-    "group": 47
+    "group": 48
   },
   {
     "hu_q": "Legyen szives vezesse le a magyar származását.",
@@ -493,7 +493,7 @@
     "hu_a": "A magyar felmenőm, a dédanyám [GREAT-GRANDMOTHER] [DATE] született [VILLAGE], Magyarországon, azután a nagyanyám [GRANDMOTHER] [YEAR] született [CITY], azután az apukám [FATHER] [YEAR] született [CITY] és azután én születtem.",
     "en_a": "My Hungarian ancestor, my great-grandmother [GREAT-GRANDMOTHER], was born on [DATE], in [VILLAGE], Hungary. Then my grandmother [GRANDMOTHER] was born in [YEAR] in [CITY], then my father [FATHER] was born in [YEAR] in [CITY], and then I was born.",
     "category": "Ancestry & origin",
-    "group": 47
+    "group": 48
   },
   {
     "hu_q": "Hol talalhato a város ahol a felmenője szulettet?",
@@ -501,7 +501,7 @@
     "hu_a": "[VILLAGE] egy falu [COUNTY] megyében van, Magyarországon. Körülbelül 2 600 lakosa van.",
     "en_a": "[VILLAGE] is a village in [COUNTY] county, Hungary. It has about 2,600 inhabitants.",
     "category": "Ancestry & origin",
-    "group": 48
+    "group": 49
   },
   {
     "hu_q": "Hol van a város a hol a magyar felmenője szulettet?",
@@ -509,7 +509,7 @@
     "hu_a": "[VILLAGE] egy falu [COUNTY] megyében van, Magyarországon. Körülbelül 2 600 lakosa van.",
     "en_a": "[VILLAGE] is a village in [COUNTY] county, Hungary. It has about 2,600 inhabitants.",
     "category": "Ancestry & origin",
-    "group": 48
+    "group": 49
   },
   {
     "hu_q": "Hol van [VILLAGE]?",
@@ -517,7 +517,7 @@
     "hu_a": "[VILLAGE] egy falu [COUNTY] megyében van, Magyarországon. Körülbelül 2 600 lakosa van.",
     "en_a": "[VILLAGE] is a village in [COUNTY] county, Hungary. It has about 2,600 inhabitants.",
     "category": "Ancestry & origin",
-    "group": 49
+    "group": 50
   },
   {
     "hu_q": "Város vagy falu?",
@@ -525,7 +525,7 @@
     "hu_a": "[VILLAGE] egy falu [COUNTY] megyében van, Magyarországon. Körülbelül 2 600 lakosa van.",
     "en_a": "[VILLAGE] is a village in [COUNTY] county, Hungary. It has about 2,600 inhabitants.",
     "category": "Ancestry & origin",
-    "group": 49
+    "group": 50
   },
   {
     "hu_q": "Hányan élnek a faluban?",
@@ -533,7 +533,7 @@
     "hu_a": "[VILLAGE] egy falu [COUNTY] megyében van, Magyarországon. Körülbelül 2 600 lakosa van.",
     "en_a": "[VILLAGE] is a village in [COUNTY] county, Hungary. It has about 2,600 inhabitants.",
     "category": "Ancestry & origin",
-    "group": 49
+    "group": 50
   },
   {
     "hu_q": "Hány ember él a faluban?",
@@ -541,7 +541,7 @@
     "hu_a": "[VILLAGE] egy falu [COUNTY] megyében van, Magyarországon. Körülbelül 2 600 lakosa van.",
     "en_a": "[VILLAGE] is a village in [COUNTY] county, Hungary. It has about 2,600 inhabitants.",
     "category": "Ancestry & origin",
-    "group": 49
+    "group": 50
   },
   {
     "hu_q": "Hol van [VILLAGE]?",
@@ -549,7 +549,7 @@
     "hu_a": "[VILLAGE] egy falu [COUNTY] megyében van, Magyarországon.",
     "en_a": "[VILLAGE] is a village in [COUNTY] county, Hungary.",
     "category": "Ancestry & origin",
-    "group": 50
+    "group": 51
   },
   {
     "hu_q": "Hány éves?",
@@ -557,31 +557,31 @@
     "hu_a": "[AGE] éves vagyok.",
     "en_a": "I am [AGE] years old.",
     "category": "Personal details",
-    "group": 51
+    "group": 52
   },
   {
     "hu_q": "Hol született?",
     "en_q": "Where were you born?",
-    "hu_a": "[COUNTRY]ában [BIRTH CITY] születtem, mert az apukám ott dolgozott, de amerikai vagyok.",
-    "en_a": "I was born in [BIRTH CITY] [COUNTRY] because my dad worked there, but I am American.",
+    "hu_a": "[COUNTRY]ában, [BIRTH CITY] születtem azonban, amerikai vagyok.",
+    "en_a": "I was born in [BIRTH CITY], [COUNTRY], but I am American.",
     "category": "Personal details",
-    "group": 52
+    "group": 53
   },
   {
     "hu_q": "Honnan származik?",
-    "en_q": "From where did you originate? What is your birthplace?",
+    "en_q": "From where did you originate?",
     "hu_a": "[COUNTRY]ában, [BIRTH CITY] születtem azonban, amerikai vagyok.",
     "en_a": "I was born in [BIRTH CITY], [COUNTRY], but I am American.",
     "category": "Ancestry & origin",
-    "group": 53
+    "group": 54
   },
   {
     "hu_q": "Mi a születési helye?",
-    "en_q": "From where did you originate? What is your birthplace?",
+    "en_q": "What is your birthplace?",
     "hu_a": "[COUNTRY]ában, [BIRTH CITY] születtem azonban, amerikai vagyok.",
     "en_a": "I was born in [BIRTH CITY], [COUNTRY], but I am American.",
     "category": "General",
-    "group": 53
+    "group": 55
   },
   {
     "hu_q": "Mikor született?",
@@ -589,7 +589,23 @@
     "hu_a": "[YEAR]. [DATE] születtem.",
     "en_a": "I was born on [DATE].",
     "category": "Personal details",
-    "group": 54
+    "group": 56
+  },
+  {
+    "hu_q": "Miért ott születtél?",
+    "en_q": "Why were you born there?",
+    "hu_a": "Az apukám ott dolgozott",
+    "en_a": "My dad worked there.",
+    "category": "Personal details",
+    "group": 57
+  },
+  {
+    "hu_q": "Miért születtél [COUNTRY]ában?",
+    "en_q": "Why were you born in the [COUNTRY]?",
+    "hu_a": "Az apukám ott dolgozott",
+    "en_a": "My dad worked there.",
+    "category": "Personal details",
+    "group": 58
   },
   {
     "hu_q": "Házas?",
@@ -597,7 +613,7 @@
     "hu_a": "Igen! A férjem neve [SPOUSE]. Öt éve vagyunk házasok. Ő szoftverfejlesztő.",
     "en_a": "Yes! My husband's name is [SPOUSE]. We have been married for five years. He is a software developer.",
     "category": "Home & residence",
-    "group": 55
+    "group": 59
   },
   {
     "hu_q": "Ön házas?",
@@ -605,7 +621,7 @@
     "hu_a": "Igen! A férjem neve [SPOUSE]. Öt éve vagyunk házasok. Ő szoftverfejlesztő.",
     "en_a": "Yes! My husband's name is [SPOUSE]. We have been married for five years. He is a software developer.",
     "category": "Home & residence",
-    "group": 55
+    "group": 59
   },
   {
     "hu_q": "Mi a családi állapota?",
@@ -613,7 +629,7 @@
     "hu_a": "Házas vagyok.",
     "en_a": "I am married.",
     "category": "Personal details",
-    "group": 56
+    "group": 60
   },
   {
     "hu_q": "Családi állapota?",
@@ -621,7 +637,7 @@
     "hu_a": "Házas vagyok.",
     "en_a": "I am married.",
     "category": "Personal details",
-    "group": 56
+    "group": 60
   },
   {
     "hu_q": "Mikor házasodtak?",
@@ -629,7 +645,7 @@
     "hu_a": "2021 óta házasok vagyunk.",
     "en_a": "We have been married since 2021.",
     "category": "Home & residence",
-    "group": 57
+    "group": 61
   },
   {
     "hu_q": "Korábban volt már házas?",
@@ -637,7 +653,7 @@
     "hu_a": "Nem, ez az első házasságom.",
     "en_a": "No, this is my first marriage",
     "category": "Home & residence",
-    "group": 58
+    "group": 62
   },
   {
     "hu_q": "Hol ismerkedett meg a férjével?",
@@ -645,7 +661,7 @@
     "hu_a": "Az egyetemen találkoztunk.",
     "en_a": "We met in college.",
     "category": "Family",
-    "group": 59
+    "group": 63
   },
   {
     "hu_q": "Mi a lánya kedvenc tantárgya?",
@@ -653,7 +669,7 @@
     "hu_a": "Szeret zenét hallgatni.",
     "en_a": "She enjoys listening to music.",
     "category": "Family",
-    "group": 60
+    "group": 64
   },
   {
     "hu_q": "Vannak gyermekeinek háziállatai vagy állatai?",
@@ -661,7 +677,7 @@
     "hu_a": "Van egy macskánk, [PET NAME] a neve.",
     "en_a": "We have a cat named [PET NAME].",
     "category": "Family",
-    "group": 61
+    "group": 65
   },
   {
     "hu_q": "Van házi kedvence?",
@@ -669,7 +685,7 @@
     "hu_a": "Van egy macskánk, [PET NAME] a neve.",
     "en_a": "We have a cat named [PET NAME].",
     "category": "Home & residence",
-    "group": 62
+    "group": 66
   },
   {
     "hu_q": "Házi állata van?",
@@ -677,7 +693,7 @@
     "hu_a": "Van egy macskánk, [PET NAME] a neve.",
     "en_a": "We have a cat named [PET NAME].",
     "category": "Home & residence",
-    "group": 62
+    "group": 66
   },
   {
     "hu_q": "A gyermeke bölcsődébe jár?",
@@ -685,23 +701,23 @@
     "hu_a": "Nem, van dadusunk.",
     "en_a": "No, we have a nanny.",
     "category": "Family",
-    "group": 63
+    "group": 67
   },
   {
     "hu_q": "Mi a gyermeke kedvenc étele?",
-    "en_q": "What is your child's favorite food? / What is your daughter's favorite food?",
+    "en_q": "What is your child's favorite food?",
     "hu_a": "A lányom kedvenc étele jelenleg a banán.",
     "en_a": "My daughter's favorite food is currently banana.",
     "category": "Family",
-    "group": 64
+    "group": 68
   },
   {
     "hu_q": "Mi a lányod kedvenc étele?",
-    "en_q": "What is your child's favorite food? / What is your daughter's favorite food?",
+    "en_q": "What is your daughter's favorite food?",
     "hu_a": "A lányom kedvenc étele jelenleg a banán.",
     "en_a": "My daughter's favorite food is currently banana.",
     "category": "Family",
-    "group": 64
+    "group": 69
   },
   {
     "hu_q": "Hogyan töltöd az időt a gyermekeddel?",
@@ -709,7 +725,7 @@
     "hu_a": "Szeretünk együtt játszani, olvasni és sétálni.",
     "en_a": "We like to play together, read, and go on walks.",
     "category": "Family",
-    "group": 65
+    "group": 70
   },
   {
     "hu_q": "Az édesanyját hogy hívják?",
@@ -717,7 +733,7 @@
     "hu_a": "Anyám neve [MOTHER] volt.",
     "en_a": "My mother's name was [MOTHER]",
     "category": "Family",
-    "group": 66
+    "group": 71
   },
   {
     "hu_q": "Mi volt édesanyja leánykori neve?",
@@ -725,7 +741,7 @@
     "hu_a": "Anyám leánykori neve [MOTHER — MAIDEN NAME] volt.",
     "en_a": "My mother's maiden name was [MOTHER — MAIDEN NAME].",
     "category": "Family",
-    "group": 67
+    "group": 72
   },
   {
     "hu_q": "Az édesanyja hol született?",
@@ -733,7 +749,7 @@
     "hu_a": "Anyám [STATE] [CITY] született.",
     "en_a": "My mother was born in [CITY], [STATE].",
     "category": "Family",
-    "group": 68
+    "group": 73
   },
   {
     "hu_q": "Az édesanyja mikor született?",
@@ -741,7 +757,7 @@
     "hu_a": "Anyám [YEAR]. [DATE] született.",
     "en_a": "My mother was born on [DATE].",
     "category": "Family",
-    "group": 69
+    "group": 74
   },
   {
     "hu_q": "Az édesapját hogy hívják?",
@@ -749,7 +765,7 @@
     "hu_a": "Apám neve [FATHER].",
     "en_a": "My fathers name is [FATHER].",
     "category": "Family",
-    "group": 70
+    "group": 75
   },
   {
     "hu_q": "Az édesapja hol született?",
@@ -757,7 +773,7 @@
     "hu_a": "Az apukám [STATE] [CITY] született.",
     "en_a": "My fathers name was born in [CITY], [STATE].",
     "category": "Family",
-    "group": 71
+    "group": 76
   },
   {
     "hu_q": "Az édesapja mikor született?",
@@ -765,7 +781,7 @@
     "hu_a": "Az apukám [YEAR]. [DATE] született.",
     "en_a": "My father was born on [DATE].",
     "category": "Family",
-    "group": 72
+    "group": 77
   },
   {
     "hu_q": "Hol élnek a szülei?",
@@ -773,7 +789,7 @@
     "hu_a": "Az apukám [STATE] él. Az anyukám sajnos elhunt.",
     "en_a": "My dad lives in [STATE]. Unfortunately, my mom passed away.",
     "category": "Family",
-    "group": 73
+    "group": 78
   },
   {
     "hu_q": "Mi (volt) a szülei foglalkozása?",
@@ -781,7 +797,7 @@
     "hu_a": "Az anyukám háziasszony volt, de sajnos elhunyt.. Az apukám mérnök volt, de most már nyugdíjas.",
     "en_a": "My mom was a housewife, but unfortunately passed away. My dad was an engineer, but is now retired.",
     "category": "Family",
-    "group": 74
+    "group": 79
   },
   {
     "hu_q": "Hol végezte tanulmányait?",
@@ -789,7 +805,7 @@
     "hu_a": "Az alapképzést a [UNIVERSITY] végeztem Informatikus technológia szakon.",
     "en_a": "I completed my undergraduate studies at [UNIVERSITY] in Information Technology.",
     "category": "Language learning",
-    "group": 75
+    "group": 80
   },
   {
     "hu_q": "Mikor végezte a tanulmányait?",
@@ -797,7 +813,7 @@
     "hu_a": "Az alapképzést [YEAR] diplomáztam.",
     "en_a": "I graduated with my bachelor's degree in [YEAR].",
     "category": "Language learning",
-    "group": 76
+    "group": 81
   },
   {
     "hu_q": "Mikor szerezte a diplomáját?",
@@ -805,31 +821,23 @@
     "hu_a": "Az alapképzést [YEAR] diplomáztam.",
     "en_a": "I graduated with my bachelor's degree in [YEAR].",
     "category": "Education & work",
-    "group": 77
+    "group": 82
   },
   {
     "hu_q": "Mi a kedvenc magyar könyved?",
-    "en_q": "What is your favorite Hungarian book? And who is it written by?",
+    "en_q": "What is your favorite Hungarian book?",
     "hu_a": "Még nem olvastam igazi magyar könyveket, csak babakönyveket a lányomnak — de azokat nagyon élvezem!",
-    "en_a": "I haven't read real Hungarian books yet, only picture books for my daughter — but I really enjoy those!",
+    "en_a": "I haven't read real Hungarian books yet, only baby books for my daughter — but I really enjoy those!",
     "category": "Hobbies & free time",
-    "group": 78
+    "group": 83
   },
   {
-    "hu_q": "És ki írta?",
-    "en_q": "What is your favorite Hungarian book? And who is it written by?",
-    "hu_a": "Még nem olvastam igazi magyar könyveket, csak babakönyveket a lányomnak — de azokat nagyon élvezem!",
-    "en_a": "I haven't read real Hungarian books yet, only picture books for my daughter — but I really enjoy those!",
+    "hu_q": "Mesélj nekem azokról a könyvekről.",
+    "en_q": "Tell me about those books.",
+    "hu_a": "Könyveket olvasunk a színekről és a számokról.",
+    "en_a": "We read books about colors and numbers.",
     "category": "Hobbies & free time",
-    "group": 78
-  },
-  {
-    "hu_q": "Mesélj nekem arról a könyvről.",
-    "en_q": "Tell me about that book.",
-    "hu_a": "Még nem olvastam igazi magyar könyveket, csak babakönyveket a lányomnak — de azokat nagyon élvezem!",
-    "en_a": "I haven't read real Hungarian books yet, only picture books for my daughter — but I really enjoy those!",
-    "category": "Hobbies & free time",
-    "group": 79
+    "group": 84
   },
   {
     "hu_q": "Most hol él?",
@@ -837,15 +845,15 @@
     "hu_a": "[STATE], [CITY] élek a családommal.",
     "en_a": "I live in [CITY], [STATE] with my family.",
     "category": "Home & residence",
-    "group": 80
+    "group": 85
   },
   {
     "hu_q": "Melyik városban él?",
-    "en_q": "Where do you live now?",
+    "en_q": "Which city do you live in?",
     "hu_a": "[STATE], [CITY] élek a családommal.",
     "en_a": "I live in [CITY], [STATE] with my family.",
     "category": "Home & residence",
-    "group": 80
+    "group": 86
   },
   {
     "hu_q": "Hol lakik?",
@@ -853,7 +861,7 @@
     "hu_a": "[STATE], [CITY] élek a családommal.",
     "en_a": "I live in [CITY], [STATE] with my family.",
     "category": "Home & residence",
-    "group": 81
+    "group": 87
   },
   {
     "hu_q": "Jelenleg hol lakik?",
@@ -861,55 +869,63 @@
     "hu_a": "[STATE], [CITY] élek a családommal.",
     "en_a": "I live in [CITY], [STATE] with my family.",
     "category": "Home & residence",
-    "group": 82
+    "group": 88
   },
   {
     "hu_q": "Lakásban él vagy házban?",
-    "en_q": "Do you live in an apartment or house? Is the house two story or single level? How many rooms do you have? Are you the owner of the house or you are renting?",
-    "hu_a": "Két emeletes házban élünk. Négy hálószobája és három fürdőszobája van. Mi birtokoljuk a házat.",
-    "en_a": "We live in a two story house. It has four bedrooms and three bathrooms. We own the house.",
+    "en_q": "Do you live in an apartment or house?",
+    "hu_a": "Két emeletes házban élünk. Négy hálószobája és három fürdőszobája van.",
+    "en_a": "We live in a two story house. It has four bedrooms and three bathrooms.",
     "category": "Home & residence",
-    "group": 83
+    "group": 89
   },
   {
     "hu_q": "A ház emeletes vagy földszintes?",
-    "en_q": "Do you live in an apartment or house? Is the house two story or single level? How many rooms do you have? Are you the owner of the house or you are renting?",
-    "hu_a": "Két emeletes házban élünk. Négy hálószobája és három fürdőszobája van. Mi birtokoljuk a házat.",
-    "en_a": "We live in a two story house. It has four bedrooms and three bathrooms. We own the house.",
+    "en_q": "Is the house two story or single level?",
+    "hu_a": "Két emeletes házban élünk. Négy hálószobája és három fürdőszobája van.",
+    "en_a": "We live in a two story house. It has four bedrooms and three bathrooms.",
     "category": "Home & residence",
-    "group": 83
+    "group": 90
   },
   {
     "hu_q": "Hány szobája van?",
-    "en_q": "Do you live in an apartment or house? Is the house two story or single level? How many rooms do you have? Are you the owner of the house or you are renting?",
-    "hu_a": "Két emeletes házban élünk. Négy hálószobája és három fürdőszobája van. Mi birtokoljuk a házat.",
-    "en_a": "We live in a two story house. It has four bedrooms and three bathrooms. We own the house.",
+    "en_q": "How many rooms do you have?",
+    "hu_a": "Négy hálószobája és három fürdőszobája van.",
+    "en_a": "It has four bedrooms and three bathrooms.",
     "category": "Home & residence",
-    "group": 83
+    "group": 91
   },
   {
     "hu_q": "Ön a ház tulajdonosa vagy béreli a házat?",
-    "en_q": "Do you live in an apartment or house? Is the house two story or single level? How many rooms do you have? Are you the owner of the house or you are renting?",
-    "hu_a": "Két emeletes házban élünk. Négy hálószobája és három fürdőszobája van. Mi birtokoljuk a házat.",
-    "en_a": "We live in a two story house. It has four bedrooms and three bathrooms. We own the house.",
+    "en_q": "Are you the owner of the house or you are renting?",
+    "hu_a": "Mi birtokoljuk a házat.",
+    "en_a": "We own the house.",
     "category": "Home & residence",
-    "group": 83
+    "group": 92
   },
   {
     "hu_q": "Milyen különböző helyiségek vannak a házában?",
     "en_q": "What are the different rooms in your house?",
-    "hu_a": "Két emeletes házban élünk. Négy hálószobája és három fürdőszobája van. Mi birtokoljuk a házat.",
-    "en_a": "We live in a two story house. It has four bedrooms and three bathrooms. We own the house.",
+    "hu_a": "Két emeletes házban élünk. Négy hálószobája és három fürdőszobája van.",
+    "en_a": "We live in a two story house. It has four bedrooms and three bathrooms.",
     "category": "Home & residence",
-    "group": 84
+    "group": 93
   },
   {
-    "hu_q": "Milyen fajta házban él?Milyen típusú házban él?",
+    "hu_q": "Milyen fajta házban él?",
     "en_q": "What kind of house do you live in?",
-    "hu_a": "Két emeletes házban élünk. Négy hálószobája és három fürdőszobája van. Mi birtokoljuk a házat.",
-    "en_a": "We live in a two story house. It has four bedrooms and three bathrooms. We own the house.",
+    "hu_a": "Két emeletes házban élünk. Négy hálószobája és három fürdőszobája van.",
+    "en_a": "We live in a two story house. It has four bedrooms and three bathrooms.",
     "category": "Home & residence",
-    "group": 85
+    "group": 94
+  },
+  {
+    "hu_q": "Milyen típusú házban él?",
+    "en_q": "What kind of house do you live in?",
+    "hu_a": "Két emeletes házban élünk. Négy hálószobája és három fürdőszobája van.",
+    "en_a": "We live in a two story house. It has four bedrooms and three bathrooms.",
+    "category": "Home & residence",
+    "group": 95
   },
   {
     "hu_q": "Van kert a háznál?",
@@ -917,7 +933,7 @@
     "hu_a": "Igen, egy kis kertunk a hátsó udvarban.",
     "en_a": "Yes, a small garden in the backyard.",
     "category": "Home & residence",
-    "group": 86
+    "group": 96
   },
   {
     "hu_q": "Mi a foglalkozása?",
@@ -925,7 +941,7 @@
     "hu_a": "Üzleti elemző vagyok. Én vagyok a kapcsolat a vállalkozás és a fejlesztők között, hogy meghatározzuk, hogyan és mit kell programozni a szoftver alkalmazásba az üzleti tevékenység támogatásához.",
     "en_a": "I am a business analyst. I serve as the link between the business and the developers to determine how and what needs to be programmed into the software application to support business operations.",
     "category": "Education & work",
-    "group": 87
+    "group": 97
   },
   {
     "hu_q": "Mi a szakmája?",
@@ -933,7 +949,7 @@
     "hu_a": "Üzleti elemző vagyok. Én vagyok a kapcsolat a vállalkozás és a fejlesztők között, hogy meghatározzuk, hogyan és mit kell programozni a szoftver alkalmazásba az üzleti tevékenység támogatásához.",
     "en_a": "I am a business analyst. I serve as the link between the business and the developers to determine how and what needs to be programmed into the software application to support business operations.",
     "category": "Education & work",
-    "group": 87
+    "group": 98
   },
   {
     "hu_q": "Mit csinálsz a munkahelyeden?",
@@ -941,7 +957,7 @@
     "hu_a": "Beszélek az ügyféllel, hogy megértsem, milyen szoftvert szeretne.\nEzután megbeszélem ezeket a kéréseket a fejlesztőcsapattal. Amikor minden elkészült, bemutatom a szoftvert az ügyfélnek.",
     "en_a": "I talk to the client to understand what kind of software they want. Then I discuss these requests with the development team. When everything is ready, I present the software to the client.",
     "category": "Education & work",
-    "group": 88
+    "group": 99
   },
   {
     "hu_q": "Mit csinál ön a munkahelyen?",
@@ -949,7 +965,7 @@
     "hu_a": "Beszélek az ügyféllel, hogy megértsem, milyen szoftvert szeretne.\nEzután megbeszélem ezeket a kéréseket a fejlesztőcsapattal. Amikor minden elkészült, bemutatom a szoftvert az ügyfélnek.",
     "en_a": "I talk to the client to understand what kind of software they want. Then I discuss these requests with the development team. When everything is ready, I present the software to the client.",
     "category": "Education & work",
-    "group": 88
+    "group": 100
   },
   {
     "hu_q": "Mennyi ideig dolgozott az utolsó munkahelyén?",
@@ -957,7 +973,7 @@
     "hu_a": "Az utolsó munkahelyem az [PREVIOUS EMPLOYER] volt, és körülbelül öt évig dolgoztam ott üzleti elemzőként.",
     "en_a": "The last company I worked at was [PREVIOUS EMPLOYER] and I worked there for about five years as a business analyst.",
     "category": "Education & work",
-    "group": 89
+    "group": 101
   },
   {
     "hu_q": "Mi volt a korábbi munkája?",
@@ -965,7 +981,7 @@
     "hu_a": "Az utolsó munkahelyem az [PREVIOUS EMPLOYER] volt, és körülbelül öt évig dolgoztam ott üzleti elemzőként.",
     "en_a": "The last company I worked at was [PREVIOUS EMPLOYER] and I worked there for about five years as a business analyst.",
     "category": "Education & work",
-    "group": 90
+    "group": 102
   },
   {
     "hu_q": "Mi volt az előző munkája?",
@@ -973,7 +989,7 @@
     "hu_a": "Az utolsó munkahelyem az [PREVIOUS EMPLOYER] volt, és körülbelül öt évig dolgoztam ott üzleti elemzőként.",
     "en_a": "The last company I worked at was [PREVIOUS EMPLOYER] and I worked there for about five years as a business analyst.",
     "category": "Education & work",
-    "group": 90
+    "group": 102
   },
   {
     "hu_q": "Mi volt a munkád előtte?",
@@ -981,7 +997,7 @@
     "hu_a": "Előtte egy közműcégnél dolgoztam pár évig üzleti elemzőként.",
     "en_a": "Before that, I worked for a public utility company for a few years as a business analyst.",
     "category": "Education & work",
-    "group": 91
+    "group": 103
   },
   {
     "hu_q": "Hol dolgozik?",
@@ -989,7 +1005,7 @@
     "hu_a": "A [EMPLOYER]él dolgozom",
     "en_a": "I work at [EMPLOYER]",
     "category": "Education & work",
-    "group": 92
+    "group": 104
   },
   {
     "hu_q": "Hol van a munkahelye?",
@@ -997,7 +1013,7 @@
     "hu_a": "Az iroda közel van [CITY] belvárosához.",
     "en_a": "The office is near downtown [CITY].",
     "category": "Education & work",
-    "group": 93
+    "group": 105
   },
   {
     "hu_q": "Mi a feladata a munkahelyen?",
@@ -1005,7 +1021,7 @@
     "hu_a": "Beszélek az ügyféllel, hogy megértsem, milyen szoftvert szeretne.\nEzután megbeszélem ezeket a kéréseket a fejlesztőcsapattal. Amikor minden elkészült, bemutatom a szoftvert az ügyfélnek.",
     "en_a": "I talk to the client to understand what kind of software they want. Then I discuss these requests with the development team. When everything is ready, I present the software to the client.",
     "category": "Education & work",
-    "group": 94
+    "group": 106
   },
   {
     "hu_q": "Van testvére?",
@@ -1013,7 +1029,7 @@
     "hu_a": "Igen, két testvérem van. Az idősebb nővérem neve [SISTER], ő àpolónő és [STATE] él. A fiatalabb nővérem [SISTER], ő adminisztrátor és [STATE] él.",
     "en_a": "Yes, I have two sisters. My older sister's name is [SISTER], she is a nurse and lives in [STATE]. My younger older sister is [SISTER], she is an administrator and lives in [STATE].",
     "category": "Family",
-    "group": 95
+    "group": 107
   },
   {
     "hu_q": "Mi a testvére foglalkozása?",
@@ -1021,7 +1037,7 @@
     "hu_a": "Az idősebb nővérem ápolónő és a fiatalabb nővérem adminisztrátor.",
     "en_a": "My older sister is a nurse and my younger older sister is an administrator.",
     "category": "Family",
-    "group": 96
+    "group": 108
   },
   {
     "hu_q": "Ki részére nyujtja be a kérelmet?",
@@ -1029,15 +1045,39 @@
     "hu_a": "Magam és lányom részére nyújtom be a kérelmet.",
     "en_a": "I am submitting the application for myself and my daughter.",
     "category": "Documents & application",
-    "group": 97
+    "group": 109
   },
   {
-    "hu_q": "A gyerekek részére/ szàmàra is kérelmezi a magyar àllampolgàrsàgot?",
+    "hu_q": "A gyerekek részére is kérelmezi a magyar àllampolgàrsàgot?",
     "en_q": "Are you also applying for Hungarian citizenship for your children?",
-    "hu_a": "A lányom részére is nyújtom be a kérelmet.",
-    "en_a": "I am also applying for Hungarian citizenship for my daughter.",
+    "hu_a": "Igen, magam és lányom részére nyújtom be a kérelmet.",
+    "en_a": "Yes, I am submitting the application for myself and my daughter.",
     "category": "Documents & application",
-    "group": 98
+    "group": 110
+  },
+  {
+    "hu_q": "A lányára is kérelmezi a magyar állampolgárságot?",
+    "en_q": "Are you also applying for Hungarian citizenship for your daughter?",
+    "hu_a": "Igen, magam és lányom részére nyújtom be a kérelmet.",
+    "en_a": "Yes, I am submitting the application for myself and my daughter.",
+    "category": "Documents & application",
+    "group": 111
+  },
+  {
+    "hu_q": "A lányának a számára is kérelmezi a magyar állampolgárságot?",
+    "en_q": "Are you also applying for Hungarian citizenship for your daughter?",
+    "hu_a": "Igen, magam és lányom részére nyújtom be a kérelmet.",
+    "en_a": "Yes, I am submitting the application for myself and my daughter.",
+    "category": "Documents & application",
+    "group": 112
+  },
+  {
+    "hu_q": "A gyerekek szàmàra is kérelmezi a magyar àllampolgàrsàgot?",
+    "en_q": "Are you also applying for Hungarian citizenship for your children?",
+    "hu_a": "Igen, magam és lányom részére nyújtom be a kérelmet.",
+    "en_a": "Yes, I am submitting the application for myself and my daughter.",
+    "category": "Documents & application",
+    "group": 113
   },
   {
     "hu_q": "Mire alapozza a kérelmét?",
@@ -1045,7 +1085,7 @@
     "hu_a": "A magyar felmenőm, a dédanyám [GREAT-GRANDMOTHER] [DATE] született [VILLAGE], Magyarországon.",
     "en_a": "My Hungarian ancestor, my great-grandmother [GREAT-GRANDMOTHER], was born on [DATE] in [VILLAGE], Hungary.",
     "category": "Documents & application",
-    "group": 99
+    "group": 114
   },
   {
     "hu_q": "Kire alapozza a kérelmét?",
@@ -1053,7 +1093,7 @@
     "hu_a": "A magyar felmenőm, a dédanyám [GREAT-GRANDMOTHER] [DATE] született [VILLAGE], Magyarországon.",
     "en_a": "My Hungarian ancestor, my great-grandmother [GREAT-GRANDMOTHER], was born on [DATE] in [VILLAGE], Hungary.",
     "category": "Documents & application",
-    "group": 100
+    "group": 115
   },
   {
     "hu_q": "Kire hivatkozik?",
@@ -1061,7 +1101,7 @@
     "hu_a": "A magyar felmenőm, a dédanyám [GREAT-GRANDMOTHER] [DATE] született [VILLAGE], Magyarországon.",
     "en_a": "My Hungarian ancestor, my great-grandmother [GREAT-GRANDMOTHER], was born on [DATE] in [VILLAGE], Hungary.",
     "category": "Documents & application",
-    "group": 101
+    "group": 116
   },
   {
     "hu_q": "Az édesapja oldaláról magyar származású?",
@@ -1069,7 +1109,7 @@
     "hu_a": "Igen. Az apukám ágon magyar származású vagyok. A dédanyám Magyarországon született.",
     "en_a": "Yes. I am of Hungarian origin on my father's side. My great-grandmother was born in Hungary.",
     "category": "Ancestry & origin",
-    "group": 102
+    "group": 117
   },
   {
     "hu_q": "Az édesanyja oldaláról magyar származású?",
@@ -1077,7 +1117,7 @@
     "hu_a": "Nem, az apukám ágon magyar származású vagyok.",
     "en_a": "No, I am of Hungarian origin on my father's side.",
     "category": "Ancestry & origin",
-    "group": 103
+    "group": 118
   },
   {
     "hu_q": "Melyik oldaláról magyar származású?",
@@ -1085,7 +1125,7 @@
     "hu_a": "Az apukám ágon magyar származású vagyok.",
     "en_a": "I am of Hungarian origin on my father's side.",
     "category": "Ancestry & origin",
-    "group": 104
+    "group": 119
   },
   {
     "hu_q": "Melyik ágon?",
@@ -1093,15 +1133,15 @@
     "hu_a": "Az apukám ágon.",
     "en_a": "On my father's side.",
     "category": "Ancestry & origin",
-    "group": 105
+    "group": 120
   },
   {
     "hu_q": "Mióta tudja, hogy magyar felmenői vannak?",
     "en_q": "Since when (how long) do you know you have Hungarian ancestors?",
-    "hu_a": "Mindig is tudtam a magyar származásomról, mert a családom nagyon büszke rá.",
-    "en_a": "I have always known about my Hungarian heritage because my family is very proud of it.",
+    "hu_a": "Mindig is tudtam a magyar származásomról, mert a családom nagyon büszke.",
+    "en_a": "I have always known about my Hungarian heritage because my family is very proud.",
     "category": "Ancestry & origin",
-    "group": 106
+    "group": 121
   },
   {
     "hu_q": "Melyik felmenője volt magyar?",
@@ -1109,7 +1149,7 @@
     "hu_a": "A magyar felmenőm, a dédanyám [GREAT-GRANDMOTHER] [DATE] született [VILLAGE], Magyarországon.",
     "en_a": "My Hungarian ancestor, my great-grandmother [GREAT-GRANDMOTHER], was born on [DATE] in [VILLAGE], Hungary.",
     "category": "Ancestry & origin",
-    "group": 107
+    "group": 122
   },
   {
     "hu_q": "Ki volt magyar állampolgár a családiaban?",
@@ -1117,7 +1157,7 @@
     "hu_a": "A magyar felmenőm, a dédanyám [GREAT-GRANDMOTHER] [DATE] született [VILLAGE], Magyarországon.",
     "en_a": "My Hungarian ancestor, my great-grandmother [GREAT-GRANDMOTHER], was born on [DATE] in [VILLAGE], Hungary.",
     "category": "Ancestry & origin",
-    "group": 108
+    "group": 123
   },
   {
     "hu_q": "Őt hogy hívták?",
@@ -1125,7 +1165,7 @@
     "hu_a": "A magyar felmenőm, a dédanyàm neve [GREAT-GRANDMOTHER] volt.",
     "en_a": "My Hungarian ancestor, my great grandmother's name was [GREAT-GRANDMOTHER].",
     "category": "Personal details",
-    "group": 109
+    "group": 124
   },
   {
     "hu_q": "A dédanyja meddig élt Magyarországon?",
@@ -1133,7 +1173,7 @@
     "hu_a": "A dédanyám Magyarországon élt, amíg három éves nem lett.",
     "en_a": "My great-grandmother lived in Hungary until she was 3.",
     "category": "Ancestry & origin",
-    "group": 110
+    "group": 125
   },
   {
     "hu_q": "A magyar felmenője meddig élt Magyarországon?",
@@ -1141,7 +1181,7 @@
     "hu_a": "A dédanyám Magyarországon élt, amíg három éves nem lett.",
     "en_a": "My great-grandmother lived in Hungary until she was 3.",
     "category": "Ancestry & origin",
-    "group": 110
+    "group": 125
   },
   {
     "hu_q": "Milyen körülmények között hagyta el Magyarországot?",
@@ -1149,7 +1189,7 @@
     "hu_a": "Az ükszüleim jobb munkai lehetőségeket kerestek Amerikában és a dédanyám gyerekként Amerikába hozták.",
     "en_a": "My great-grandparents looked for better job opportunities in America, and my great-grandmother was brought to America as a child.",
     "category": "Ancestry & origin",
-    "group": 111
+    "group": 126
   },
   {
     "hu_q": "Az dédanyja miért emigrált?",
@@ -1157,7 +1197,7 @@
     "hu_a": "Az ükszüleim jobb munkai lehetőségeket kerestek Amerikában és a dédanyám gyerekként Amerikába hozták.",
     "en_a": "My great-grandparents looked for better job opportunities in America, and my great-grandmother was brought to America as a child.",
     "category": "Ancestry & origin",
-    "group": 112
+    "group": 127
   },
   {
     "hu_q": "Beszélt a dédnagymamája magyarul?",
@@ -1165,15 +1205,15 @@
     "hu_a": "Igen, a dédanyám beszélt magyarul.",
     "en_a": "Yes, my great-grandmother spoke Hungarian.",
     "category": "Ancestry & origin",
-    "group": 113
+    "group": 128
   },
   {
     "hu_q": "Ismerte a dédnagymamaja?",
     "en_q": "Did you know your great-grandma?",
-    "hu_a": "Sajnos meghalt, mielőtt megszülettem.",
-    "en_a": "Unfortunately, she died before I was born.",
+    "hu_a": "Sajnos elhunyt, mielőtt megszülettem.",
+    "en_a": "Unfortunately, she passedaway before I was born.",
     "category": "Ancestry & origin",
-    "group": 114
+    "group": 129
   },
   {
     "hu_q": "Beszél valaki magyarul a családjában?",
@@ -1181,7 +1221,7 @@
     "hu_a": "Sajnos a családomban senki sem beszél magyarul.",
     "en_a": "Unfortunately, no one in my family speaks Hungarian.",
     "category": "Language learning",
-    "group": 115
+    "group": 130
   },
   {
     "hu_q": "A testvéreid szeretnének magyar állampolgárok lenni?",
@@ -1189,7 +1229,7 @@
     "hu_a": "Igen, valamikor a jövőben.",
     "en_a": "Yes, sometime in the future.",
     "category": "Family",
-    "group": 116
+    "group": 131
   },
   {
     "hu_q": "Az idősebb nővéred szeretne magyar állampolgár lenni?",
@@ -1197,7 +1237,7 @@
     "hu_a": "Igen, valamikor a jövőben.",
     "en_a": "Yes, sometime in the future.",
     "category": "Family",
-    "group": 117
+    "group": 132
   },
   {
     "hu_q": "A fiatalabb nővéred szeretne magyar állampolgár lenni?",
@@ -1205,7 +1245,7 @@
     "hu_a": "Igen, valamikor a jövőben.",
     "en_a": "Yes, sometime in the future.",
     "category": "Family",
-    "group": 118
+    "group": 133
   },
   {
     "hu_q": "Van már a családjában magyar állampolgár?",
@@ -1213,7 +1253,7 @@
     "hu_a": "Nem, sajnos a családomban nincsenek magyar állampolgárok.",
     "en_a": "No, unfortunately there aren't any Hungarian citizens in my family.",
     "category": "General",
-    "group": 119
+    "group": 134
   },
   {
     "hu_q": "Kérelmezte már valaki a családjában a magyar állampolgárságot?",
@@ -1221,7 +1261,7 @@
     "hu_a": "Nem, én vagyok az első.",
     "en_a": "No, I am the first.",
     "category": "Documents & application",
-    "group": 120
+    "group": 135
   },
   {
     "hu_q": "Ön kérelmezte korábban a magyar állampolgárságot?",
@@ -1229,7 +1269,7 @@
     "hu_a": "Nem, most először.",
     "en_a": "No, now first time.",
     "category": "Documents & application",
-    "group": 121
+    "group": 136
   },
   {
     "hu_q": "Ön most először kérelmezi a magyar állampolgárságot?",
@@ -1237,7 +1277,7 @@
     "hu_a": "Igen, most először.",
     "en_a": "Yes, now first time.",
     "category": "Documents & application",
-    "group": 122
+    "group": 137
   },
   {
     "hu_q": "Először nyujtja be a kérelmet?",
@@ -1245,15 +1285,23 @@
     "hu_a": "Igen, most először.",
     "en_a": "Yes, now first time.",
     "category": "Documents & application",
-    "group": 123
+    "group": 138
   },
   {
-    "hu_q": "A törvény alapján Ön kérelmezhet / jogosult magyar állampolgárságot/ra.",
+    "hu_q": "A törvény alapján Ön jogosult magyar állampolgárságra.",
     "en_q": "Under the law, you may apply for/are entitled to Hungarian citizenship.",
     "hu_a": "Értem, köszönöm.",
     "en_a": "I understand, thank you.",
     "category": "Documents & application",
-    "group": 124
+    "group": 139
+  },
+  {
+    "hu_q": "A törvény alapján Ön kérelmezhet magyar állampolgárságot.",
+    "en_q": "Under the law, you may apply for/are entitled to Hungarian citizenship.",
+    "hu_a": "Értem, köszönöm.",
+    "en_a": "I understand, thank you.",
+    "category": "Documents & application",
+    "group": 140
   },
   {
     "hu_q": "Magyarországon vannak rokonai?",
@@ -1261,7 +1309,7 @@
     "hu_a": "Nem, nem tudok róla.",
     "en_a": "No, not that I know of.",
     "category": "Ancestry & origin",
-    "group": 125
+    "group": 141
   },
   {
     "hu_q": "Ön járt már Magyarországon?",
@@ -1269,7 +1317,7 @@
     "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
     "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
     "category": "Ancestry & origin",
-    "group": 126
+    "group": 142
   },
   {
     "hu_q": "Volt már Magyarországon?",
@@ -1277,7 +1325,7 @@
     "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
     "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
     "category": "Ancestry & origin",
-    "group": 126
+    "group": 143
   },
   {
     "hu_q": "Személyesen járt már Magyarországon?",
@@ -1285,7 +1333,7 @@
     "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
     "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
     "category": "Ancestry & origin",
-    "group": 127
+    "group": 144
   },
   {
     "hu_q": "Mennyit volt Magyarországon?",
@@ -1293,7 +1341,7 @@
     "hu_a": "Májusban két hétig voltunk ott.",
     "en_a": "We were there for two weeks in May.",
     "category": "Ancestry & origin",
-    "group": 128
+    "group": 145
   },
   {
     "hu_q": "Melyik európai országokban járt?",
@@ -1301,7 +1349,7 @@
     "hu_a": "Megszerettem Izlandot, Svédországot és Angliát.",
     "en_a": "I have visited Iceland, Sweden, and England.",
     "category": "Visiting Hungary",
-    "group": 129
+    "group": 146
   },
   {
     "hu_q": "Miért nem utaztál még Magyarországra?",
@@ -1309,7 +1357,7 @@
     "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
     "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
     "category": "Greeting & closing",
-    "group": 130
+    "group": 147
   },
   {
     "hu_q": "Mikor tervez Magyarországra utazni?",
@@ -1317,55 +1365,63 @@
     "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
     "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
     "category": "Greeting & closing",
-    "group": 131
-  },
-  {
-    "hu_q": "Mit szeretne megnézni Magyarországon?",
-    "en_q": "What would you like to see in Hungary?",
-    "hu_a": "Szeretném látni a Dunát és az Országházat",
-    "en_a": "I would like to see the Danube river and Parliament",
-    "category": "Ancestry & origin",
-    "group": 132
+    "group": 148
   },
   {
     "hu_q": "Mit csinált Magyarországon?",
-    "en_q": "What did you do in Hungary? What did you do in Budapest?",
+    "en_q": "What did you do in Hungary?",
     "hu_a": "Láttuk a Bazilikát és a Parlamentet. Nagyon szerettem a Duna-parton sétálni.",
     "en_a": "We saw Saint [FATHER]'s Cathedral and the Parliament. I adored walking along the Danube.",
     "category": "Ancestry & origin",
-    "group": 133
+    "group": 149
   },
   {
     "hu_q": "Mit csinált Budapesten?",
-    "en_q": "What did you do in Hungary? What did you do in Budapest?",
+    "en_q": "What did you do in Budapest?",
     "hu_a": "Láttuk a Bazilikát és a Parlamentet. Nagyon szerettem a Duna-parton sétálni.",
     "en_a": "We saw Saint [FATHER]'s Cathedral and the Parliament. I adored walking along the Danube.",
     "category": "Visiting Hungary",
-    "group": 133
+    "group": 150
   },
   {
     "hu_q": "Mivel töltötte az idejét Magyarországon?",
-    "en_q": "What did you do in Hungary? What did you do in Budapest?",
+    "en_q": "What did you do in Hungary?",
     "hu_a": "Láttuk a Bazilikát és a Parlamentet. Nagyon szerettem a Duna-parton sétálni.",
     "en_a": "We saw Saint [FATHER]'s Cathedral and the Parliament. I adored walking along the Danube.",
     "category": "Ancestry & origin",
-    "group": 133
+    "group": 151
   },
   {
     "hu_q": "Mit nézett meg Budapesten?",
-    "en_q": "What did you do in Hungary? What did you do in Budapest?",
+    "en_q": "What did you do in Budapest?",
     "hu_a": "Láttuk a Bazilikát és a Parlamentet. Nagyon szerettem a Duna-parton sétálni.",
     "en_a": "We saw Saint [FATHER]'s Cathedral and the Parliament. I adored walking along the Danube.",
     "category": "Visiting Hungary",
-    "group": 133
+    "group": 152
   },
   {
-    "hu_q": "Milyen okiratokat/iratokat/dokumentumokat hozott magával?",
+    "hu_q": "Milyen iratokat hozott magával?",
     "en_q": "What documents did you brought with you?",
     "hu_a": "A dédanyám születési anyakönyvi kivonata.\nA dédanyám házassági anyakönyvi kivonata.\nA nagymamám születési anyakönyvi kivonata.\nA nagymamám házassági anyakönyvi kivonata.\nAz apukám születési anyakönyvi kivonata.\nAz apukám házassági anyakönyvi kivonata.\nA születési anyakönyvi kivonatom.\nA házassági anyakönyvi kivonatom.\nA lányom születési anyakönyvi kivonata.",
     "en_a": "My great-grandmother's birth certificate.\nMy great-grandmother's marriage certificate.\nMy grandmother's birth certificate.\nMy grandmother's marriage certificate.\nMy father's birth certificate.\nMy father's marriage certificate.\nMy birth certificate.\nMy marriage certificate.\nMy daughter's birth certificate.",
     "category": "Documents & application",
-    "group": 134
+    "group": 153
+  },
+  {
+    "hu_q": "Milyen dokumentumokat hozott magával?",
+    "en_q": "What documents did you brought with you?",
+    "hu_a": "A dédanyám születési anyakönyvi kivonata.\nA dédanyám házassági anyakönyvi kivonata.\nA nagymamám születési anyakönyvi kivonata.\nA nagymamám házassági anyakönyvi kivonata.\nAz apukám születési anyakönyvi kivonata.\nAz apukám házassági anyakönyvi kivonata.\nA születési anyakönyvi kivonatom.\nA házassági anyakönyvi kivonatom.\nA lányom születési anyakönyvi kivonata.",
+    "en_a": "My great-grandmother's birth certificate.\nMy great-grandmother's marriage certificate.\nMy grandmother's birth certificate.\nMy grandmother's marriage certificate.\nMy father's birth certificate.\nMy father's marriage certificate.\nMy birth certificate.\nMy marriage certificate.\nMy daughter's birth certificate.",
+    "category": "Documents & application",
+    "group": 154
+  },
+  {
+    "hu_q": "Milyen okiratokat hozott magával?",
+    "en_q": "What documents did you brought with you?",
+    "hu_a": "A dédanyám születési anyakönyvi kivonata.\nA dédanyám házassági anyakönyvi kivonata.\nA nagymamám születési anyakönyvi kivonata.\nA nagymamám házassági anyakönyvi kivonata.\nAz apukám születési anyakönyvi kivonata.\nAz apukám házassági anyakönyvi kivonata.\nA születési anyakönyvi kivonatom.\nA házassági anyakönyvi kivonatom.\nA lányom születési anyakönyvi kivonata.",
+    "en_a": "My great-grandmother's birth certificate.\nMy great-grandmother's marriage certificate.\nMy grandmother's birth certificate.\nMy grandmother's marriage certificate.\nMy father's birth certificate.\nMy father's marriage certificate.\nMy birth certificate.\nMy marriage certificate.\nMy daughter's birth certificate.",
+    "category": "Documents & application",
+    "group": 155
   },
   {
     "hu_q": "Megvan a dédnagymamája házassági anyakönyvi kivonata?",
@@ -1373,7 +1429,7 @@
     "hu_a": "Igen, itt van.",
     "en_a": "Yes, I have it here.",
     "category": "Documents & application",
-    "group": 135
+    "group": 156
   },
   {
     "hu_q": "Megvan a szülei házassági anyakönyvi kivonata?",
@@ -1381,7 +1437,7 @@
     "hu_a": "Igen, itt van.",
     "en_a": "Yes, I have it here.",
     "category": "Documents & application",
-    "group": 136
+    "group": 157
   },
   {
     "hu_q": "Itt van az útlevele?",
@@ -1389,7 +1445,7 @@
     "hu_a": "Igen, itt van.",
     "en_a": "Yes, I have it here.",
     "category": "Documents & application",
-    "group": 137
+    "group": 158
   },
   {
     "hu_q": "Elhozta az útlevelét?",
@@ -1397,7 +1453,7 @@
     "hu_a": "Igen, itt van.",
     "en_a": "Yes, I have my passport",
     "category": "Documents & application",
-    "group": 138
+    "group": 159
   },
   {
     "hu_q": "Kitöltötte a kérelmet?",
@@ -1405,7 +1461,7 @@
     "hu_a": "Igen, kitöltöttem a kérelmet.",
     "en_a": "Yes, I filled in the application form.",
     "category": "Documents & application",
-    "group": 139
+    "group": 160
   },
   {
     "hu_q": "Akkor menjünk végig a kérelmen!",
@@ -1413,7 +1469,7 @@
     "hu_a": "Rendben. Nincs kérdésem.",
     "en_a": "Okay. I have no questions.",
     "category": "Documents & application",
-    "group": 140
+    "group": 161
   },
   {
     "hu_q": "Van kérdése?",
@@ -1421,7 +1477,7 @@
     "hu_a": "Rendben. Nincs kérdésem.",
     "en_a": "Okay. I have no questions.",
     "category": "Documents & application",
-    "group": 140
+    "group": 161
   },
   {
     "hu_q": "Szeretném leellenőrizni az adatait.",
@@ -1429,7 +1485,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Documents & application",
-    "group": 141
+    "group": 162
   },
   {
     "hu_q": "Szeretném leellenőrizni önnel az adatokat.",
@@ -1437,7 +1493,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Documents & application",
-    "group": 142
+    "group": 163
   },
   {
     "hu_q": "Itt vannak a születési anyakönyvi kivonatok?",
@@ -1445,7 +1501,7 @@
     "hu_a": "Igen, parancsoljon. Igen, tessék.",
     "en_a": "Yes, here you are.",
     "category": "Documents & application",
-    "group": 143
+    "group": 164
   },
   {
     "hu_q": "Lefordította a dokumentumait?",
@@ -1453,7 +1509,7 @@
     "hu_a": "Igen, a magyar tanárom fordította le őket",
     "en_a": "Yes, my hungarian teacher translated them.",
     "category": "Documents & application",
-    "group": 144
+    "group": 165
   },
   {
     "hu_q": "Nehéz volt megtalálni a dokumentumokat?",
@@ -1461,7 +1517,7 @@
     "hu_a": "Nem volt nehéz. A magyar tanárom segített nekem a magyar dokumentumokkal.",
     "en_a": "It was not difficult. My hungarian teacher helped me with the Hungarian documents.",
     "category": "Documents & application",
-    "group": 145
+    "group": 166
   },
   {
     "hu_q": "Hol találta az iratait?",
@@ -1469,7 +1525,7 @@
     "hu_a": "Magyarországon és az Egyesült Államokban találtam őket.",
     "en_a": "I found them in Hungary and the United States.",
     "category": "Documents & application",
-    "group": 146
+    "group": 167
   },
   {
     "hu_q": "Van fényképe?",
@@ -1477,7 +1533,7 @@
     "hu_a": "Igen, hoztam fotókat.",
     "en_a": "Yes, I brought photos",
     "category": "Documents & application",
-    "group": 147
+    "group": 168
   },
   {
     "hu_q": "Ön tud irni és olvasni is magyarul?",
@@ -1485,7 +1541,7 @@
     "hu_a": "Igen, tudok irni és olvasni magyarul.",
     "en_a": "Yes, I can write and read Hungarian.",
     "category": "Language learning",
-    "group": 148
+    "group": 169
   },
   {
     "hu_q": "Kérem irjon néhány mondatot magáról.",
@@ -1493,7 +1549,7 @@
     "hu_a": "Rendben.",
     "en_a": "All right.",
     "category": "Documents & application",
-    "group": 149
+    "group": 170
   },
   {
     "hu_q": "Miért szeretne magyar állampolgár lenni?",
@@ -1501,7 +1557,7 @@
     "hu_a": "Szeretnék magyar állampolgár lenni mert nagyon érdekel a családom történelme, sokat hallgattam a nagymamám mesélni a szüleiről és szeretném visszahozni a magyar örökséget a családomba és megadni a lehetőságet a lányomnak hogy magyar állampolgár legyen.",
     "en_a": "I would like to become a Hungarian citizen because I am very interested in my family's history. I often listened to my grandmother tell stories about her parents, and I would like to bring Hungarian heritage back into my family and give my daughter the opportunity to become a Hungarian citizen.",
     "category": "Motivation & future",
-    "group": 150
+    "group": 171
   },
   {
     "hu_q": "Miért akar magyar állampolgár lenni?",
@@ -1509,7 +1565,7 @@
     "hu_a": "Szeretnék magyar állampolgár lenni mert nagyon érdekel a családom történelme, sokat hallgattam a nagymamám mesélni a szüleiről és szeretném visszahozni a magyar örökséget a családomba és megadni a lehetőságet a lányomnak hogy magyar állampolgár legyen.",
     "en_a": "I would like to become a Hungarian citizen because I am very interested in my family's history. I often listened to my grandmother tell stories about her parents, and I would like to bring Hungarian heritage back into my family and give my daughter the opportunity to become a Hungarian citizen.",
     "category": "Motivation & future",
-    "group": 151
+    "group": 172
   },
   {
     "hu_q": "Miért fontos, hogy megkapja a magyar állampolgárságot?",
@@ -1517,7 +1573,7 @@
     "hu_a": "Szeretnék magyar állampolgár lenni mert nagyon érdekel a családom történelme, sokat hallgattam a nagymamám mesélni a szüleiről és szeretném visszahozni a magyar örökséget a családomba és megadni a lehetőságet a lányomnak hogy magyar állampolgár legyen.",
     "en_a": "I would like to become a Hungarian citizen because I am very interested in my family's history. I often listened to my grandmother tell stories about her parents, and I would like to bring Hungarian heritage back into my family and give my daughter the opportunity to become a Hungarian citizen.",
     "category": "Family",
-    "group": 152
+    "group": 173
   },
   {
     "hu_q": "Miért szeretne Magyarországra költözni?",
@@ -1525,7 +1581,7 @@
     "hu_a": "Szeretnék Magyarországra költözni a nagyszerű ételek és a barátságos emberek miatt.",
     "en_a": "I would like to move to Hungary because of the great food and welcoming people.",
     "category": "Motivation & future",
-    "group": 153
+    "group": 174
   },
   {
     "hu_q": "Szép időnk van ma!",
@@ -1533,7 +1589,7 @@
     "hu_a": "Igen, az idő szép és meleg.",
     "en_a": "Yes, the weather is nice and warm.",
     "category": "Small talk & weather",
-    "group": 154
+    "group": 175
   },
   {
     "hu_q": "Mit szól, már megint esik az eső!",
@@ -1541,7 +1597,7 @@
     "hu_a": "Igen, nagyon csúnya idő van ma.",
     "en_a": "Yes, the weather is pretty bad today.",
     "category": "Small talk & weather",
-    "group": 155
+    "group": 176
   },
   {
     "hu_q": "Milyen az idő [CITY]?",
@@ -1549,7 +1605,7 @@
     "hu_a": "[CITY] szinte egész évben enyhe az idő.",
     "en_a": "The weather in [CITY] is mild almost year-round.",
     "category": "Home & residence",
-    "group": 156
+    "group": 177
   },
   {
     "hu_q": "Milyen az idő/időjárás ott ahol él?",
@@ -1557,7 +1613,7 @@
     "hu_a": "[CITY] szinte egész évben enyhe az idő.",
     "en_a": "The weather in [CITY] is mild almost year-round.",
     "category": "Home & residence",
-    "group": 156
+    "group": 177
   },
   {
     "hu_q": "Milyen az éghajlat [CITY]?",
@@ -1565,7 +1621,7 @@
     "hu_a": "[CITY] szinte egész évben enyhe az idő.",
     "en_a": "The weather in [CITY] is mild almost year-round.",
     "category": "Home & residence",
-    "group": 157
+    "group": 178
   },
   {
     "hu_q": "Szeret [CITY] élni?",
@@ -1573,7 +1629,7 @@
     "hu_a": "Igen, szeretek [CITY] élni mert nagyon szeretem a természetet, ez egy nagyon szép kicsi és zöld város.",
     "en_a": "Yes, I like living in [CITY] because I really love nature; it is a very beautiful, small, and green city.",
     "category": "Home & residence",
-    "group": 158
+    "group": 179
   },
   {
     "hu_q": "Szereti [CITY]?",
@@ -1581,7 +1637,7 @@
     "hu_a": "Igen, szeretek [CITY] élni mert nagyon szeretem a természetet, ez egy nagyon szép kicsi és zöld város.",
     "en_a": "Yes, I like living in [CITY] because I really love nature; it is a very beautiful, small, and green city.",
     "category": "Home & residence",
-    "group": 158
+    "group": 179
   },
   {
     "hu_q": "Miért [CITY] él?",
@@ -1589,7 +1645,7 @@
     "hu_a": "A munka hozott ide minket, és imádtuk!",
     "en_a": "Work brought us here and we loved it!",
     "category": "Home & residence",
-    "group": 159
+    "group": 180
   },
   {
     "hu_q": "Miért költözött [CITY]?",
@@ -1597,7 +1653,7 @@
     "hu_a": "A munka hozott ide minket, és imádtuk!",
     "en_a": "Work brought us here and we loved it!",
     "category": "Home & residence",
-    "group": 159
+    "group": 180
   },
   {
     "hu_q": "Hol dolgozik a férje?",
@@ -1605,7 +1661,7 @@
     "hu_a": "[EMPLOYER]. Ő szoftverfejlesztő.",
     "en_a": "[EMPLOYER]. He is a software developer.",
     "category": "Family",
-    "group": 160
+    "group": 181
   },
   {
     "hu_q": "Mióta él [CITY]?",
@@ -1613,7 +1669,7 @@
     "hu_a": "Nyolc éve élünk itt.",
     "en_a": "We have been living here for eight years.",
     "category": "Home & residence",
-    "group": 161
+    "group": 182
   },
   {
     "hu_q": "[CITY] város vagy falu?",
@@ -1621,7 +1677,7 @@
     "hu_a": "[CITY] egy közepes méretű város.",
     "en_a": "[CITY] is a medium sized city.",
     "category": "Home & residence",
-    "group": 162
+    "group": 183
   },
   {
     "hu_q": "Mennyi ember él [CITY]?",
@@ -1629,7 +1685,7 @@
     "hu_a": "[CITY] körülbelül 500,000 ember él.",
     "en_a": "There are about 500,000 people living in [CITY].",
     "category": "Home & residence",
-    "group": 163
+    "group": 184
   },
   {
     "hu_q": "Mennyi a népesség [CITY]?",
@@ -1637,7 +1693,7 @@
     "hu_a": "[CITY] körülbelül 500,000 ember él.",
     "en_a": "There are about 500,000 people living in [CITY].",
     "category": "Home & residence",
-    "group": 163
+    "group": 184
   },
   {
     "hu_q": "Mennyi lakosa van?",
@@ -1645,7 +1701,7 @@
     "hu_a": "[CITY] körülbelül 500,000 ember él.",
     "en_a": "There are about 500,000 people living in [CITY].",
     "category": "Home & residence",
-    "group": 163
+    "group": 184
   },
   {
     "hu_q": "Miért találja érdekesnek a magyar kultúrát?",
@@ -1653,7 +1709,7 @@
     "hu_a": "Nagyon tetszik a magyar nyelv, és szeretem a magyar kultúrát — a konyhát, a hagyományokat és a vendégszeretetet.",
     "en_a": "I really like the Hungarian language and I like the Hungarian culture — the cuisine, the traditions and the hospitality.",
     "category": "Culture & history",
-    "group": 164
+    "group": 185
   },
   {
     "hu_q": "Mit tud a magyar kulturárol?",
@@ -1661,7 +1717,7 @@
     "hu_a": "Nagyon tetszik a magyar nyelv, és szeretem a magyar kultúrát — a konyhát, a hagyományokat és a vendégszeretetet.",
     "en_a": "I really like the Hungarian language and I like the Hungarian culture — the cuisine, the traditions and the hospitality.",
     "category": "Culture & history",
-    "group": 165
+    "group": 186
   },
   {
     "hu_q": "Ismer magyar ételeket?",
@@ -1669,7 +1725,7 @@
     "hu_a": "Igen, a nagymamám és az ük-nagynéném olyan ételeket készítettek, mint a töltött káposzta és a gulyás.",
     "en_a": "Yes, my grandmother and great-great aunt would make meals like stuffed cabbage and goulash.",
     "category": "Culture & history",
-    "group": 166
+    "group": 187
   },
   {
     "hu_q": "Tud főzni magyar ételt?",
@@ -1677,7 +1733,7 @@
     "hu_a": "Tudok magyar ételt főzni, de egyelőre csak gulyást.",
     "en_a": "I can cook Hungarian food, but for now only goulash.",
     "category": "Culture & history",
-    "group": 167
+    "group": 188
   },
   {
     "hu_q": "Mivel tölti a szabadidejét?",
@@ -1685,7 +1741,7 @@
     "hu_a": "A szabadidőmben szeretek futni, olvasni és a lányammal játszani.",
     "en_a": "In my free time, I like to run, read, and play with my daughter.",
     "category": "Hobbies & free time",
-    "group": 168
+    "group": 189
   },
   {
     "hu_q": "Mit szeret csinálni szabadidejében?",
@@ -1693,7 +1749,7 @@
     "hu_a": "A szabadidőmben szeretek futni, olvasni és a lányammal játszani.",
     "en_a": "In my free time, I like to run, read, and play with my daughter.",
     "category": "Hobbies & free time",
-    "group": 169
+    "group": 190
   },
   {
     "hu_q": "Milyen házimunkát kedvel-szeret csinálni?",
@@ -1701,7 +1757,7 @@
     "hu_a": "Néha szeretek mosni és főzni. Nem szeretek padlót takarítani.",
     "en_a": "I like to do laundry and cook sometimes. I don't like to clean the floors.",
     "category": "Home & residence",
-    "group": 170
+    "group": 191
   },
   {
     "hu_q": "Milyen házimunkát nem kedvel-szeret csinálni?",
@@ -1709,15 +1765,15 @@
     "hu_a": "Néha szeretek mosni és főzni. Nem szeretek padlót takarítani.",
     "en_a": "I like to do laundry and cook sometimes. I don't like to clean the floors.",
     "category": "Home & residence",
-    "group": 170
+    "group": 192
   },
   {
     "hu_q": "Meséljen egy átlagos napjáról-napirendjéről?",
     "en_q": "Tell me the average about your day/your daily routine?",
-    "hu_a": "7-kor kelek, előkészítem a lányomat a dadusnak, majd dolgozni megyek az otthoni irodámban vagy a városban. 5-kor hazajövök, vacsorát készítek, és sétálni megyünk a családommal.",
-    "en_a": "I wake up at 7, get my daughter ready for the nanny then go to work in my office at home or in the city. I come home at 5, make dinner, and go on a walk as a family.",
+    "hu_a": "Reggel hétkor kelek. Felöltöztetem a lányomat, és megyek dolgozni. Öt körül hazamegyek, vacsorát csinálok, és pihenek lefekvésig.",
+    "en_a": "I get up at seven in the morning. I dress my daughter and go to work. I go home around five, make dinner, and rest until bedtime.",
     "category": "Family",
-    "group": 171
+    "group": 193
   },
   {
     "hu_q": "Hol nyaralt ezen a nyáron?",
@@ -1725,7 +1781,7 @@
     "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
     "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
     "category": "Hobbies & free time",
-    "group": 172
+    "group": 194
   },
   {
     "hu_q": "Hova szeret utazni?",
@@ -1733,7 +1789,7 @@
     "hu_a": "Szeretünk utazni a családunkhoz. Ott a gyerekekkel játszunk, és közben utolérjük egymást.",
     "en_a": "We like to travel to our family. There we play with the kids and catch up with each other.",
     "category": "Greeting & closing",
-    "group": 173
+    "group": 195
   },
   {
     "hu_q": "Hova szoktak utazni nyáron?",
@@ -1741,7 +1797,7 @@
     "hu_a": "Szeretünk utazni a családunkhoz. Ott a gyerekekkel játszunk, és közben utolérjük egymást.",
     "en_a": "We like to travel to our family. There we play with the kids and catch up with each other.",
     "category": "Greeting & closing",
-    "group": 174
+    "group": 196
   },
   {
     "hu_q": "Hová utaztál a nyáron és mit csináltál ott?",
@@ -1749,7 +1805,7 @@
     "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
     "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
     "category": "Greeting & closing",
-    "group": 175
+    "group": 197
   },
   {
     "hu_q": "Mit szeretsz csinálni a nyaralás alatt?",
@@ -1757,7 +1813,7 @@
     "hu_a": "Szeretek éttermekbe járni, múzeumokat látogatni, és közben pihenni.",
     "en_a": "I like to go to restaurants, visit the museums, and relax inbetween.",
     "category": "Hobbies & free time",
-    "group": 176
+    "group": 198
   },
   {
     "hu_q": "Van kedvenc utazási helyed?",
@@ -1765,7 +1821,7 @@
     "hu_a": "Nincs kedvenc helyem. Szeretek mindenhová utazni.",
     "en_a": "I don't have a favorite place. I like to travel everywhere.",
     "category": "Greeting & closing",
-    "group": 177
+    "group": 199
   },
   {
     "hu_q": "Szokott olvasni magyar könyveket?",
@@ -1773,7 +1829,7 @@
     "hu_a": "Még nem olvastam igazi magyar könyveket, csak babakönyveket a lányomnak — de azokat nagyon élvezem!",
     "en_a": "I haven't read real Hungarian books yet, only picture books for my daughter — but I really enjoy those!",
     "category": "Hobbies & free time",
-    "group": 178
+    "group": 200
   },
   {
     "hu_q": "Sportol valamit?",
@@ -1781,7 +1837,7 @@
     "hu_a": "Főleg azért futok, hogy aktív maradjak.",
     "en_a": "I mostly run to stay active.",
     "category": "Hobbies & free time",
-    "group": 179
+    "group": 201
   },
   {
     "hu_q": "Ismer magyar írót vagy költőt?",
@@ -1789,7 +1845,7 @@
     "hu_a": "Igen, ismerem Petőfi Sándort aki a nemzeti dalt írta.",
     "en_a": "Yes, I know Sándor Petőfi, who wrote the national song.",
     "category": "Culture & history",
-    "group": 180
+    "group": 202
   },
   {
     "hu_q": "Ismer valakit a magyar történelemből vagy irodalomból?",
@@ -1797,7 +1853,7 @@
     "hu_a": "Igen, ismerem Petőfi Sándort aki a nemzeti dalt írta.",
     "en_a": "Yes, I know Sándor Petőfi, who wrote the national song.",
     "category": "Culture & history",
-    "group": 181
+    "group": 203
   },
   {
     "hu_q": "Mi a kedvenc színe?",
@@ -1805,7 +1861,7 @@
     "hu_a": "A kedvenc színem a kék.",
     "en_a": "My favorite color is blue.",
     "category": "Daily life & food",
-    "group": 182
+    "group": 204
   },
   {
     "hu_q": "Milyen szinű a magyar zászló?",
@@ -1813,7 +1869,7 @@
     "hu_a": "A magyar zászló piros, fehér, és zöld.",
     "en_a": "The Hungarian flag is red, white, and green.",
     "category": "Culture & history",
-    "group": 183
+    "group": 205
   },
   {
     "hu_q": "Fel tudja sorolni az amerikai zászló színeit?",
@@ -1821,7 +1877,7 @@
     "hu_a": "Az amerikai zászló piros, fehér és kék.",
     "en_a": "The American flag is red, white and blue.",
     "category": "Culture & history",
-    "group": 184
+    "group": 206
   },
   {
     "hu_q": "Mit vacsorázott tegnap este?",
@@ -1829,7 +1885,7 @@
     "hu_a": "Tegnap este pizzát ettem vacsorára.",
     "en_a": "I ate pizza for dinner last night.",
     "category": "Daily life & food",
-    "group": 185
+    "group": 207
   },
   {
     "hu_q": "Mit reggelizett ma?",
@@ -1837,7 +1893,7 @@
     "hu_a": "Ma reggelire kávét, joghurtot és granolát ettem. A lányom tejet és gyümölcsöt ivott.",
     "en_a": "I had coffee, yogurt and granola for breakfast this morning. My daughter had milk and fruit.",
     "category": "Daily life & food",
-    "group": 186
+    "group": 208
   },
   {
     "hu_q": "Mik a kedvenc ételei?",
@@ -1845,7 +1901,7 @@
     "hu_a": "Imádom a mexikói ételeket.",
     "en_a": "I love eating Mexican food.",
     "category": "Daily life & food",
-    "group": 187
+    "group": 209
   },
   {
     "hu_q": "Milyen nap van ma?",
@@ -1853,7 +1909,7 @@
     "hu_a": "Ma péntek van.",
     "en_a": "Today is Friday",
     "category": "Daily life & food",
-    "group": 188
+    "group": 210
   },
   {
     "hu_q": "Melyik a balkeze?",
@@ -1861,7 +1917,7 @@
     "hu_a": "Ez a bal kezem.",
     "en_a": "This is my left hand.",
     "category": "Daily life & food",
-    "group": 189
+    "group": 211
   },
   {
     "hu_q": "Melyik a jobbkeze?",
@@ -1869,7 +1925,7 @@
     "hu_a": "Ez a jobb kezem.",
     "en_a": "This is my right had.",
     "category": "Daily life & food",
-    "group": 190
+    "group": 212
   },
   {
     "hu_q": "Mit tart a jobb kezében?",
@@ -1877,7 +1933,7 @@
     "hu_a": "A jobb kezemben tollat tartok.",
     "en_a": "I'm holding a pen in my right hand.",
     "category": "Daily life & food",
-    "group": 191
+    "group": 213
   },
   {
     "hu_q": "Hány óra van most?",
@@ -1885,7 +1941,7 @@
     "hu_a": "Tiz óra harminc perc van",
     "en_a": "It is ten thirty",
     "category": "Small talk & weather",
-    "group": 192
+    "group": 214
   },
   {
     "hu_q": "Mennyi most az idő?",
@@ -1893,7 +1949,7 @@
     "hu_a": "Tiz óra harminc perc van",
     "en_a": "It is ten thirty",
     "category": "Small talk & weather",
-    "group": 192
+    "group": 214
   },
   {
     "hu_q": "Milyen idő van most?",
@@ -1901,7 +1957,7 @@
     "hu_a": "Az idő szép és meleg.",
     "en_a": "The weather is nice and warm.",
     "category": "Small talk & weather",
-    "group": 193
+    "group": 215
   },
   {
     "hu_q": "Mi a (lak)címe?",
@@ -1909,7 +1965,7 @@
     "hu_a": "A cimem 4928 Enlightenment Road, [CITY], NC 27616",
     "en_a": "My address is 4928 Enlightenment Road, [CITY], NC 27616",
     "category": "Documents & application",
-    "group": 194
+    "group": 216
   },
   {
     "hu_q": "Itt írja alá!",
@@ -1917,7 +1973,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 195
+    "group": 217
   },
   {
     "hu_q": "Kérem irjon alá.",
@@ -1925,7 +1981,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 196
+    "group": 218
   },
   {
     "hu_q": "A kérelmet nem a Nagykövetség bírálja el, mi csak továbbítjuk Magyarországra.",
@@ -1933,7 +1989,7 @@
     "hu_a": "Rendben, értem.",
     "en_a": "Okay, I understand.",
     "category": "Documents & application",
-    "group": 197
+    "group": 219
   },
   {
     "hu_q": "Körülbelül 6 hónap múlva jelentkezünk.",
@@ -1941,7 +1997,7 @@
     "hu_a": "Rendben, értem.",
     "en_a": "Okay, I understand.",
     "category": "Greeting & closing",
-    "group": 198
+    "group": 220
   },
   {
     "hu_q": "Gratulálok!",
@@ -1949,7 +2005,7 @@
     "hu_a": "Nagyon szépen köszönöm.",
     "en_a": "Thanks very much.",
     "category": "Greeting & closing",
-    "group": 199
+    "group": 221
   },
   {
     "hu_q": "Ön nemsokára magyar állampolgár lesz!",
@@ -1957,7 +2013,7 @@
     "hu_a": "Nagyon szépen köszönöm.",
     "en_a": "Thanks very much.",
     "category": "Greeting & closing",
-    "group": 199
+    "group": 221
   },
   {
     "hu_q": "Köszönöm szépen, hogy eljött.",
@@ -1965,7 +2021,7 @@
     "hu_a": "Köszönöm az idejét.",
     "en_a": "Thank you the your time.",
     "category": "Greeting & closing",
-    "group": 200
+    "group": 222
   },
   {
     "hu_q": "Mi a terve ha megkapja a magyar útlevelet?",
@@ -1973,7 +2029,7 @@
     "hu_a": "Családommal gyakran szeretnék Magyarországra utazni.",
     "en_a": "I plan to travel to Hungary often with my family.",
     "category": "Documents & application",
-    "group": 201
+    "group": 223
   },
   {
     "hu_q": "Melyik városban élne és miért?",
@@ -1981,7 +2037,7 @@
     "hu_a": "Budapesten élnék! Imádom a termálfürdő‑kultúrát, a gyönyörű építészetet és a kedves embereket.",
     "en_a": "I would live in Budapest! I love the thermal bath culture, the beautiful architecture, and the friendly people.",
     "category": "Home & residence",
-    "group": 202
+    "group": 224
   },
   {
     "hu_q": "Hol szeretne élni Budapesten?",
@@ -1989,7 +2045,7 @@
     "hu_a": "Szeretnék Budapesten a második kerületben élni, mert sok park van a lányom számára, és még mindig közel van a belvároshoz.",
     "en_a": "I would like to live in the second district of Budapest because there are many parks for my daughter, and it is still close to the city center.",
     "category": "Home & residence",
-    "group": 203
+    "group": 225
   },
   {
     "hu_q": "Magyar nemzeti ünnepeket ismer?",
@@ -1997,7 +2053,7 @@
     "hu_a": "Igen, ismerem\n- március 15 (tizenötödikét) az 1848-as forradalom ünnepét,\n- augusztus 20 (huszadikát) Szent István napját,\n- október 23 (huszonharmadikát) az 1956-os forradalom ünnepét.",
     "en_a": "I know these Hungarian national holidays:\n- March 15 is the holiday of the 1848 revolution,\n- August 20 is the holiday of the founding of the state or Saint Stephen's Day,\n- October 23 is the holiday of the 1956 revolution.",
     "category": "Culture & history",
-    "group": 204
+    "group": 226
   },
   {
     "hu_q": "Ismer magyar nemzeti ünnepeket?",
@@ -2005,7 +2061,7 @@
     "hu_a": "Igen, ismerem\n- március 15 (tizenötödikét) az 1848-as forradalom ünnepét,\n- augusztus 20 (huszadikát) az államalapítás ünnepét vagy Szent István napját,\n- október 23 (huszonharmadikát) az 1956-os forradalom ünnepét.",
     "en_a": "I know these Hungarian national holidays:\n- March 15 is the holiday of the 1848 revolution,\n- August 20 is the holiday of the founding of the state or Saint Stephen's Day,\n- October 23 is the holiday of the 1956 revolution.",
     "category": "Culture & history",
-    "group": 205
+    "group": 227
   },
   {
     "hu_q": "Mi a magyar nemzeti himnusz cime?",
@@ -2013,7 +2069,7 @@
     "hu_a": "A magyar nemzeti himnusz címe \"Himnusz\". Kölcsey Ferenc írta a szöveget.",
     "en_a": "The title of the Hungarian national anthem is \"Himnusz.\" Ferenc Kölcsey wrote the lyrics.",
     "category": "Culture & history",
-    "group": 206
+    "group": 228
   },
   {
     "hu_q": "Mi a magyar nemzeti dal cime?",
@@ -2021,7 +2077,7 @@
     "hu_a": "A magyar nemzeti dal címe \"Nemzeti dal\". Petőfi Sándor írta.",
     "en_a": "The title of the Hungarian national song is \"Nemzeti dal.\" It was written by Sándor Petőfi.",
     "category": "Culture & history",
-    "group": 207
+    "group": 229
   },
   {
     "hu_q": "Mi a magyar nemzeti tanc?",
@@ -2029,7 +2085,7 @@
     "hu_a": "A magyar nemzeti tánc a Csárdás, egy hagyományos néptánc.",
     "en_a": "The Hungarian national dance is the \"Csárdás,\" a traditional folk dance.",
     "category": "Culture & history",
-    "group": 208
+    "group": 230
   },
   {
     "hu_q": "Mit fog csinálni ha végzett a konzulátuson?",
@@ -2037,7 +2093,7 @@
     "hu_a": "Ebédelünk, aztán visszamegyünk a hotelbe, hogy a lányom aludjon.",
     "en_a": "We have lunch, then we go back to the hotel so that my daughter can sleep.",
     "category": "Greeting & closing",
-    "group": 209
+    "group": 231
   },
   {
     "hu_q": "Mit csinált ma az interjú előtt?",
@@ -2045,7 +2101,7 @@
     "hu_a": "Az interjú előtt felkeltem és reggeliztem a családommal.",
     "en_a": "Before the interview, I woke up and had breakfast with my family.",
     "category": "General",
-    "group": 210
+    "group": 232
   },
   {
     "hu_q": "Kérem fáradjon a gép elé.",
@@ -2053,7 +2109,7 @@
     "hu_a": "Rendben.",
     "en_a": "Alright.",
     "category": "Greeting & closing",
-    "group": 211
+    "group": 233
   },
   {
     "hu_q": "Most ujjlenyomatokat veszünk Öntől.",
@@ -2061,7 +2117,7 @@
     "hu_a": "Rendben, értem.",
     "en_a": "Okay, I understand.",
     "category": "Interview procedure",
-    "group": 212
+    "group": 234
   },
   {
     "hu_q": "Először a jobb/bal kezének a 4 ujját tegye le egyszerre.",
@@ -2069,7 +2125,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 213
+    "group": 235
   },
   {
     "hu_q": "Kérem tegye le a elöször a jobb kezének négy újját egyszerre.",
@@ -2077,7 +2133,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 214
+    "group": 236
   },
   {
     "hu_q": "Most a két hüvelykujját tegye le egyszerre.",
@@ -2085,7 +2141,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 215
+    "group": 237
   },
   {
     "hu_q": "Most lefényképezzük.",
@@ -2093,7 +2149,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 216
+    "group": 238
   },
   {
     "hu_q": "Most fényképet készitünk.",
@@ -2101,7 +2157,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 217
+    "group": 239
   },
   {
     "hu_q": "Hol szeretné letenni az állampolgársági esküt?",
@@ -2109,7 +2165,7 @@
     "hu_a": "Itt, [STATE] [CITY]‑ben kérem.",
     "en_a": "Here in [STATE] [CITY], please",
     "category": "Interview procedure",
-    "group": 218
+    "group": 240
   },
   {
     "hu_q": "Hol akarja az esküt letenni?",
@@ -2117,7 +2173,7 @@
     "hu_a": "Itt, [STATE] [CITY]‑ben kérem.",
     "en_a": "Here in [STATE] [CITY], please",
     "category": "Interview procedure",
-    "group": 219
+    "group": 241
   },
   {
     "hu_q": "A hitelesitésért 23 dollárt kell fizetni egyenként és csak bankkártyával lehet fizetni. Ez így megfelel Önnek?",
@@ -2125,7 +2181,7 @@
     "hu_a": "Rendben, értem.",
     "en_a": "Okay, I understand.",
     "category": "Interview procedure",
-    "group": 220
+    "group": 242
   },
   {
     "hu_q": "Kérem nézze meg a képernyőn hogy jó-e az aláirás",
@@ -2133,7 +2189,7 @@
     "hu_a": "Minden rendben van. Az aláirás jó.",
     "en_a": "All is well. The signature is good.",
     "category": "Interview procedure",
-    "group": 221
+    "group": 243
   },
   {
     "hu_q": "Rakja rendbe a dokumentumokat az asztalra",
@@ -2141,7 +2197,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Documents & application",
-    "group": 222
+    "group": 244
   },
   {
     "hu_q": "Kérem álljon fel.",
@@ -2149,7 +2205,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 223
+    "group": 245
   },
   {
     "hu_q": "Kérem menjen a másik szobába. Kérem fáradjon a másik helységbe.",
@@ -2157,7 +2213,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Home & residence",
-    "group": 224
+    "group": 246
   },
   {
     "hu_q": "Milyen volt a gyerekkora?",
@@ -2165,7 +2221,7 @@
     "hu_a": "Jó gyerekkorom volt. Sok gyerek élt a környéken, és semmi miatt nem aggódtam.",
     "en_a": "I had a good childhood. Many children lived in the neighborhood, and I didn't worry about anything.",
     "category": "Daily life & food",
-    "group": 225
+    "group": 247
   },
   {
     "hu_q": "Ki segitett kitölteni a kérelmet?",
@@ -2173,7 +2229,7 @@
     "hu_a": "Senki sem segített. Egyedül töltöttem ki a kérelmet.",
     "en_a": "Nobody helped me. I filled out the application on my own",
     "category": "Documents & application",
-    "group": 226
+    "group": 248
   },
   {
     "hu_q": "Senki sem segített egy kicsit sem?",
@@ -2181,7 +2237,7 @@
     "hu_a": "Nem, senki sem segített nekem.",
     "en_a": "No, no one helped me.",
     "category": "General",
-    "group": 227
+    "group": 249
   },
   {
     "hu_q": "Hogyan használja a nevét?",
@@ -2189,7 +2245,7 @@
     "hu_a": "A leánykori nevemet használom, [MY NAME].",
     "en_a": "I use my maiden name, [MY NAME].",
     "category": "Personal details",
-    "group": 228
+    "group": 250
   },
   {
     "hu_q": "Hányszor nyújtotta be a kérelmet a magyar állampolgárságra?",
@@ -2197,7 +2253,7 @@
     "hu_a": "Most először.",
     "en_a": "This is the first time.",
     "category": "Documents & application",
-    "group": 229
+    "group": 251
   },
   {
     "hu_q": "Híres magyar embereket ismer?",
@@ -2205,7 +2261,7 @@
     "hu_a": "Igen, ismerem Magyar Petér miniszterelnököt, Rubik Ernő feltalálót és Petőfi Sándor költőt.",
     "en_a": "Yes, I know Prime Minister Viktor Orbán, inventor Ernő Rubik, and poet Sándor Petőfi.",
     "category": "Culture & history",
-    "group": 230
+    "group": 252
   },
   {
     "hu_q": "Melyik országok veszik körül Magyarországot?",
@@ -2213,7 +2269,7 @@
     "hu_a": "Magyarország északon Szlovákiával, keleten Ukrajnával és Romániával, délen Szerbiával és Horvátországgal, és nyugaton Szlovéniával és Ausztriával határos.",
     "en_a": "Hungary borders Slovakis to the north, Ukraine and Romania to the east, Serbia and Croatia to the south, and Slovenia and Austria to the west.",
     "category": "Culture & history",
-    "group": 231
+    "group": 253
   },
   {
     "hu_q": "Tudja-e hogy melyik országokban Magyarországon kívül élnek magyarok nagy számban?",
@@ -2221,7 +2277,7 @@
     "hu_a": "Igen, Romániában, Szlovákiában, Szerbiában, és Ukrajnában.",
     "en_a": "Yes, in Romania, Slovakia, Serbia, and Ukraine.",
     "category": "Ancestry & origin",
-    "group": 232
+    "group": 254
   },
   {
     "hu_q": "És tudja-e hogy ezek a területek most miért nem tartoznak Magyarországhoz?",
@@ -2229,7 +2285,7 @@
     "hu_a": "Tudom, hogy a trianoni békeszerződés miatt.",
     "en_a": "I know it's because of the Treaty of Trianon.",
     "category": "Culture & history",
-    "group": 233
+    "group": 255
   },
   {
     "hu_q": "Milyen közlekedési eszközt szokott használni a városában?",
@@ -2237,7 +2293,7 @@
     "hu_a": "Általában autóval megyünk.",
     "en_a": "We usually drive.",
     "category": "Daily life & food",
-    "group": 234
+    "group": 256
   },
   {
     "hu_q": "Mit csinál holnap?",
@@ -2245,7 +2301,7 @@
     "hu_a": "A hétvégét itt töltjük. Lehet, hogy ellátogatunk a National Mall-ra.",
     "en_a": "We are staying the weekend. We may visit the National Mall.",
     "category": "Daily life & food",
-    "group": 235
+    "group": 257
   },
   {
     "hu_q": "Milyen típusú könyveket szeret?",
@@ -2253,7 +2309,7 @@
     "hu_a": "Szeretek thriller és fantasy könyveket olvasni.",
     "en_a": "I like to read thriller and fantasy books.",
     "category": "Hobbies & free time",
-    "group": 236
+    "group": 258
   },
   {
     "hu_q": "Milyen fajta zenét hallgat?",
@@ -2261,7 +2317,7 @@
     "hu_a": "Szeretek indie zenét hallgatni.",
     "en_a": "I like to listen to indie music.",
     "category": "Hobbies & free time",
-    "group": 237
+    "group": 259
   },
   {
     "hu_q": "Hol tanult meg főzni?",
@@ -2269,7 +2325,7 @@
     "hu_a": "Megtanultam magamtól főzni.",
     "en_a": "I taught myself to cook.",
     "category": "Language learning",
-    "group": 238
+    "group": 260
   },
   {
     "hu_q": "Meséljen a legjobb barátjáról.",
@@ -2277,7 +2333,7 @@
     "hu_a": "A legjobb barátom szintén üzleti elemző. Kedves, okos és nagyon vicces.",
     "en_a": "My best friend is also a business analyst. She is kind, smart, and very funny.",
     "category": "Family",
-    "group": 239
+    "group": 261
   },
   {
     "hu_q": "Hova járt álltalános iskolába?",
@@ -2285,7 +2341,7 @@
     "hu_a": "A Mary Esther Általános Iskolába jártam.",
     "en_a": "I went to Mary Esther Elementary School",
     "category": "Visiting Hungary",
-    "group": 240
+    "group": 262
   },
   {
     "hu_q": "Hova járt középiskolába?",
@@ -2293,7 +2349,7 @@
     "hu_a": "A Navarre Középiskolába jártam.",
     "en_a": "I went to [HIGH SCHOOL].",
     "category": "Visiting Hungary",
-    "group": 241
+    "group": 263
   },
   {
     "hu_q": "Tagja vagy valamelyik magyar közösségnek?",
@@ -2301,15 +2357,23 @@
     "hu_a": "Néhány magyar Facebook-csoport tagja vagyok.",
     "en_a": "I am a member of a few Hungarian Facebook groups.",
     "category": "Motivation & future",
-    "group": 242
+    "group": 264
   },
   {
-    "hu_q": "Mi a terve a jövőben?/ Mi a terve a jövőre nézve?",
+    "hu_q": "Mi a terve a jövőben?",
     "en_q": "What are your plans for the future?",
     "hu_a": "Folytatom a magyar tanulást, mert szeretnénk egyszer Magyarországra költözni.",
     "en_a": "I continue learning Hungarian because we would like to move to Hungary someday.",
     "category": "Motivation & future",
-    "group": 243
+    "group": 265
+  },
+  {
+    "hu_q": "Mi a terve a jövőre nézve?",
+    "en_q": "What are your plans for the future?",
+    "hu_a": "Folytatom a magyar tanulást, mert szeretnénk egyszer Magyarországra költözni.",
+    "en_a": "I continue learning Hungarian because we would like to move to Hungary someday.",
+    "category": "Motivation & future",
+    "group": 266
   },
   {
     "hu_q": "Kérem hivja ide a férjét hogy ő is aláirja a nyomtatványokat. formanyomtatványokat",
@@ -2317,7 +2381,7 @@
     "hu_a": "Rendben, köszönöm. [SPOUSE], come here.",
     "en_a": "Ok, thank you. [SPOUSE], come here.",
     "category": "Interview procedure",
-    "group": 244
+    "group": 267
   },
   {
     "hu_q": "Ön írta maga?",
@@ -2325,7 +2389,7 @@
     "hu_a": "Igen, magam írtam.",
     "en_a": "Yes, I wrote by myself.",
     "category": "General",
-    "group": 245
+    "group": 268
   },
   {
     "hu_q": "Tud ön maga írni?",
@@ -2333,6 +2397,6 @@
     "hu_a": "Igen, tudok egyedül írni.",
     "en_a": "Yes, I can write by myself.",
     "category": "General",
-    "group": 246
+    "group": 269
   }
 ]
