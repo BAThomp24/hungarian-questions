@@ -794,7 +794,7 @@
   {
     "hu_q": "Mi (volt) a szülei foglalkozása?",
     "en_q": "What is (was) your parents’ profession?",
-    "hu_a": "Az anyukám háziasszony volt, de sajnos elhunyt.. Az apukám mérnök volt, de most már nyugdíjas.",
+    "hu_a": "Az anyukám háziasszony volt, de sajnos elhunyt. Az apukám mérnök volt, de most már nyugdíjas.",
     "en_a": "My mom was a housewife, but unfortunately passed away. My dad was an engineer, but is now retired.",
     "category": "Family",
     "group": 79
@@ -1130,8 +1130,8 @@
   {
     "hu_q": "Melyik ágon?",
     "en_q": "Which branch? Which side of the family?",
-    "hu_a": "Az apukám ágon.",
-    "en_a": "On my father's side.",
+    "hu_a": "Az apukám ágon magyar származású vagyok.",
+    "en_a": "I am of Hungarian origin on my father's side.",
     "category": "Ancestry & origin",
     "group": 120
   },
@@ -1211,7 +1211,7 @@
     "hu_q": "Ismerte a dédnagymamaja?",
     "en_q": "Did you know your great-grandma?",
     "hu_a": "Sajnos elhunyt, mielőtt megszülettem.",
-    "en_a": "Unfortunately, she passedaway before I was born.",
+    "en_a": "Unfortunately, she passed away before I was born.",
     "category": "Ancestry & origin",
     "group": 129
   },
@@ -1346,8 +1346,8 @@
   {
     "hu_q": "Melyik európai országokban járt?",
     "en_q": "Which European countries have you visited",
-    "hu_a": "Megszerettem Izlandot, Svédországot és Angliát.",
-    "en_a": "I have visited Iceland, Sweden, and England.",
+    "hu_a": "Voltam Izlandon és Angliában.",
+    "en_a": "I have visited Iceland and England.",
     "category": "Visiting Hungary",
     "group": 146
   },
@@ -1360,10 +1360,10 @@
     "group": 147
   },
   {
-    "hu_q": "Mikor tervez Magyarországra utazni?",
+    "hu_q": "Mikor tervez Magyarországra ujra utazni?",
     "en_q": "When do you plan to travel to Hungary?",
-    "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
-    "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
+    "hu_a": "Most nem tudom, de remélem, hamarosan.",
+    "en_a": "I don't know right now, but I hope soon.",
     "category": "Greeting & closing",
     "group": 148
   },
@@ -1402,8 +1402,8 @@
   {
     "hu_q": "Milyen iratokat hozott magával?",
     "en_q": "What documents did you brought with you?",
-    "hu_a": "A dédanyám születési anyakönyvi kivonata.\nA dédanyám házassági anyakönyvi kivonata.\nA nagymamám születési anyakönyvi kivonata.\nA nagymamám házassági anyakönyvi kivonata.\nAz apukám születési anyakönyvi kivonata.\nAz apukám házassági anyakönyvi kivonata.\nA születési anyakönyvi kivonatom.\nA házassági anyakönyvi kivonatom.\nA lányom születési anyakönyvi kivonata.",
-    "en_a": "My great-grandmother's birth certificate.\nMy great-grandmother's marriage certificate.\nMy grandmother's birth certificate.\nMy grandmother's marriage certificate.\nMy father's birth certificate.\nMy father's marriage certificate.\nMy birth certificate.\nMy marriage certificate.\nMy daughter's birth certificate.",
+    "hu_a": "Megvan a dédanyám születési anyakönyvi kivonata.\nA dédanyám házassági anyakönyvi kivonata.\nA nagymamám születési anyakönyvi kivonata.\nA nagymamám házassági anyakönyvi kivonata.\nAz apukám születési anyakönyvi kivonata.\nAz apukám házassági anyakönyvi kivonata.\nA születési anyakönyvi kivonatom.\nA házassági anyakönyvi kivonatom.\nA lányom születési anyakönyvi kivonata.",
+    "en_a": "I have my great-grandmother's birth certificate.\nMy great-grandmother's marriage certificate.\nMy grandmother's birth certificate.\nMy grandmother's marriage certificate.\nMy father's birth certificate.\nMy father's marriage certificate.\nMy birth certificate.\nMy marriage certificate.\nMy daughter's birth certificate.",
     "category": "Documents & application",
     "group": 153
   },
@@ -1586,8 +1586,8 @@
   {
     "hu_q": "Szép időnk van ma!",
     "en_q": "We have nice weather today!",
-    "hu_a": "Igen, az idő szép és meleg.",
-    "en_a": "Yes, the weather is nice and warm.",
+    "hu_a": "Igen, az idő szép és meleg.\nSzép őszi nap van.",
+    "en_a": "Yes, the weather is nice and warm.\nIt's a nice fall day.",
     "category": "Small talk & weather",
     "group": 175
   },
@@ -1602,24 +1602,24 @@
   {
     "hu_q": "Milyen az idő [CITY]?",
     "en_q": "What's the weather like in [CITY]?",
-    "hu_a": "[CITY] szinte egész évben enyhe az idő.",
-    "en_a": "The weather in [CITY] is mild almost year-round.",
+    "hu_a": "[CITY] meleg, de a telek hűvösek.",
+    "en_a": "[CITY] is warm but has chilly winters.",
     "category": "Home & residence",
     "group": 177
   },
   {
     "hu_q": "Milyen az idő/időjárás ott ahol él?",
     "en_q": "What's the weather like in [CITY]?",
-    "hu_a": "[CITY] szinte egész évben enyhe az idő.",
-    "en_a": "The weather in [CITY] is mild almost year-round.",
+    "hu_a": "[CITY] meleg, de a telek hűvösek.",
+    "en_a": "[CITY] is warm but has chilly winters.",
     "category": "Home & residence",
     "group": 177
   },
   {
     "hu_q": "Milyen az éghajlat [CITY]?",
     "en_q": "What's the climate in [CITY]?",
-    "hu_a": "[CITY] szinte egész évben enyhe az idő.",
-    "en_a": "The weather in [CITY] is mild almost year-round.",
+    "hu_a": "[CITY] meleg, de a telek hűvösek.",
+    "en_a": "[CITY] is warm but has chilly winters.",
     "category": "Home & residence",
     "group": 178
   },
@@ -1642,16 +1642,16 @@
   {
     "hu_q": "Miért [CITY] él?",
     "en_q": "Why do you live in [CITY]?",
-    "hu_a": "A munka hozott ide minket, és imádtuk!",
-    "en_a": "Work brought us here and we loved it!",
+    "hu_a": "[CITY]ben lakunk a munkahelyem miatt, de szeretünk ott élni.",
+    "en_a": "We live here for my work, but we love it!",
     "category": "Home & residence",
     "group": 180
   },
   {
     "hu_q": "Miért költözött [CITY]?",
     "en_q": "Why do you live in [CITY]?",
-    "hu_a": "A munka hozott ide minket, és imádtuk!",
-    "en_a": "Work brought us here and we loved it!",
+    "hu_a": "[CITY]ben lakunk a munkahelyem miatt, de szeretünk ott élni.",
+    "en_a": "We live here for my work, but we love it!",
     "category": "Home & residence",
     "group": 180
   },
@@ -1666,7 +1666,7 @@
   {
     "hu_q": "Mióta él [CITY]?",
     "en_q": "How long have you been living in [CITY]?",
-    "hu_a": "Nyolc éve élünk itt.",
+    "hu_a": "Nyolc éve élünk ott.",
     "en_a": "We have been living here for eight years.",
     "category": "Home & residence",
     "group": 182
@@ -1674,56 +1674,56 @@
   {
     "hu_q": "[CITY] város vagy falu?",
     "en_q": "Is [CITY] a city or village?",
-    "hu_a": "[CITY] egy közepes méretű város.",
-    "en_a": "[CITY] is a medium sized city.",
+    "hu_a": "[CITY] [STATE] egy nagy város.",
+    "en_a": "[CITY] is a large city in [STATE].",
     "category": "Home & residence",
     "group": 183
   },
   {
     "hu_q": "Mennyi ember él [CITY]?",
     "en_q": "How many people live in [CITY]? What is the population of [CITY]?",
-    "hu_a": "[CITY] körülbelül 500,000 ember él.",
-    "en_a": "There are about 500,000 people living in [CITY].",
+    "hu_a": "[CITY] körülbelül félmillió ember él.",
+    "en_a": "There are about half a million people living in [CITY].",
     "category": "Home & residence",
     "group": 184
   },
   {
     "hu_q": "Mennyi a népesség [CITY]?",
     "en_q": "How many people live in [CITY]? What is the population of [CITY]?",
-    "hu_a": "[CITY] körülbelül 500,000 ember él.",
-    "en_a": "There are about 500,000 people living in [CITY].",
+    "hu_a": "[CITY] körülbelül félmillió ember él.",
+    "en_a": "There are about half a million people living in [CITY].",
     "category": "Home & residence",
     "group": 184
   },
   {
     "hu_q": "Mennyi lakosa van?",
     "en_q": "How many people live in [CITY]? What is the population of [CITY]?",
-    "hu_a": "[CITY] körülbelül 500,000 ember él.",
-    "en_a": "There are about 500,000 people living in [CITY].",
+    "hu_a": "[CITY] körülbelül félmillió ember él.",
+    "en_a": "There are about half a million people living in [CITY].",
     "category": "Home & residence",
     "group": 184
   },
   {
     "hu_q": "Miért találja érdekesnek a magyar kultúrát?",
     "en_q": "Why do you find Hungarian Culture Interesting?",
-    "hu_a": "Nagyon tetszik a magyar nyelv, és szeretem a magyar kultúrát — a konyhát, a hagyományokat és a vendégszeretetet.",
-    "en_a": "I really like the Hungarian language and I like the Hungarian culture — the cuisine, the traditions and the hospitality.",
+    "hu_a": "Szeretem a magyar nyelv különlegességét és a magyar történelem gazdagságát.",
+    "en_a": "I love the uniqueness of the Hungarian language and the richness of Hungarian history.",
     "category": "Culture & history",
     "group": 185
   },
   {
     "hu_q": "Mit tud a magyar kulturárol?",
     "en_q": "What do you know about Hungarian culture?",
-    "hu_a": "Nagyon tetszik a magyar nyelv, és szeretem a magyar kultúrát — a konyhát, a hagyományokat és a vendégszeretetet.",
-    "en_a": "I really like the Hungarian language and I like the Hungarian culture — the cuisine, the traditions and the hospitality.",
+    "hu_a": "Ismerem több fontos elemét a magyar kultúrának.\nPéldául ismerem a nemzeti ünnepeket:\nmárcius 15-ét, az 1848-as forradalom emléknapját;\naugusztus 20-át, az államalapítás és Szent István ünnepét;\nvalamint október 23-át, az 1956-os forradalom napját.\nTudom, hogy a magyar nemzeti tánc a csárdás,\negy hagyományos, élénk és páros néptánc.",
+    "en_a": "I know several important elements of Hungarian culture. For example, I know the national holidays:\nMarch 15th, the memorial day of the 1848 revolution;\nAugust 20th, the celebration of state foundation and Saint Stephen;\nand October 23rd, the day of the 1956 revolution.\nI know that the Hungarian national dance is the csárdás, a traditional, lively, and partner folk dance.",
     "category": "Culture & history",
     "group": 186
   },
   {
     "hu_q": "Ismer magyar ételeket?",
     "en_q": "You know Hungarian food/meals?",
-    "hu_a": "Igen, a nagymamám és az ük-nagynéném olyan ételeket készítettek, mint a töltött káposzta és a gulyás.",
-    "en_a": "Yes, my grandmother and great-great aunt would make meals like stuffed cabbage and goulash.",
+    "hu_a": "Igen, a nagymamám és az ük-nagynéném olyan ételeket készítettek, mint a töltött káposzta és a gulyás. Mostanában szereztem be a családi receptkártyákat!",
+    "en_a": "Yes, my grandmother and great-great aunt would make meals like stuffed cabbage and goulash. I recently acquired the family recipe cards!",
     "category": "Culture & history",
     "group": 187
   },
@@ -1898,8 +1898,8 @@
   {
     "hu_q": "Mik a kedvenc ételei?",
     "en_q": "What are your favorite foods?",
-    "hu_a": "Imádom a mexikói ételeket.",
-    "en_a": "I love eating Mexican food.",
+    "hu_a": "Szeretem a mexikói és a japán ételeket.",
+    "en_a": "I like Mexican and Japanese food.",
     "category": "Daily life & food",
     "group": 209
   },
@@ -2259,7 +2259,7 @@
     "hu_q": "Híres magyar embereket ismer?",
     "en_q": "Do you know famous Hungarian people?",
     "hu_a": "Igen, ismerem Magyar Petér miniszterelnököt, Rubik Ernő feltalálót és Petőfi Sándor költőt.",
-    "en_a": "Yes, I know Prime Minister Viktor Orbán, inventor Ernő Rubik, and poet Sándor Petőfi.",
+    "en_a": "Yes, I know Prime Minister Peter Magyar, inventor Ernő Rubik, and poet Sándor Petőfi.",
     "category": "Culture & history",
     "group": 252
   },
@@ -2267,7 +2267,7 @@
     "hu_q": "Melyik országok veszik körül Magyarországot?",
     "en_q": "Which countries surround Hungary?",
     "hu_a": "Magyarország északon Szlovákiával, keleten Ukrajnával és Romániával, délen Szerbiával és Horvátországgal, és nyugaton Szlovéniával és Ausztriával határos.",
-    "en_a": "Hungary borders Slovakis to the north, Ukraine and Romania to the east, Serbia and Croatia to the south, and Slovenia and Austria to the west.",
+    "en_a": "Hungary borders Slovakia to the north, Ukraine and Romania to the east, Serbia and Croatia to the south, and Slovenia and Austria to the west.",
     "category": "Culture & history",
     "group": 253
   },
@@ -2347,7 +2347,7 @@
     "hu_q": "Hova járt középiskolába?",
     "en_q": "Where did you go to high school?",
     "hu_a": "A Navarre Középiskolába jártam.",
-    "en_a": "I went to [HIGH SCHOOL].",
+    "en_a": "I went to Navarre High School.",
     "category": "Visiting Hungary",
     "group": 263
   },
@@ -2398,5 +2398,37 @@
     "en_a": "Yes, I can write by myself.",
     "category": "General",
     "group": 269
+  },
+  {
+    "hu_q": "Utaznál újra Magyarországra?",
+    "en_q": "Would you travel to Hungary again?",
+    "hu_a": "Igen, szeretnék több várost látni",
+    "en_a": "Yes, I would like to see more cities",
+    "category": "Greeting & closing",
+    "group": 270
+  },
+  {
+    "hu_q": "Járt már [VILLAGE]?",
+    "en_q": "Have you traveled to [VILLAGE]?",
+    "hu_a": "Sajnos még nem utaztam el [VILLAGE].",
+    "en_a": "Unfortunately, I have not traveled to [VILLAGE] yet.",
+    "category": "Ancestry & origin",
+    "group": 271
+  },
+  {
+    "hu_q": "Ön szereti a munkáját?",
+    "en_q": "Do you like your job?",
+    "hu_a": "Igen, szeretem a munkámat. Érdekes.",
+    "en_a": "Yes, I like my job. It's interesting.",
+    "category": "Education & work",
+    "group": 272
+  },
+  {
+    "hu_q": "Mely városokat szeretné meglátogatni Magyarországon?",
+    "en_q": "What cities in Hungary would you like to visit?",
+    "hu_a": "Szeretnék ellátogatni Pécsre, Szegedre és Budapestre.",
+    "en_a": "I would like to visit Pecs, Szeged, and Budapest.",
+    "category": "Ancestry & origin",
+    "group": 273
   }
 ]
