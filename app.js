@@ -5,8 +5,9 @@ const DATA = window.HUNGARIAN_DATA || [];
 // Stable 1-based question number = position in the full list (the table order).
 DATA.forEach((r, i) => { r.n = i + 1; });
 
-// "Needs help" marks, persisted in the browser (no backend). Keyed by question
-// text so marks survive data regeneration / reordering.
+// The practice set = cards starred in the spreadsheet (column G "Star", carried
+// on row.star) PLUS any you star in-app. In-app marks persist in the browser
+// (no backend), keyed by question text so they survive data regeneration.
 const MARK_KEY = "hu-marked";
 const keyOf = (row) => row.hu_q;
 let marked = new Set();
@@ -14,8 +15,9 @@ try { marked = new Set(JSON.parse(localStorage.getItem(MARK_KEY) || "[]")); } ca
 function saveMarks() {
   try { localStorage.setItem(MARK_KEY, JSON.stringify([...marked])); } catch (e) { /* ignore */ }
 }
-const isMarked = (row) => marked.has(keyOf(row));
-const markedCount = () => DATA.filter(isMarked).length;
+const isMarked = (row) => marked.has(keyOf(row));               // in-app star only
+const isStarred = (row) => row.star === true || isMarked(row);  // document OR in-app
+const starredCount = () => DATA.filter(isStarred).length;
 
 const el = (id) => document.getElementById(id);
 const ui = {
@@ -68,6 +70,12 @@ const CATEGORY_TOPICS = {
 // ---- Speech ---------------------------------------------------------------
 const synth = window.speechSynthesis;
 
+// Remember the chosen voice by NAME so it survives reloads and the repeated
+// `voiceschanged` events that otherwise reset the picker to the first (female).
+const VOICE_KEY = "hu-voice";
+let savedVoiceName = null;
+try { savedVoiceName = localStorage.getItem(VOICE_KEY); } catch (e) { /* ignore */ }
+
 function loadVoices() {
   const all = synth ? synth.getVoices() : [];
   huVoices = all.filter((v) => /^hu(-|_|$)/i.test(v.lang));
@@ -87,27 +95,55 @@ function loadVoices() {
       o.textContent = `${v.name}${v.localService ? "" : " (online)"}`;
       ui.voice.appendChild(o);
     });
+    // Restore the saved choice instead of snapping back to the first voice.
+    const idx = savedVoiceName ? huVoices.findIndex((v) => v.name === savedVoiceName) : -1;
+    if (idx >= 0) ui.voice.value = String(idx);
   }
 }
 
-// Speak one or more Hungarian texts in order; onDone fires after the last one
-// (or immediately if there's no voice, so autoplay can still advance on a timer).
-function speakSequence(texts, onDone) {
+let speakTimer = null;   // pause timer between sequence items (e.g. Q→A gap)
+let speakGen = 0;        // invalidates callbacks from a superseded sequence
+
+function stopSpeech() {
+  speakGen++;
+  if (speakTimer) { clearTimeout(speakTimer); speakTimer = null; }
+  if (synth) synth.cancel();
+}
+
+// Speak Hungarian texts in order. opts: { gap: seconds of silence between items,
+// onDone: called after the last item }. onDone also fires immediately when
+// there's no voice, so autoplay can still advance on its timer.
+function speakSequence(texts, opts) {
+  opts = opts || {};
   const list = texts.filter(Boolean);
+  const gap = opts.gap || 0;
+  const onDone = opts.onDone;
+  const gen = ++speakGen;
+  if (speakTimer) { clearTimeout(speakTimer); speakTimer = null; }
   if (!synth || huVoices.length === 0 || list.length === 0) {
     if (onDone) onDone();
     return;
   }
   synth.cancel();
-  list.forEach((text, i) => {
-    const u = new SpeechSynthesisUtterance(text.replace(/\n/g, ". "));
-    u.voice = huVoices[ui.voice.value] || huVoices[0];
-    u.lang = u.voice.lang;
+  let i = 0;
+  const speakOne = () => {
+    if (gen !== speakGen) return;                    // superseded -> stop
+    const v = huVoices[ui.voice.value] || huVoices[0];
+    const u = new SpeechSynthesisUtterance(list[i].replace(/\n/g, ". "));
+    u.voice = v;
+    u.lang = v.lang;
     u.rate = parseFloat(ui.rate.value);
-    if (i === list.length - 1 && onDone) u.onend = onDone;
+    u.onend = () => {
+      if (gen !== speakGen) return;
+      if (++i >= list.length) { if (onDone) onDone(); return; }
+      if (gap > 0) speakTimer = setTimeout(speakOne, gap * 1000);
+      else speakOne();
+    };
     synth.speak(u);
-  });
+  };
+  speakOne();
 }
+const QA_GAP = 5;        // seconds of silence between question and answer in autoplay
 
 function speak(text) { speakSequence([text]); }
 
@@ -116,7 +152,7 @@ function buildCategories() {
   const cats = [...new Set(DATA.map((r) => r.category))].sort();
   ui.category.innerHTML =
     `<option value="__all">All topics (${DATA.length})</option>` +
-    `<option value="__marked">★ Needs help (${markedCount()})</option>`;
+    `<option value="__marked">★ Starred (${starredCount()})</option>`;
   cats.forEach((c) => {
     const n = DATA.filter((r) => r.category === c).length;
     const o = document.createElement("option");
@@ -126,11 +162,11 @@ function buildCategories() {
   });
 }
 
-// Keep the "Needs help" option's count fresh without rebuilding the dropdown.
+// Keep the "Starred" option's count fresh without rebuilding the dropdown.
 function refreshMarkedOption() {
   const opt = [...ui.category.options].find((o) => o.value === "__marked");
-  if (opt) opt.textContent = `★ Needs help (${markedCount()})`;
-  ui.practiceStarred.textContent = `★ Practice Starred (${markedCount()})`;
+  if (opt) opt.textContent = `★ Starred (${starredCount()})`;
+  ui.practiceStarred.textContent = `★ Practice Starred (${starredCount()})`;
 }
 
 // One click: drill ALL starred questions (ignores any active range).
@@ -162,7 +198,7 @@ function rebuildFiltered() {
   const c = ui.category.value;
   filtered = DATA.filter((r) => {
     if (r.n < from || r.n > to) return false;
-    if (c === "__marked") return isMarked(r);
+    if (c === "__marked") return isStarred(r);
     return c === "__all" || r.category === c;
   });
   queue = [];                              // discard old order -> reshuffle next pick
@@ -263,27 +299,35 @@ function play() {
   if (readAnswer) { ui.huQ.hidden = false; ui.huA.hidden = false; ui.speakA.hidden = false; }
 
   const token = ++playToken;
-  speakSequence(readAnswer ? [phrasing, row.hu_a] : [phrasing], () => scheduleNext(token));
+  speakSequence(readAnswer ? [phrasing, row.hu_a] : [phrasing], {
+    gap: readAnswer ? QA_GAP : 0,        // 5s pause between question and answer
+    onDone: () => scheduleNext(token),
+  });
 
   ui.progress.textContent =
     `${filtered.length - queue.length} / ${filtered.length} in “${ui.category.options[ui.category.selectedIndex].textContent}”`;
 }
 
-// ---- Needs-help marks -----------------------------------------------------
+// ---- Star / practice marks ------------------------------------------------
 function updateMarkButton() {
-  const on = current && isMarked(current.row);
+  const fromDoc = current && current.row.star === true;
+  const on = current && isStarred(current.row);
   ui.markBtn.textContent = on ? "★" : "☆";
   ui.markBtn.classList.toggle("on", !!on);
+  ui.markBtn.title = fromDoc
+    ? "Starred in your document — edit column G in the sheet to change"
+    : "Star this question for practice (M)";
 }
 
 function toggleMark() {
   if (!current) return;
+  if (current.row.star === true) return;        // document stars are managed in the sheet
   const k = keyOf(current.row);
   if (marked.has(k)) marked.delete(k); else marked.add(k);
   saveMarks();
   updateMarkButton();
   refreshMarkedOption();
-  if (ui.category.value === "__marked") rebuildFiltered();  // keep marked-only set current
+  if (ui.category.value === "__marked") rebuildFiltered();  // keep starred-only set current
 }
 
 function toggleReveal(targetId, btn) {
@@ -296,8 +340,8 @@ function toggleReveal(targetId, btn) {
     if (show) {
       ui.huQ.hidden = false;                   // revealing the answer also shows the question
       speak(current.row.hu_a);
-    } else if (synth) {
-      synth.cancel();                          // hiding the answer stops it speaking
+    } else {
+      stopSpeech();                            // hiding the answer stops it speaking
     }
   }
 }
@@ -308,6 +352,10 @@ ui.practiceStarred.addEventListener("click", practiceStarred);
 ui.speakQ.addEventListener("click", () => current && speak(current.phrasing));
 ui.speakA.addEventListener("click", () => current && speak(current.row.hu_a));
 ui.markBtn.addEventListener("click", toggleMark);
+ui.voice.addEventListener("change", () => {          // remember the chosen voice
+  const v = huVoices[ui.voice.value];
+  if (v) { savedVoiceName = v.name; try { localStorage.setItem(VOICE_KEY, v.name); } catch (e) { /* ignore */ } }
+});
 
 ui.revealButtons.addEventListener("click", (e) => {
   const btn = e.target.closest("button");
@@ -343,7 +391,7 @@ ui.autoplay.addEventListener("change", () => {
   } else {
     clearAuto();
     playToken++;                             // invalidate any pending speech-end callback
-    if (synth) synth.cancel();
+    stopSpeech();                            // stop audio + any Q→A gap timer
   }
 });
 

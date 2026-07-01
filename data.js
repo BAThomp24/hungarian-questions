@@ -5,7 +5,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Alright-okay.",
     "category": "Documents & application",
-    "group": 1
+    "group": 1,
+    "star": false
   },
   {
     "hu_q": "Egy pillanat",
@@ -13,7 +14,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Alright-okay.",
     "category": "Small talk & weather",
-    "group": 2
+    "group": 2,
+    "star": false
   },
   {
     "hu_q": "Azonnal",
@@ -21,7 +23,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Alright-okay.",
     "category": "Small talk & weather",
-    "group": 3
+    "group": 3,
+    "star": false
   },
   {
     "hu_q": "Máris",
@@ -29,7 +32,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Alright-okay.",
     "category": "Small talk & weather",
-    "group": 4
+    "group": 4,
+    "star": false
   },
   {
     "hu_q": "Jó napot kívánok!",
@@ -37,7 +41,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Jó napot kívánok!",
     "en_a": "Good day!",
     "category": "Greeting & closing",
-    "group": 5
+    "group": 5,
+    "star": false
   },
   {
     "hu_q": "Miben segíthetek?",
@@ -45,7 +50,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Jó napot kívánok! Az állampolgársági interjúra jöttem, egyszerűsitett honositás.",
     "en_a": "Good day! I am here to apply for simplified naturalization.",
     "category": "General",
-    "group": 6
+    "group": 6,
+    "star": false
   },
   {
     "hu_q": "Tessék!",
@@ -53,7 +59,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Jó napot kívánok! Az állampolgársági interjúra jöttem, egyszerűsitett honositás.",
     "en_a": "Good day! I am here to apply for simplified naturalization.",
     "category": "General",
-    "group": 6
+    "group": 6,
+    "star": false
   },
   {
     "hu_q": "Tudok segíteni valamiben?",
@@ -61,7 +68,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Jó napot kívánok! Az állampolgársági interjúra jöttem, egyszerűsitett honositás.",
     "en_a": "Good day! I am here to apply for simplified naturalization.",
     "category": "General",
-    "group": 6
+    "group": 6,
+    "star": false
   },
   {
     "hu_q": "Segíthetek?",
@@ -69,7 +77,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Jó napot kívánok! Az állampolgársági interjúra jöttem, egyszerűsitett honositás.",
     "en_a": "Good day! I am here to apply for simplified naturalization.",
     "category": "General",
-    "group": 6
+    "group": 6,
+    "star": false
   },
   {
     "hu_q": "Mikor van az időpontja?",
@@ -77,7 +86,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az időpontom tiz órákor van.",
     "en_a": "My appointment's at 10.",
     "category": "Greeting & closing",
-    "group": 7
+    "group": 7,
+    "star": false
   },
   {
     "hu_q": "Hány órakor van az időpontja?",
@@ -85,7 +95,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az időpontom tiz órákor van.",
     "en_a": "My appointment's at 10.",
     "category": "Small talk & weather",
-    "group": 8
+    "group": 8,
+    "star": false
   },
   {
     "hu_q": "Fáradjon be!",
@@ -93,7 +104,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Köszönöm.",
     "en_a": "Thank you.",
     "category": "Greeting & closing",
-    "group": 9
+    "group": 9,
+    "star": false
   },
   {
     "hu_q": "Jöjjön be!",
@@ -101,7 +113,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Köszönöm.",
     "en_a": "Thank you.",
     "category": "Greeting & closing",
-    "group": 10
+    "group": 10,
+    "star": false
   },
   {
     "hu_q": "Kérem foglaljon helyet!",
@@ -109,7 +122,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Köszönöm.",
     "en_a": "Thank you.",
     "category": "Greeting & closing",
-    "group": 11
+    "group": 11,
+    "star": false
   },
   {
     "hu_q": "Mindjárt szólok a kolléganőmnek.",
@@ -117,7 +131,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Alright-okay.",
     "category": "General",
-    "group": 12
+    "group": 12,
+    "star": false
   },
   {
     "hu_q": "Várjon itt egy kicsit a konzul mindjárt jön.",
@@ -125,7 +140,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben, köszönöm.",
     "en_a": "Thank you.",
     "category": "Greeting & closing",
-    "group": 13
+    "group": 13,
+    "star": false
   },
   {
     "hu_q": "Szeretnék néhány kérdést kérdezni Öntől",
@@ -133,7 +149,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Alright-okay.",
     "category": "Small talk & weather",
-    "group": 14
+    "group": 14,
+    "star": false
   },
   {
     "hu_q": "Rendelkezik minden szükséges dokumentummal a pályázat benyújtásához?",
@@ -141,7 +158,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, itt van minden.",
     "en_a": "Yes, I have everything here.",
     "category": "Documents & application",
-    "group": 15
+    "group": 15,
+    "star": true
   },
   {
     "hu_q": "Minden megvan a kérelem beadásához?",
@@ -149,7 +167,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, itt van minden.",
     "en_a": "Yes, I have everything here.",
     "category": "Documents & application",
-    "group": 15
+    "group": 15,
+    "star": true
   },
   {
     "hu_q": "Ideges?",
@@ -157,7 +176,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, egy kicsit izgulok.",
     "en_a": "Yes, I am a little nervous.",
     "category": "Greeting & closing",
-    "group": 16
+    "group": 16,
+    "star": false
   },
   {
     "hu_q": "Izgul?",
@@ -165,7 +185,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, egy kicsit izgulok.",
     "en_a": "Yes, I am a little nervous.",
     "category": "Greeting & closing",
-    "group": 17
+    "group": 17,
+    "star": false
   },
   {
     "hu_q": "Hogy utazott?",
@@ -173,7 +194,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Köszönöm, Jól utaztam.",
     "en_a": "I had a good trip, thank you.",
     "category": "Greeting & closing",
-    "group": 18
+    "group": 18,
+    "star": true
   },
   {
     "hu_q": "Hogy jött ide?",
@@ -181,7 +203,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[CITY] jöttünk autóval",
     "en_a": "We drove here from [CITY]",
     "category": "Greeting & closing",
-    "group": 19
+    "group": 19,
+    "star": false
   },
   {
     "hu_q": "Mivel utazott?",
@@ -189,7 +212,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[CITY] jöttünk autóval",
     "en_a": "We drove here from [CITY]",
     "category": "Greeting & closing",
-    "group": 20
+    "group": 20,
+    "star": false
   },
   {
     "hu_q": "Honnan jött?",
@@ -197,7 +221,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[STATE], [CITY] jöttünk",
     "en_a": "We came from [CITY], [STATE].",
     "category": "Greeting & closing",
-    "group": 21
+    "group": 21,
+    "star": false
   },
   {
     "hu_q": "Kivel utazott?",
@@ -205,7 +230,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A férjemmel és a gyermekemmel vagyok itt",
     "en_a": "I am here with my husband and child.",
     "category": "Greeting & closing",
-    "group": 22
+    "group": 22,
+    "star": false
   },
   {
     "hu_q": "Mennyi ideig utazott?",
@@ -213,7 +239,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[CITY] körülbelül 5 órás az út autóval.",
     "en_a": "The drive from [CITY] is about 5 hours.",
     "category": "Greeting & closing",
-    "group": 23
+    "group": 23,
+    "star": false
   },
   {
     "hu_q": "Milyen közlekedési eszközt használt amikor jött a konzulátusra?",
@@ -221,7 +248,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[CITY] jöttünk autóval",
     "en_a": "We drove here from [CITY]",
     "category": "Daily life & food",
-    "group": 24
+    "group": 24,
+    "star": true
   },
   {
     "hu_q": "Mivel érkezett?",
@@ -229,7 +257,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[CITY] jöttünk autóval",
     "en_a": "We drove here from [CITY]",
     "category": "Greeting & closing",
-    "group": 25
+    "group": 25,
+    "star": true
   },
   {
     "hu_q": "Volt nagy tömeg a közlekedésben?",
@@ -237,7 +266,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, egy kis forgalom.",
     "en_a": "Yes, a bit of traffic.",
     "category": "Small talk & weather",
-    "group": 26
+    "group": 26,
+    "star": true
   },
   {
     "hu_q": "Hány napot töltesz [STATE]?",
@@ -245,7 +275,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A hétvégét itt töltjük. Lehet, hogy ellátogatunk a National Mall-ra.",
     "en_a": "We are staying the weekend. We may visit the National Mall.",
     "category": "Greeting & closing",
-    "group": 27
+    "group": 27,
+    "star": true
   },
   {
     "hu_q": "Mit fogsz csinálni itt [STATE]?",
@@ -253,7 +284,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A hétvégét itt töltjük. Lehet, hogy ellátogatunk a National Mall-ra.",
     "en_a": "We are staying the weekend. We may visit the National Mall.",
     "category": "General",
-    "group": 27
+    "group": 27,
+    "star": true
   },
   {
     "hu_q": "Hogy hívják?",
@@ -261,7 +293,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[MY NAME] vagyok.",
     "en_a": "I am [MY NAME].",
     "category": "Personal details",
-    "group": 28
+    "group": 28,
+    "star": false
   },
   {
     "hu_q": "Mi a születési családi neve?",
@@ -269,7 +302,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[MY NAME] vagyok.",
     "en_a": "I am [MY NAME].",
     "category": "Personal details",
-    "group": 28
+    "group": 28,
+    "star": false
   },
   {
     "hu_q": "Mi a lánykori neve?",
@@ -277,7 +311,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[MY NAME] vagyok.",
     "en_a": "I am [MY NAME].",
     "category": "Personal details",
-    "group": 28
+    "group": 28,
+    "star": false
   },
   {
     "hu_q": "Meséljen magáról!",
@@ -285,7 +320,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "",
     "en_a": "",
     "category": "General",
-    "group": 29
+    "group": 29,
+    "star": false
   },
   {
     "hu_q": "Kérem mutatkozzon be!",
@@ -293,7 +329,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "",
     "en_a": "",
     "category": "General",
-    "group": 29
+    "group": 29,
+    "star": false
   },
   {
     "hu_q": "Beszéljen magáról!",
@@ -301,7 +338,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "",
     "en_a": "",
     "category": "General",
-    "group": 29
+    "group": 29,
+    "star": false
   },
   {
     "hu_q": "Hol tanult meg magyarul beszélni?",
@@ -309,7 +347,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Körülbelül két éve tanulok magyarul, sok magyar youtube videót nézek, a MagyarOK tankönyvből tanulok a tanárnőmmel hetente kétszer.",
     "en_a": "I have been learning Hungarian for about two years, I watch a lot of Hungarian YouTube videos, and I study from the MagyarOK textbook with my teacher twice a week.",
     "category": "Language learning",
-    "group": 30
+    "group": 30,
+    "star": false
   },
   {
     "hu_q": "Mióta tanul magyarul?",
@@ -317,7 +356,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Körülbelül két éve tanulok magyarul, sok magyar youtube videót nézek, a MagyarOK tankönyvből tanulok a tanárnőmmel hetente kétszer.",
     "en_a": "I have been learning Hungarian for about two years, I watch a lot of Hungarian YouTube videos, and I study from the MagyarOK textbook with my teacher twice a week.",
     "category": "Language learning",
-    "group": 31
+    "group": 31,
+    "star": false
   },
   {
     "hu_q": "Mióta tanulja a magyar nyelvet?",
@@ -325,7 +365,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Körülbelül két éve tanulok magyarul, sok magyar youtube videót nézek, a MagyarOK tankönyvből tanulok a tanárnőmmel hetente kétszer.",
     "en_a": "I have been learning Hungarian for about two years, I watch a lot of Hungarian YouTube videos, and I study from the MagyarOK textbook with my teacher twice a week.",
     "category": "Language learning",
-    "group": 32
+    "group": 32,
+    "star": false
   },
   {
     "hu_q": "Mennyi ideje tanul?",
@@ -333,7 +374,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Körülbelül két éve tanulok magyarul, sok magyar youtube videót nézek, a MagyarOK tankönyvből tanulok a tanárnőmmel hetente kétszer.",
     "en_a": "I have been learning Hungarian for about two years, I watch a lot of Hungarian YouTube videos, and I study from the MagyarOK textbook with my teacher twice a week.",
     "category": "Language learning",
-    "group": 33
+    "group": 33,
+    "star": false
   },
   {
     "hu_q": "Ha magyar lesz, folytatni fogja a magyar nyelv tanulàsàt?",
@@ -341,7 +383,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Természetesen. Imádok magyarul tanulni.",
     "en_a": "Of course. I love learning Hungarian.",
     "category": "Language learning",
-    "group": 34
+    "group": 34,
+    "star": true
   },
   {
     "hu_q": "A gyerekei is fognak tanulni magyarul?",
@@ -349,7 +392,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, a lányom egy kicsit tanul magyarul.",
     "en_a": "Yes, my daughter is learning a little Hungarian.",
     "category": "Language learning",
-    "group": 35
+    "group": 35,
+    "star": true
   },
   {
     "hu_q": "Miért kezdett el tanulni magyarul?",
@@ -357,7 +401,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Amikor megtudtam, hogy magyar állampolgár lehetek, mindig is szerettem volna megtanulni őseim nyelvét.",
     "en_a": "When I found out that I could become a Hungarian citizen. I always wanted to learn the language of my ancestors.",
     "category": "Language learning",
-    "group": 36
+    "group": 36,
+    "star": true
   },
   {
     "hu_q": "Mennyi ideje milyen gyakran van magyar órája?",
@@ -365,7 +410,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Minden nap tanulok, és hetente kétszer találkozom a magyar tanárnőmmel, körülbelül egy órára.",
     "en_a": "I study everyday and meet with my hungarian teacher twice a week for about an hour",
     "category": "Language learning",
-    "group": 37
+    "group": 37,
+    "star": true
   },
   {
     "hu_q": "Milyen gyakran van magyar órája?",
@@ -373,7 +419,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Minden nap tanulok, és hetente kétszer találkozom a magyar tanárnőmmel, körülbelül egy órára.",
     "en_a": "I study everyday and meet with my hungarian teacher twice a week for about an hour",
     "category": "Language learning",
-    "group": 37
+    "group": 37,
+    "star": true
   },
   {
     "hu_q": "Hányszor van magyar órája egy héten?",
@@ -381,7 +428,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Minden nap tanulok, és hetente kétszer találkozom a magyar tanárnőmmel, körülbelül egy órára.",
     "en_a": "I study everyday and meet with my hungarian teacher twice a week for about an hour",
     "category": "Language learning",
-    "group": 37
+    "group": 37,
+    "star": true
   },
   {
     "hu_q": "Hányszor hetente van magyar órája?",
@@ -389,7 +437,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Minden nap tanulok, és hetente kétszer találkozom a magyar tanárnőmmel, körülbelül egy órára.",
     "en_a": "I study everyday and meet with my hungarian teacher twice a week for about an hour",
     "category": "Language learning",
-    "group": 37
+    "group": 37,
+    "star": true
   },
   {
     "hu_q": "Milyen hosszú egy magyar óra a tanárral?",
@@ -397,7 +446,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Körülbelül egy órás.",
     "en_a": "About one hour long.",
     "category": "Language learning",
-    "group": 38
+    "group": 38,
+    "star": true
   },
   {
     "hu_q": "Mit csinálnak egy magyar órán a tanárral?",
@@ -405,7 +455,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Magyarul beszélünk, olvasunk és nyelvtant tanulunk.",
     "en_a": "We speak in Hungarian, read and study Hungarian grammar.",
     "category": "Language learning",
-    "group": 39
+    "group": 39,
+    "star": true
   },
   {
     "hu_q": "Melyik nyelviskolában tanult?",
@@ -413,7 +464,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nem tanultam nyelviskolában. Egy online nyelvtanártóm tanultam magyarul.",
     "en_a": "I did not study at a language school.\nI learned Hungarian from an online language teacher.",
     "category": "Language learning",
-    "group": 40
+    "group": 40,
+    "star": false
   },
   {
     "hu_q": "Személyesen vagy online tanult?",
@@ -421,7 +473,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Egy online nyelvtanártóm tanultam magyarul.",
     "en_a": "I learned Hungarian from an online language teacher.",
     "category": "Language learning",
-    "group": 41
+    "group": 41,
+    "star": false
   },
   {
     "hu_q": "Hol lakik a tanára?",
@@ -429,7 +482,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A tanárnőm Szerbiában él és magyar állampolgár.",
     "en_a": "My teacher lives in Serbia and she is a Hungarian citizen.",
     "category": "Home & residence",
-    "group": 42
+    "group": 42,
+    "star": false
   },
   {
     "hu_q": "Milyen nyelven beszél?",
@@ -437,15 +491,17 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Beszélek angolul és magyarul.",
     "en_a": "I speak English and Hungarian.",
     "category": "Language learning",
-    "group": 43
+    "group": 43,
+    "star": false
   },
   {
     "hu_q": "Nehéz Önnek a magyar nyelv?",
     "en_q": "Is the Hungarian language difficult for you?",
-    "hu_a": "Igen, nehéz",
-    "en_a": "Yes, difficult",
+    "hu_a": "Igen, nehéz, de szép nyelv",
+    "en_a": "Yes, difficult but beautiful language.",
     "category": "Language learning",
-    "group": 44
+    "group": 44,
+    "star": false
   },
   {
     "hu_q": "Milyen fokon beszél magyarul?",
@@ -453,7 +509,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Remélem hogy középfokon beszélek magyarul.",
     "en_a": "I hope that I speak intermediate Hungarian.",
     "category": "Language learning",
-    "group": 45
+    "group": 45,
+    "star": false
   },
   {
     "hu_q": "Milyen szinten beszél magyarul?",
@@ -461,7 +518,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Remélem hogy középfokon beszélek magyarul.",
     "en_a": "I hope that I speak intermediate Hungarian.",
     "category": "Language learning",
-    "group": 45
+    "group": 45,
+    "star": false
   },
   {
     "hu_q": "Kitől tanult meg magyarul beszélni?",
@@ -469,7 +527,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Egy online nyelvtanártóm tanultam magyarul.",
     "en_a": "I learned Hungarian from an online language teacher.",
     "category": "Language learning",
-    "group": 46
+    "group": 46,
+    "star": false
   },
   {
     "hu_q": "Ön magyar származású?",
@@ -477,7 +536,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, apai ágon. Az állampolgárságot az dédanyám, [GREAT-GRANDMOTHER] alapján kérem. Ő [YEAR]. március 11-én született [VILLAGE], Magyarországon.",
     "en_a": "Yes, from my father's side.I am applying for citizenship based on my great-grandmother, [GREAT-GRANDMOTHER]. She was born on [DATE] in [VILLAGE], Hungary.",
     "category": "Ancestry & origin",
-    "group": 47
+    "group": 47,
+    "star": false
   },
   {
     "hu_q": "Le tudja vezetni magyar származását?",
@@ -485,7 +545,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A magyar felmenőm, a dédanyám [GREAT-GRANDMOTHER] [DATE] született [VILLAGE], Magyarországon, azután a nagyanyám [GRANDMOTHER] [YEAR] született [CITY], azután az apukám [FATHER] [YEAR] született [CITY] és azután én születtem.",
     "en_a": "My Hungarian ancestor, my great-grandmother [GREAT-GRANDMOTHER], was born on [DATE], in [VILLAGE], Hungary. Then my grandmother [GRANDMOTHER] was born in [YEAR] in [CITY], then my father [FATHER] was born in [YEAR] in [CITY], and then I was born.",
     "category": "Ancestry & origin",
-    "group": 48
+    "group": 48,
+    "star": false
   },
   {
     "hu_q": "Legyen szives vezesse le a magyar származását.",
@@ -493,7 +554,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A magyar felmenőm, a dédanyám [GREAT-GRANDMOTHER] [DATE] született [VILLAGE], Magyarországon, azután a nagyanyám [GRANDMOTHER] [YEAR] született [CITY], azután az apukám [FATHER] [YEAR] született [CITY] és azután én születtem.",
     "en_a": "My Hungarian ancestor, my great-grandmother [GREAT-GRANDMOTHER], was born on [DATE], in [VILLAGE], Hungary. Then my grandmother [GRANDMOTHER] was born in [YEAR] in [CITY], then my father [FATHER] was born in [YEAR] in [CITY], and then I was born.",
     "category": "Ancestry & origin",
-    "group": 48
+    "group": 48,
+    "star": false
   },
   {
     "hu_q": "Hol talalhato a város ahol a felmenője szulettet?",
@@ -501,7 +563,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[VILLAGE] egy falu [COUNTY] megyében van, Magyarországon. Körülbelül 2 600 lakosa van.",
     "en_a": "[VILLAGE] is a village in [COUNTY] county, Hungary. It has about 2,600 inhabitants.",
     "category": "Ancestry & origin",
-    "group": 49
+    "group": 49,
+    "star": false
   },
   {
     "hu_q": "Hol van a város a hol a magyar felmenője szulettet?",
@@ -509,7 +572,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[VILLAGE] egy falu [COUNTY] megyében van, Magyarországon. Körülbelül 2 600 lakosa van.",
     "en_a": "[VILLAGE] is a village in [COUNTY] county, Hungary. It has about 2,600 inhabitants.",
     "category": "Ancestry & origin",
-    "group": 49
+    "group": 49,
+    "star": false
   },
   {
     "hu_q": "Hol van [VILLAGE]?",
@@ -517,7 +581,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[VILLAGE] egy falu [COUNTY] megyében van, Magyarországon. Körülbelül 2 600 lakosa van.",
     "en_a": "[VILLAGE] is a village in [COUNTY] county, Hungary. It has about 2,600 inhabitants.",
     "category": "Ancestry & origin",
-    "group": 50
+    "group": 50,
+    "star": false
   },
   {
     "hu_q": "Város vagy falu?",
@@ -525,7 +590,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[VILLAGE] egy falu [COUNTY] megyében van, Magyarországon. Körülbelül 2 600 lakosa van.",
     "en_a": "[VILLAGE] is a village in [COUNTY] county, Hungary. It has about 2,600 inhabitants.",
     "category": "Ancestry & origin",
-    "group": 50
+    "group": 50,
+    "star": false
   },
   {
     "hu_q": "Hányan élnek a faluban?",
@@ -533,7 +599,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[VILLAGE] egy falu [COUNTY] megyében van, Magyarországon. Körülbelül 2 600 lakosa van.",
     "en_a": "[VILLAGE] is a village in [COUNTY] county, Hungary. It has about 2,600 inhabitants.",
     "category": "Ancestry & origin",
-    "group": 50
+    "group": 50,
+    "star": false
   },
   {
     "hu_q": "Hány ember él a faluban?",
@@ -541,7 +608,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[VILLAGE] egy falu [COUNTY] megyében van, Magyarországon. Körülbelül 2 600 lakosa van.",
     "en_a": "[VILLAGE] is a village in [COUNTY] county, Hungary. It has about 2,600 inhabitants.",
     "category": "Ancestry & origin",
-    "group": 50
+    "group": 50,
+    "star": false
   },
   {
     "hu_q": "Hol van [VILLAGE]?",
@@ -549,7 +617,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[VILLAGE] egy falu [COUNTY] megyében van, Magyarországon.",
     "en_a": "[VILLAGE] is a village in [COUNTY] county, Hungary.",
     "category": "Ancestry & origin",
-    "group": 51
+    "group": 51,
+    "star": false
   },
   {
     "hu_q": "Hány éves?",
@@ -557,7 +626,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[AGE] éves vagyok.",
     "en_a": "I am [AGE] years old.",
     "category": "Personal details",
-    "group": 52
+    "group": 52,
+    "star": false
   },
   {
     "hu_q": "Hol született?",
@@ -565,7 +635,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[COUNTRY]ában, [BIRTH CITY] születtem azonban, amerikai vagyok.",
     "en_a": "I was born in [BIRTH CITY], [COUNTRY], but I am American.",
     "category": "Personal details",
-    "group": 53
+    "group": 53,
+    "star": false
   },
   {
     "hu_q": "Honnan származik?",
@@ -573,7 +644,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[COUNTRY]ában, [BIRTH CITY] születtem azonban, amerikai vagyok.",
     "en_a": "I was born in [BIRTH CITY], [COUNTRY], but I am American.",
     "category": "Ancestry & origin",
-    "group": 54
+    "group": 54,
+    "star": false
   },
   {
     "hu_q": "Mi a születési helye?",
@@ -581,7 +653,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[COUNTRY]ában, [BIRTH CITY] születtem azonban, amerikai vagyok.",
     "en_a": "I was born in [BIRTH CITY], [COUNTRY], but I am American.",
     "category": "General",
-    "group": 55
+    "group": 55,
+    "star": false
   },
   {
     "hu_q": "Mikor született?",
@@ -589,7 +662,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[YEAR]. [DATE] születtem.",
     "en_a": "I was born on [DATE].",
     "category": "Personal details",
-    "group": 56
+    "group": 56,
+    "star": false
   },
   {
     "hu_q": "Miért ott születtél?",
@@ -597,7 +671,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az apukám ott dolgozott",
     "en_a": "My dad worked there.",
     "category": "Personal details",
-    "group": 57
+    "group": 57,
+    "star": true
   },
   {
     "hu_q": "Miért születtél [COUNTRY]ában?",
@@ -605,7 +680,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az apukám ott dolgozott",
     "en_a": "My dad worked there.",
     "category": "Personal details",
-    "group": 58
+    "group": 58,
+    "star": false
   },
   {
     "hu_q": "Házas?",
@@ -613,7 +689,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen! A férjem neve [SPOUSE]. Öt éve vagyunk házasok. Ő szoftverfejlesztő.",
     "en_a": "Yes! My husband's name is [SPOUSE]. We have been married for five years. He is a software developer.",
     "category": "Home & residence",
-    "group": 59
+    "group": 59,
+    "star": false
   },
   {
     "hu_q": "Ön házas?",
@@ -621,7 +698,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen! A férjem neve [SPOUSE]. Öt éve vagyunk házasok. Ő szoftverfejlesztő.",
     "en_a": "Yes! My husband's name is [SPOUSE]. We have been married for five years. He is a software developer.",
     "category": "Home & residence",
-    "group": 59
+    "group": 59,
+    "star": false
   },
   {
     "hu_q": "Mi a családi állapota?",
@@ -629,7 +707,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Házas vagyok.",
     "en_a": "I am married.",
     "category": "Personal details",
-    "group": 60
+    "group": 60,
+    "star": false
   },
   {
     "hu_q": "Családi állapota?",
@@ -637,7 +716,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Házas vagyok.",
     "en_a": "I am married.",
     "category": "Personal details",
-    "group": 60
+    "group": 60,
+    "star": false
   },
   {
     "hu_q": "Mikor házasodtak?",
@@ -645,7 +725,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "2021 óta házasok vagyunk.",
     "en_a": "We have been married since 2021.",
     "category": "Home & residence",
-    "group": 61
+    "group": 61,
+    "star": false
   },
   {
     "hu_q": "Korábban volt már házas?",
@@ -653,7 +734,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nem, ez az első házasságom.",
     "en_a": "No, this is my first marriage",
     "category": "Home & residence",
-    "group": 62
+    "group": 62,
+    "star": false
   },
   {
     "hu_q": "Hol ismerkedett meg a férjével?",
@@ -661,7 +743,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az egyetemen találkoztunk.",
     "en_a": "We met in college.",
     "category": "Family",
-    "group": 63
+    "group": 63,
+    "star": false
   },
   {
     "hu_q": "Mi a lánya kedvenc tantárgya?",
@@ -669,7 +752,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Szeret zenét hallgatni.",
     "en_a": "She enjoys listening to music.",
     "category": "Family",
-    "group": 64
+    "group": 64,
+    "star": false
   },
   {
     "hu_q": "Vannak gyermekeinek háziállatai vagy állatai?",
@@ -677,7 +761,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Van egy macskánk, [PET NAME] a neve.",
     "en_a": "We have a cat named [PET NAME].",
     "category": "Family",
-    "group": 65
+    "group": 65,
+    "star": true
   },
   {
     "hu_q": "Van házi kedvence?",
@@ -685,7 +770,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Van egy macskánk, [PET NAME] a neve.",
     "en_a": "We have a cat named [PET NAME].",
     "category": "Home & residence",
-    "group": 66
+    "group": 66,
+    "star": false
   },
   {
     "hu_q": "Házi állata van?",
@@ -693,15 +779,17 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Van egy macskánk, [PET NAME] a neve.",
     "en_a": "We have a cat named [PET NAME].",
     "category": "Home & residence",
-    "group": 66
+    "group": 66,
+    "star": false
   },
   {
     "hu_q": "A gyermeke bölcsődébe jár?",
     "en_q": "Does your child go to daycare?",
-    "hu_a": "Nem, van dadusunk.",
-    "en_a": "No, we have a nanny.",
+    "hu_a": "Igen, a lányom bölcsibe jár",
+    "en_a": "Yes, my daughter goes to daycare",
     "category": "Family",
-    "group": 67
+    "group": 67,
+    "star": true
   },
   {
     "hu_q": "Mi a gyermeke kedvenc étele?",
@@ -709,7 +797,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A lányom kedvenc étele jelenleg a banán.",
     "en_a": "My daughter's favorite food is currently banana.",
     "category": "Family",
-    "group": 68
+    "group": 68,
+    "star": false
   },
   {
     "hu_q": "Mi a lányod kedvenc étele?",
@@ -717,7 +806,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A lányom kedvenc étele jelenleg a banán.",
     "en_a": "My daughter's favorite food is currently banana.",
     "category": "Family",
-    "group": 69
+    "group": 69,
+    "star": false
   },
   {
     "hu_q": "Hogyan töltöd az időt a gyermekeddel?",
@@ -725,7 +815,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Szeretünk együtt játszani, olvasni és sétálni.",
     "en_a": "We like to play together, read, and go on walks.",
     "category": "Family",
-    "group": 70
+    "group": 70,
+    "star": false
   },
   {
     "hu_q": "Az édesanyját hogy hívják?",
@@ -733,7 +824,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Anyám neve [MOTHER] volt.",
     "en_a": "My mother's name was [MOTHER]",
     "category": "Family",
-    "group": 71
+    "group": 71,
+    "star": false
   },
   {
     "hu_q": "Mi volt édesanyja leánykori neve?",
@@ -741,7 +833,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Anyám leánykori neve [MOTHER — MAIDEN NAME] volt.",
     "en_a": "My mother's maiden name was [MOTHER — MAIDEN NAME].",
     "category": "Family",
-    "group": 72
+    "group": 72,
+    "star": false
   },
   {
     "hu_q": "Az édesanyja hol született?",
@@ -749,7 +842,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Anyám [STATE] [CITY] született.",
     "en_a": "My mother was born in [CITY], [STATE].",
     "category": "Family",
-    "group": 73
+    "group": 73,
+    "star": false
   },
   {
     "hu_q": "Az édesanyja mikor született?",
@@ -757,7 +851,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Anyám [YEAR]. [DATE] született.",
     "en_a": "My mother was born on [DATE].",
     "category": "Family",
-    "group": 74
+    "group": 74,
+    "star": false
   },
   {
     "hu_q": "Az édesapját hogy hívják?",
@@ -765,7 +860,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Apám neve [FATHER].",
     "en_a": "My fathers name is [FATHER].",
     "category": "Family",
-    "group": 75
+    "group": 75,
+    "star": false
   },
   {
     "hu_q": "Az édesapja hol született?",
@@ -773,7 +869,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az apukám [STATE] [CITY] született.",
     "en_a": "My fathers name was born in [CITY], [STATE].",
     "category": "Family",
-    "group": 76
+    "group": 76,
+    "star": false
   },
   {
     "hu_q": "Az édesapja mikor született?",
@@ -781,7 +878,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az apukám [YEAR]. [DATE] született.",
     "en_a": "My father was born on [DATE].",
     "category": "Family",
-    "group": 77
+    "group": 77,
+    "star": false
   },
   {
     "hu_q": "Hol élnek a szülei?",
@@ -789,7 +887,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az apukám [STATE] él. Az anyukám sajnos elhunt.",
     "en_a": "My dad lives in [STATE]. Unfortunately, my mom passed away.",
     "category": "Family",
-    "group": 78
+    "group": 78,
+    "star": false
   },
   {
     "hu_q": "Mi (volt) a szülei foglalkozása?",
@@ -797,7 +896,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az anyukám háziasszony volt, de sajnos elhunyt. Az apukám mérnök volt, de most már nyugdíjas.",
     "en_a": "My mom was a housewife, but unfortunately passed away. My dad was an engineer, but is now retired.",
     "category": "Family",
-    "group": 79
+    "group": 79,
+    "star": false
   },
   {
     "hu_q": "Hol végezte tanulmányait?",
@@ -805,7 +905,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az alapképzést a [UNIVERSITY] végeztem Informatikus technológia szakon.",
     "en_a": "I completed my undergraduate studies at [UNIVERSITY] in Information Technology.",
     "category": "Language learning",
-    "group": 80
+    "group": 80,
+    "star": false
   },
   {
     "hu_q": "Mikor végezte a tanulmányait?",
@@ -813,7 +914,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az alapképzést [YEAR] diplomáztam.",
     "en_a": "I graduated with my bachelor's degree in [YEAR].",
     "category": "Language learning",
-    "group": 81
+    "group": 81,
+    "star": false
   },
   {
     "hu_q": "Mikor szerezte a diplomáját?",
@@ -821,7 +923,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az alapképzést [YEAR] diplomáztam.",
     "en_a": "I graduated with my bachelor's degree in [YEAR].",
     "category": "Education & work",
-    "group": 82
+    "group": 82,
+    "star": false
   },
   {
     "hu_q": "Mi a kedvenc magyar könyved?",
@@ -829,7 +932,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Még nem olvastam igazi magyar könyveket, csak babakönyveket a lányomnak — de azokat nagyon élvezem!",
     "en_a": "I haven't read real Hungarian books yet, only baby books for my daughter — but I really enjoy those!",
     "category": "Hobbies & free time",
-    "group": 83
+    "group": 83,
+    "star": true
   },
   {
     "hu_q": "Mesélj nekem azokról a könyvekről.",
@@ -837,7 +941,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Könyveket olvasunk a színekről és a számokról.",
     "en_a": "We read books about colors and numbers.",
     "category": "Hobbies & free time",
-    "group": 84
+    "group": 84,
+    "star": true
   },
   {
     "hu_q": "Most hol él?",
@@ -845,7 +950,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[STATE], [CITY] élek a családommal.",
     "en_a": "I live in [CITY], [STATE] with my family.",
     "category": "Home & residence",
-    "group": 85
+    "group": 85,
+    "star": false
   },
   {
     "hu_q": "Melyik városban él?",
@@ -853,7 +959,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[STATE], [CITY] élek a családommal.",
     "en_a": "I live in [CITY], [STATE] with my family.",
     "category": "Home & residence",
-    "group": 86
+    "group": 86,
+    "star": false
   },
   {
     "hu_q": "Hol lakik?",
@@ -861,7 +968,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[STATE], [CITY] élek a családommal.",
     "en_a": "I live in [CITY], [STATE] with my family.",
     "category": "Home & residence",
-    "group": 87
+    "group": 87,
+    "star": false
   },
   {
     "hu_q": "Jelenleg hol lakik?",
@@ -869,7 +977,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[STATE], [CITY] élek a családommal.",
     "en_a": "I live in [CITY], [STATE] with my family.",
     "category": "Home & residence",
-    "group": 88
+    "group": 88,
+    "star": false
   },
   {
     "hu_q": "Lakásban él vagy házban?",
@@ -877,7 +986,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Két emeletes házban élünk. Négy hálószobája és három fürdőszobája van.",
     "en_a": "We live in a two story house. It has four bedrooms and three bathrooms.",
     "category": "Home & residence",
-    "group": 89
+    "group": 89,
+    "star": false
   },
   {
     "hu_q": "A ház emeletes vagy földszintes?",
@@ -885,7 +995,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Két emeletes házban élünk. Négy hálószobája és három fürdőszobája van.",
     "en_a": "We live in a two story house. It has four bedrooms and three bathrooms.",
     "category": "Home & residence",
-    "group": 90
+    "group": 90,
+    "star": false
   },
   {
     "hu_q": "Hány szobája van?",
@@ -893,7 +1004,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Négy hálószobája és három fürdőszobája van.",
     "en_a": "It has four bedrooms and three bathrooms.",
     "category": "Home & residence",
-    "group": 91
+    "group": 91,
+    "star": false
   },
   {
     "hu_q": "Ön a ház tulajdonosa vagy béreli a házat?",
@@ -901,7 +1013,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Mi birtokoljuk a házat.",
     "en_a": "We own the house.",
     "category": "Home & residence",
-    "group": 92
+    "group": 92,
+    "star": false
   },
   {
     "hu_q": "Milyen különböző helyiségek vannak a házában?",
@@ -909,7 +1022,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Két emeletes házban élünk. Négy hálószobája és három fürdőszobája van.",
     "en_a": "We live in a two story house. It has four bedrooms and three bathrooms.",
     "category": "Home & residence",
-    "group": 93
+    "group": 93,
+    "star": false
   },
   {
     "hu_q": "Milyen fajta házban él?",
@@ -917,7 +1031,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Két emeletes házban élünk. Négy hálószobája és három fürdőszobája van.",
     "en_a": "We live in a two story house. It has four bedrooms and three bathrooms.",
     "category": "Home & residence",
-    "group": 94
+    "group": 94,
+    "star": false
   },
   {
     "hu_q": "Milyen típusú házban él?",
@@ -925,7 +1040,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Két emeletes házban élünk. Négy hálószobája és három fürdőszobája van.",
     "en_a": "We live in a two story house. It has four bedrooms and three bathrooms.",
     "category": "Home & residence",
-    "group": 95
+    "group": 95,
+    "star": false
   },
   {
     "hu_q": "Van kert a háznál?",
@@ -933,7 +1049,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, egy kis kertunk a hátsó udvarban.",
     "en_a": "Yes, a small garden in the backyard.",
     "category": "Home & residence",
-    "group": 96
+    "group": 96,
+    "star": false
   },
   {
     "hu_q": "Mi a foglalkozása?",
@@ -941,7 +1058,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Üzleti elemző vagyok. Én vagyok a kapcsolat a vállalkozás és a fejlesztők között, hogy meghatározzuk, hogyan és mit kell programozni a szoftver alkalmazásba az üzleti tevékenység támogatásához.",
     "en_a": "I am a business analyst. I serve as the link between the business and the developers to determine how and what needs to be programmed into the software application to support business operations.",
     "category": "Education & work",
-    "group": 97
+    "group": 97,
+    "star": false
   },
   {
     "hu_q": "Mi a szakmája?",
@@ -949,7 +1067,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Üzleti elemző vagyok. Én vagyok a kapcsolat a vállalkozás és a fejlesztők között, hogy meghatározzuk, hogyan és mit kell programozni a szoftver alkalmazásba az üzleti tevékenység támogatásához.",
     "en_a": "I am a business analyst. I serve as the link between the business and the developers to determine how and what needs to be programmed into the software application to support business operations.",
     "category": "Education & work",
-    "group": 98
+    "group": 98,
+    "star": true
   },
   {
     "hu_q": "Mit csinálsz a munkahelyeden?",
@@ -957,7 +1076,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Beszélek az ügyféllel, hogy megértsem, milyen szoftvert szeretne.\nEzután megbeszélem ezeket a kéréseket a fejlesztőcsapattal. Amikor minden elkészült, bemutatom a szoftvert az ügyfélnek.",
     "en_a": "I talk to the client to understand what kind of software they want. Then I discuss these requests with the development team. When everything is ready, I present the software to the client.",
     "category": "Education & work",
-    "group": 99
+    "group": 99,
+    "star": false
   },
   {
     "hu_q": "Mit csinál ön a munkahelyen?",
@@ -965,7 +1085,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Beszélek az ügyféllel, hogy megértsem, milyen szoftvert szeretne.\nEzután megbeszélem ezeket a kéréseket a fejlesztőcsapattal. Amikor minden elkészült, bemutatom a szoftvert az ügyfélnek.",
     "en_a": "I talk to the client to understand what kind of software they want. Then I discuss these requests with the development team. When everything is ready, I present the software to the client.",
     "category": "Education & work",
-    "group": 100
+    "group": 100,
+    "star": true
   },
   {
     "hu_q": "Mennyi ideig dolgozott az utolsó munkahelyén?",
@@ -973,7 +1094,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az utolsó munkahelyem az [PREVIOUS EMPLOYER] volt, és körülbelül öt évig dolgoztam ott üzleti elemzőként.",
     "en_a": "The last company I worked at was [PREVIOUS EMPLOYER] and I worked there for about five years as a business analyst.",
     "category": "Education & work",
-    "group": 101
+    "group": 101,
+    "star": true
   },
   {
     "hu_q": "Mi volt a korábbi munkája?",
@@ -981,7 +1103,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az utolsó munkahelyem az [PREVIOUS EMPLOYER] volt, és körülbelül öt évig dolgoztam ott üzleti elemzőként.",
     "en_a": "The last company I worked at was [PREVIOUS EMPLOYER] and I worked there for about five years as a business analyst.",
     "category": "Education & work",
-    "group": 102
+    "group": 102,
+    "star": true
   },
   {
     "hu_q": "Mi volt az előző munkája?",
@@ -989,7 +1112,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az utolsó munkahelyem az [PREVIOUS EMPLOYER] volt, és körülbelül öt évig dolgoztam ott üzleti elemzőként.",
     "en_a": "The last company I worked at was [PREVIOUS EMPLOYER] and I worked there for about five years as a business analyst.",
     "category": "Education & work",
-    "group": 102
+    "group": 102,
+    "star": true
   },
   {
     "hu_q": "Mi volt a munkád előtte?",
@@ -997,7 +1121,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Előtte egy közműcégnél dolgoztam pár évig üzleti elemzőként.",
     "en_a": "Before that, I worked for a public utility company for a few years as a business analyst.",
     "category": "Education & work",
-    "group": 103
+    "group": 103,
+    "star": true
   },
   {
     "hu_q": "Hol dolgozik?",
@@ -1005,7 +1130,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A [EMPLOYER]él dolgozom",
     "en_a": "I work at [EMPLOYER]",
     "category": "Education & work",
-    "group": 104
+    "group": 104,
+    "star": false
   },
   {
     "hu_q": "Hol van a munkahelye?",
@@ -1013,7 +1139,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az iroda közel van [CITY] belvárosához.",
     "en_a": "The office is near downtown [CITY].",
     "category": "Education & work",
-    "group": 105
+    "group": 105,
+    "star": false
   },
   {
     "hu_q": "Mi a feladata a munkahelyen?",
@@ -1021,7 +1148,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Beszélek az ügyféllel, hogy megértsem, milyen szoftvert szeretne.\nEzután megbeszélem ezeket a kéréseket a fejlesztőcsapattal. Amikor minden elkészült, bemutatom a szoftvert az ügyfélnek.",
     "en_a": "I talk to the client to understand what kind of software they want. Then I discuss these requests with the development team. When everything is ready, I present the software to the client.",
     "category": "Education & work",
-    "group": 106
+    "group": 106,
+    "star": false
   },
   {
     "hu_q": "Van testvére?",
@@ -1029,7 +1157,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, két testvérem van. Az idősebb nővérem neve [SISTER], ő àpolónő és [STATE] él. A fiatalabb nővérem [SISTER], ő adminisztrátor és [STATE] él.",
     "en_a": "Yes, I have two sisters. My older sister's name is [SISTER], she is a nurse and lives in [STATE]. My younger older sister is [SISTER], she is an administrator and lives in [STATE].",
     "category": "Family",
-    "group": 107
+    "group": 107,
+    "star": false
   },
   {
     "hu_q": "Mi a testvére foglalkozása?",
@@ -1037,7 +1166,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az idősebb nővérem ápolónő és a fiatalabb nővérem adminisztrátor.",
     "en_a": "My older sister is a nurse and my younger older sister is an administrator.",
     "category": "Family",
-    "group": 108
+    "group": 108,
+    "star": false
   },
   {
     "hu_q": "Ki részére nyujtja be a kérelmet?",
@@ -1045,7 +1175,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Magam és lányom részére nyújtom be a kérelmet.",
     "en_a": "I am submitting the application for myself and my daughter.",
     "category": "Documents & application",
-    "group": 109
+    "group": 109,
+    "star": true
   },
   {
     "hu_q": "A gyerekek részére is kérelmezi a magyar àllampolgàrsàgot?",
@@ -1053,7 +1184,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, magam és lányom részére nyújtom be a kérelmet.",
     "en_a": "Yes, I am submitting the application for myself and my daughter.",
     "category": "Documents & application",
-    "group": 110
+    "group": 110,
+    "star": true
   },
   {
     "hu_q": "A lányára is kérelmezi a magyar állampolgárságot?",
@@ -1061,7 +1193,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, magam és lányom részére nyújtom be a kérelmet.",
     "en_a": "Yes, I am submitting the application for myself and my daughter.",
     "category": "Documents & application",
-    "group": 111
+    "group": 111,
+    "star": true
   },
   {
     "hu_q": "A lányának a számára is kérelmezi a magyar állampolgárságot?",
@@ -1069,7 +1202,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, magam és lányom részére nyújtom be a kérelmet.",
     "en_a": "Yes, I am submitting the application for myself and my daughter.",
     "category": "Documents & application",
-    "group": 112
+    "group": 112,
+    "star": true
   },
   {
     "hu_q": "A gyerekek szàmàra is kérelmezi a magyar àllampolgàrsàgot?",
@@ -1077,7 +1211,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, magam és lányom részére nyújtom be a kérelmet.",
     "en_a": "Yes, I am submitting the application for myself and my daughter.",
     "category": "Documents & application",
-    "group": 113
+    "group": 113,
+    "star": true
   },
   {
     "hu_q": "Mire alapozza a kérelmét?",
@@ -1085,7 +1220,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A magyar felmenőm, a dédanyám [GREAT-GRANDMOTHER] [DATE] született [VILLAGE], Magyarországon.",
     "en_a": "My Hungarian ancestor, my great-grandmother [GREAT-GRANDMOTHER], was born on [DATE] in [VILLAGE], Hungary.",
     "category": "Documents & application",
-    "group": 114
+    "group": 114,
+    "star": false
   },
   {
     "hu_q": "Kire alapozza a kérelmét?",
@@ -1093,7 +1229,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A magyar felmenőm, a dédanyám [GREAT-GRANDMOTHER] [DATE] született [VILLAGE], Magyarországon.",
     "en_a": "My Hungarian ancestor, my great-grandmother [GREAT-GRANDMOTHER], was born on [DATE] in [VILLAGE], Hungary.",
     "category": "Documents & application",
-    "group": 115
+    "group": 115,
+    "star": false
   },
   {
     "hu_q": "Kire hivatkozik?",
@@ -1101,7 +1238,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A magyar felmenőm, a dédanyám [GREAT-GRANDMOTHER] [DATE] született [VILLAGE], Magyarországon.",
     "en_a": "My Hungarian ancestor, my great-grandmother [GREAT-GRANDMOTHER], was born on [DATE] in [VILLAGE], Hungary.",
     "category": "Documents & application",
-    "group": 116
+    "group": 116,
+    "star": true
   },
   {
     "hu_q": "Az édesapja oldaláról magyar származású?",
@@ -1109,7 +1247,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen. Az apukám ágon magyar származású vagyok. A dédanyám Magyarországon született.",
     "en_a": "Yes. I am of Hungarian origin on my father's side. My great-grandmother was born in Hungary.",
     "category": "Ancestry & origin",
-    "group": 117
+    "group": 117,
+    "star": false
   },
   {
     "hu_q": "Az édesanyja oldaláról magyar származású?",
@@ -1117,7 +1256,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nem, az apukám ágon magyar származású vagyok.",
     "en_a": "No, I am of Hungarian origin on my father's side.",
     "category": "Ancestry & origin",
-    "group": 118
+    "group": 118,
+    "star": false
   },
   {
     "hu_q": "Melyik oldaláról magyar származású?",
@@ -1125,7 +1265,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az apukám ágon magyar származású vagyok.",
     "en_a": "I am of Hungarian origin on my father's side.",
     "category": "Ancestry & origin",
-    "group": 119
+    "group": 119,
+    "star": false
   },
   {
     "hu_q": "Melyik ágon?",
@@ -1133,7 +1274,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az apukám ágon magyar származású vagyok.",
     "en_a": "I am of Hungarian origin on my father's side.",
     "category": "Ancestry & origin",
-    "group": 120
+    "group": 120,
+    "star": false
   },
   {
     "hu_q": "Mióta tudja, hogy magyar felmenői vannak?",
@@ -1141,7 +1283,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Mindig is tudtam a magyar származásomról, mert a családom nagyon büszke.",
     "en_a": "I have always known about my Hungarian heritage because my family is very proud.",
     "category": "Ancestry & origin",
-    "group": 121
+    "group": 121,
+    "star": true
   },
   {
     "hu_q": "Melyik felmenője volt magyar?",
@@ -1149,7 +1292,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A magyar felmenőm, a dédanyám [GREAT-GRANDMOTHER] [DATE] született [VILLAGE], Magyarországon.",
     "en_a": "My Hungarian ancestor, my great-grandmother [GREAT-GRANDMOTHER], was born on [DATE] in [VILLAGE], Hungary.",
     "category": "Ancestry & origin",
-    "group": 122
+    "group": 122,
+    "star": false
   },
   {
     "hu_q": "Ki volt magyar állampolgár a családiaban?",
@@ -1157,7 +1301,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A magyar felmenőm, a dédanyám [GREAT-GRANDMOTHER] [DATE] született [VILLAGE], Magyarországon.",
     "en_a": "My Hungarian ancestor, my great-grandmother [GREAT-GRANDMOTHER], was born on [DATE] in [VILLAGE], Hungary.",
     "category": "Ancestry & origin",
-    "group": 123
+    "group": 123,
+    "star": true
   },
   {
     "hu_q": "Őt hogy hívták?",
@@ -1165,7 +1310,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A magyar felmenőm, a dédanyàm neve [GREAT-GRANDMOTHER] volt.",
     "en_a": "My Hungarian ancestor, my great grandmother's name was [GREAT-GRANDMOTHER].",
     "category": "Personal details",
-    "group": 124
+    "group": 124,
+    "star": false
   },
   {
     "hu_q": "A dédanyja meddig élt Magyarországon?",
@@ -1173,7 +1319,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A dédanyám Magyarországon élt, amíg három éves nem lett.",
     "en_a": "My great-grandmother lived in Hungary until she was 3.",
     "category": "Ancestry & origin",
-    "group": 125
+    "group": 125,
+    "star": true
   },
   {
     "hu_q": "A magyar felmenője meddig élt Magyarországon?",
@@ -1181,7 +1328,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A dédanyám Magyarországon élt, amíg három éves nem lett.",
     "en_a": "My great-grandmother lived in Hungary until she was 3.",
     "category": "Ancestry & origin",
-    "group": 125
+    "group": 125,
+    "star": true
   },
   {
     "hu_q": "Milyen körülmények között hagyta el Magyarországot?",
@@ -1189,7 +1337,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az ükszüleim jobb munkai lehetőségeket kerestek Amerikában és a dédanyám gyerekként Amerikába hozták.",
     "en_a": "My great-grandparents looked for better job opportunities in America, and my great-grandmother was brought to America as a child.",
     "category": "Ancestry & origin",
-    "group": 126
+    "group": 126,
+    "star": true
   },
   {
     "hu_q": "Az dédanyja miért emigrált?",
@@ -1197,7 +1346,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az ükszüleim jobb munkai lehetőségeket kerestek Amerikában és a dédanyám gyerekként Amerikába hozták.",
     "en_a": "My great-grandparents looked for better job opportunities in America, and my great-grandmother was brought to America as a child.",
     "category": "Ancestry & origin",
-    "group": 127
+    "group": 127,
+    "star": false
   },
   {
     "hu_q": "Beszélt a dédnagymamája magyarul?",
@@ -1205,7 +1355,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, a dédanyám beszélt magyarul.",
     "en_a": "Yes, my great-grandmother spoke Hungarian.",
     "category": "Ancestry & origin",
-    "group": 128
+    "group": 128,
+    "star": true
   },
   {
     "hu_q": "Ismerte a dédnagymamaja?",
@@ -1213,7 +1364,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Sajnos elhunyt, mielőtt megszülettem.",
     "en_a": "Unfortunately, she passed away before I was born.",
     "category": "Ancestry & origin",
-    "group": 129
+    "group": 129,
+    "star": true
   },
   {
     "hu_q": "Beszél valaki magyarul a családjában?",
@@ -1221,7 +1373,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Sajnos a családomban senki sem beszél magyarul.",
     "en_a": "Unfortunately, no one in my family speaks Hungarian.",
     "category": "Language learning",
-    "group": 130
+    "group": 130,
+    "star": true
   },
   {
     "hu_q": "A testvéreid szeretnének magyar állampolgárok lenni?",
@@ -1229,7 +1382,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, valamikor a jövőben.",
     "en_a": "Yes, sometime in the future.",
     "category": "Family",
-    "group": 131
+    "group": 131,
+    "star": true
   },
   {
     "hu_q": "Az idősebb nővéred szeretne magyar állampolgár lenni?",
@@ -1237,7 +1391,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, valamikor a jövőben.",
     "en_a": "Yes, sometime in the future.",
     "category": "Family",
-    "group": 132
+    "group": 132,
+    "star": false
   },
   {
     "hu_q": "A fiatalabb nővéred szeretne magyar állampolgár lenni?",
@@ -1245,7 +1400,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, valamikor a jövőben.",
     "en_a": "Yes, sometime in the future.",
     "category": "Family",
-    "group": 133
+    "group": 133,
+    "star": false
   },
   {
     "hu_q": "Van már a családjában magyar állampolgár?",
@@ -1253,7 +1409,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nem, sajnos a családomban nincsenek magyar állampolgárok.",
     "en_a": "No, unfortunately there aren't any Hungarian citizens in my family.",
     "category": "General",
-    "group": 134
+    "group": 134,
+    "star": true
   },
   {
     "hu_q": "Kérelmezte már valaki a családjában a magyar állampolgárságot?",
@@ -1261,7 +1418,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nem, én vagyok az első.",
     "en_a": "No, I am the first.",
     "category": "Documents & application",
-    "group": 135
+    "group": 135,
+    "star": true
   },
   {
     "hu_q": "Ön kérelmezte korábban a magyar állampolgárságot?",
@@ -1269,7 +1427,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nem, most először.",
     "en_a": "No, now first time.",
     "category": "Documents & application",
-    "group": 136
+    "group": 136,
+    "star": false
   },
   {
     "hu_q": "Ön most először kérelmezi a magyar állampolgárságot?",
@@ -1277,7 +1436,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, most először.",
     "en_a": "Yes, now first time.",
     "category": "Documents & application",
-    "group": 137
+    "group": 137,
+    "star": false
   },
   {
     "hu_q": "Először nyujtja be a kérelmet?",
@@ -1285,7 +1445,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, most először.",
     "en_a": "Yes, now first time.",
     "category": "Documents & application",
-    "group": 138
+    "group": 138,
+    "star": false
   },
   {
     "hu_q": "A törvény alapján Ön jogosult magyar állampolgárságra.",
@@ -1293,7 +1454,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Értem, köszönöm.",
     "en_a": "I understand, thank you.",
     "category": "Documents & application",
-    "group": 139
+    "group": 139,
+    "star": true
   },
   {
     "hu_q": "A törvény alapján Ön kérelmezhet magyar állampolgárságot.",
@@ -1301,7 +1463,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Értem, köszönöm.",
     "en_a": "I understand, thank you.",
     "category": "Documents & application",
-    "group": 140
+    "group": 140,
+    "star": true
   },
   {
     "hu_q": "Magyarországon vannak rokonai?",
@@ -1309,7 +1472,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nem, nem tudok róla.",
     "en_a": "No, not that I know of.",
     "category": "Ancestry & origin",
-    "group": 141
+    "group": 141,
+    "star": false
   },
   {
     "hu_q": "Ön járt már Magyarországon?",
@@ -1317,7 +1481,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
     "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
     "category": "Ancestry & origin",
-    "group": 142
+    "group": 142,
+    "star": true
   },
   {
     "hu_q": "Volt már Magyarországon?",
@@ -1325,7 +1490,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
     "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
     "category": "Ancestry & origin",
-    "group": 143
+    "group": 143,
+    "star": false
   },
   {
     "hu_q": "Személyesen járt már Magyarországon?",
@@ -1333,7 +1499,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
     "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
     "category": "Ancestry & origin",
-    "group": 144
+    "group": 144,
+    "star": false
   },
   {
     "hu_q": "Mennyit volt Magyarországon?",
@@ -1341,7 +1508,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Májusban két hétig voltunk ott.",
     "en_a": "We were there for two weeks in May.",
     "category": "Ancestry & origin",
-    "group": 145
+    "group": 145,
+    "star": true
   },
   {
     "hu_q": "Melyik európai országokban járt?",
@@ -1349,7 +1517,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Voltam Izlandon és Angliában.",
     "en_a": "I have visited Iceland and England.",
     "category": "Visiting Hungary",
-    "group": 146
+    "group": 146,
+    "star": true
   },
   {
     "hu_q": "Miért nem utaztál még Magyarországra?",
@@ -1357,7 +1526,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
     "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
     "category": "Greeting & closing",
-    "group": 147
+    "group": 147,
+    "star": false
   },
   {
     "hu_q": "Mikor tervez Magyarországra ujra utazni?",
@@ -1365,7 +1535,17 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Most nem tudom, de remélem, hamarosan.",
     "en_a": "I don't know right now, but I hope soon.",
     "category": "Greeting & closing",
-    "group": 148
+    "group": 148,
+    "star": true
+  },
+  {
+    "hu_q": "Mit szeretne megnézni Magyarországon?",
+    "en_q": "What would you like to see in Hungary?",
+    "hu_a": "Szeretnék látni [VILLAGE], ahol a dédnagymamám született.",
+    "en_a": "I would like to see [VILLAGE] where my great-grandmother was born",
+    "category": "Ancestry & origin",
+    "group": 149,
+    "star": true
   },
   {
     "hu_q": "Mit csinált Magyarországon?",
@@ -1373,7 +1553,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Láttuk a Bazilikát és a Parlamentet. Nagyon szerettem a Duna-parton sétálni.",
     "en_a": "We saw Saint [FATHER]'s Cathedral and the Parliament. I adored walking along the Danube.",
     "category": "Ancestry & origin",
-    "group": 149
+    "group": 150,
+    "star": false
   },
   {
     "hu_q": "Mit csinált Budapesten?",
@@ -1381,7 +1562,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Láttuk a Bazilikát és a Parlamentet. Nagyon szerettem a Duna-parton sétálni.",
     "en_a": "We saw Saint [FATHER]'s Cathedral and the Parliament. I adored walking along the Danube.",
     "category": "Visiting Hungary",
-    "group": 150
+    "group": 151,
+    "star": false
   },
   {
     "hu_q": "Mivel töltötte az idejét Magyarországon?",
@@ -1389,7 +1571,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Láttuk a Bazilikát és a Parlamentet. Nagyon szerettem a Duna-parton sétálni.",
     "en_a": "We saw Saint [FATHER]'s Cathedral and the Parliament. I adored walking along the Danube.",
     "category": "Ancestry & origin",
-    "group": 151
+    "group": 152,
+    "star": false
   },
   {
     "hu_q": "Mit nézett meg Budapesten?",
@@ -1397,7 +1580,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Láttuk a Bazilikát és a Parlamentet. Nagyon szerettem a Duna-parton sétálni.",
     "en_a": "We saw Saint [FATHER]'s Cathedral and the Parliament. I adored walking along the Danube.",
     "category": "Visiting Hungary",
-    "group": 152
+    "group": 153,
+    "star": false
   },
   {
     "hu_q": "Milyen iratokat hozott magával?",
@@ -1405,7 +1589,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Megvan a dédanyám születési anyakönyvi kivonata.\nA dédanyám házassági anyakönyvi kivonata.\nA nagymamám születési anyakönyvi kivonata.\nA nagymamám házassági anyakönyvi kivonata.\nAz apukám születési anyakönyvi kivonata.\nAz apukám házassági anyakönyvi kivonata.\nA születési anyakönyvi kivonatom.\nA házassági anyakönyvi kivonatom.\nA lányom születési anyakönyvi kivonata.",
     "en_a": "I have my great-grandmother's birth certificate.\nMy great-grandmother's marriage certificate.\nMy grandmother's birth certificate.\nMy grandmother's marriage certificate.\nMy father's birth certificate.\nMy father's marriage certificate.\nMy birth certificate.\nMy marriage certificate.\nMy daughter's birth certificate.",
     "category": "Documents & application",
-    "group": 153
+    "group": 154,
+    "star": false
   },
   {
     "hu_q": "Milyen dokumentumokat hozott magával?",
@@ -1413,7 +1598,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A dédanyám születési anyakönyvi kivonata.\nA dédanyám házassági anyakönyvi kivonata.\nA nagymamám születési anyakönyvi kivonata.\nA nagymamám házassági anyakönyvi kivonata.\nAz apukám születési anyakönyvi kivonata.\nAz apukám házassági anyakönyvi kivonata.\nA születési anyakönyvi kivonatom.\nA házassági anyakönyvi kivonatom.\nA lányom születési anyakönyvi kivonata.",
     "en_a": "My great-grandmother's birth certificate.\nMy great-grandmother's marriage certificate.\nMy grandmother's birth certificate.\nMy grandmother's marriage certificate.\nMy father's birth certificate.\nMy father's marriage certificate.\nMy birth certificate.\nMy marriage certificate.\nMy daughter's birth certificate.",
     "category": "Documents & application",
-    "group": 154
+    "group": 155,
+    "star": false
   },
   {
     "hu_q": "Milyen okiratokat hozott magával?",
@@ -1421,7 +1607,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A dédanyám születési anyakönyvi kivonata.\nA dédanyám házassági anyakönyvi kivonata.\nA nagymamám születési anyakönyvi kivonata.\nA nagymamám házassági anyakönyvi kivonata.\nAz apukám születési anyakönyvi kivonata.\nAz apukám házassági anyakönyvi kivonata.\nA születési anyakönyvi kivonatom.\nA házassági anyakönyvi kivonatom.\nA lányom születési anyakönyvi kivonata.",
     "en_a": "My great-grandmother's birth certificate.\nMy great-grandmother's marriage certificate.\nMy grandmother's birth certificate.\nMy grandmother's marriage certificate.\nMy father's birth certificate.\nMy father's marriage certificate.\nMy birth certificate.\nMy marriage certificate.\nMy daughter's birth certificate.",
     "category": "Documents & application",
-    "group": 155
+    "group": 156,
+    "star": false
   },
   {
     "hu_q": "Megvan a dédnagymamája házassági anyakönyvi kivonata?",
@@ -1429,7 +1616,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, itt van.",
     "en_a": "Yes, I have it here.",
     "category": "Documents & application",
-    "group": 156
+    "group": 157,
+    "star": false
   },
   {
     "hu_q": "Megvan a szülei házassági anyakönyvi kivonata?",
@@ -1437,7 +1625,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, itt van.",
     "en_a": "Yes, I have it here.",
     "category": "Documents & application",
-    "group": 157
+    "group": 158,
+    "star": false
   },
   {
     "hu_q": "Itt van az útlevele?",
@@ -1445,7 +1634,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, itt van.",
     "en_a": "Yes, I have it here.",
     "category": "Documents & application",
-    "group": 158
+    "group": 159,
+    "star": false
   },
   {
     "hu_q": "Elhozta az útlevelét?",
@@ -1453,7 +1643,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, itt van.",
     "en_a": "Yes, I have my passport",
     "category": "Documents & application",
-    "group": 159
+    "group": 160,
+    "star": false
   },
   {
     "hu_q": "Kitöltötte a kérelmet?",
@@ -1461,7 +1652,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, kitöltöttem a kérelmet.",
     "en_a": "Yes, I filled in the application form.",
     "category": "Documents & application",
-    "group": 160
+    "group": 161,
+    "star": true
   },
   {
     "hu_q": "Akkor menjünk végig a kérelmen!",
@@ -1469,7 +1661,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben. Nincs kérdésem.",
     "en_a": "Okay. I have no questions.",
     "category": "Documents & application",
-    "group": 161
+    "group": 162,
+    "star": true
   },
   {
     "hu_q": "Van kérdése?",
@@ -1477,7 +1670,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben. Nincs kérdésem.",
     "en_a": "Okay. I have no questions.",
     "category": "Documents & application",
-    "group": 161
+    "group": 162,
+    "star": true
   },
   {
     "hu_q": "Szeretném leellenőrizni az adatait.",
@@ -1485,7 +1679,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Documents & application",
-    "group": 162
+    "group": 163,
+    "star": true
   },
   {
     "hu_q": "Szeretném leellenőrizni önnel az adatokat.",
@@ -1493,7 +1688,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Documents & application",
-    "group": 163
+    "group": 164,
+    "star": true
   },
   {
     "hu_q": "Itt vannak a születési anyakönyvi kivonatok?",
@@ -1501,7 +1697,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, parancsoljon. Igen, tessék.",
     "en_a": "Yes, here you are.",
     "category": "Documents & application",
-    "group": 164
+    "group": 165,
+    "star": false
   },
   {
     "hu_q": "Lefordította a dokumentumait?",
@@ -1509,7 +1706,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, a magyar tanárom fordította le őket",
     "en_a": "Yes, my hungarian teacher translated them.",
     "category": "Documents & application",
-    "group": 165
+    "group": 166,
+    "star": true
   },
   {
     "hu_q": "Nehéz volt megtalálni a dokumentumokat?",
@@ -1517,7 +1715,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nem volt nehéz. A magyar tanárom segített nekem a magyar dokumentumokkal.",
     "en_a": "It was not difficult. My hungarian teacher helped me with the Hungarian documents.",
     "category": "Documents & application",
-    "group": 166
+    "group": 167,
+    "star": true
   },
   {
     "hu_q": "Hol találta az iratait?",
@@ -1525,7 +1724,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Magyarországon és az Egyesült Államokban találtam őket.",
     "en_a": "I found them in Hungary and the United States.",
     "category": "Documents & application",
-    "group": 167
+    "group": 168,
+    "star": false
   },
   {
     "hu_q": "Van fényképe?",
@@ -1533,7 +1733,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, hoztam fotókat.",
     "en_a": "Yes, I brought photos",
     "category": "Documents & application",
-    "group": 168
+    "group": 169,
+    "star": false
   },
   {
     "hu_q": "Ön tud irni és olvasni is magyarul?",
@@ -1541,7 +1742,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, tudok irni és olvasni magyarul.",
     "en_a": "Yes, I can write and read Hungarian.",
     "category": "Language learning",
-    "group": 169
+    "group": 170,
+    "star": false
   },
   {
     "hu_q": "Kérem irjon néhány mondatot magáról.",
@@ -1549,7 +1751,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "All right.",
     "category": "Documents & application",
-    "group": 170
+    "group": 171,
+    "star": false
   },
   {
     "hu_q": "Miért szeretne magyar állampolgár lenni?",
@@ -1557,7 +1760,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Szeretnék magyar állampolgár lenni mert nagyon érdekel a családom történelme, sokat hallgattam a nagymamám mesélni a szüleiről és szeretném visszahozni a magyar örökséget a családomba és megadni a lehetőságet a lányomnak hogy magyar állampolgár legyen.",
     "en_a": "I would like to become a Hungarian citizen because I am very interested in my family's history. I often listened to my grandmother tell stories about her parents, and I would like to bring Hungarian heritage back into my family and give my daughter the opportunity to become a Hungarian citizen.",
     "category": "Motivation & future",
-    "group": 171
+    "group": 172,
+    "star": false
   },
   {
     "hu_q": "Miért akar magyar állampolgár lenni?",
@@ -1565,7 +1769,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Szeretnék magyar állampolgár lenni mert nagyon érdekel a családom történelme, sokat hallgattam a nagymamám mesélni a szüleiről és szeretném visszahozni a magyar örökséget a családomba és megadni a lehetőságet a lányomnak hogy magyar állampolgár legyen.",
     "en_a": "I would like to become a Hungarian citizen because I am very interested in my family's history. I often listened to my grandmother tell stories about her parents, and I would like to bring Hungarian heritage back into my family and give my daughter the opportunity to become a Hungarian citizen.",
     "category": "Motivation & future",
-    "group": 172
+    "group": 173,
+    "star": false
   },
   {
     "hu_q": "Miért fontos, hogy megkapja a magyar állampolgárságot?",
@@ -1573,7 +1778,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Szeretnék magyar állampolgár lenni mert nagyon érdekel a családom történelme, sokat hallgattam a nagymamám mesélni a szüleiről és szeretném visszahozni a magyar örökséget a családomba és megadni a lehetőságet a lányomnak hogy magyar állampolgár legyen.",
     "en_a": "I would like to become a Hungarian citizen because I am very interested in my family's history. I often listened to my grandmother tell stories about her parents, and I would like to bring Hungarian heritage back into my family and give my daughter the opportunity to become a Hungarian citizen.",
     "category": "Family",
-    "group": 173
+    "group": 174,
+    "star": false
   },
   {
     "hu_q": "Miért szeretne Magyarországra költözni?",
@@ -1581,7 +1787,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Szeretnék Magyarországra költözni a nagyszerű ételek és a barátságos emberek miatt.",
     "en_a": "I would like to move to Hungary because of the great food and welcoming people.",
     "category": "Motivation & future",
-    "group": 174
+    "group": 175,
+    "star": true
   },
   {
     "hu_q": "Szép időnk van ma!",
@@ -1589,7 +1796,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, az idő szép és meleg.\nSzép őszi nap van.",
     "en_a": "Yes, the weather is nice and warm.\nIt's a nice fall day.",
     "category": "Small talk & weather",
-    "group": 175
+    "group": 176,
+    "star": false
   },
   {
     "hu_q": "Mit szól, már megint esik az eső!",
@@ -1597,7 +1805,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, nagyon csúnya idő van ma.",
     "en_a": "Yes, the weather is pretty bad today.",
     "category": "Small talk & weather",
-    "group": 176
+    "group": 177,
+    "star": false
   },
   {
     "hu_q": "Milyen az idő [CITY]?",
@@ -1605,7 +1814,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[CITY] meleg, de a telek hűvösek.",
     "en_a": "[CITY] is warm but has chilly winters.",
     "category": "Home & residence",
-    "group": 177
+    "group": 178,
+    "star": false
   },
   {
     "hu_q": "Milyen az idő/időjárás ott ahol él?",
@@ -1613,7 +1823,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[CITY] meleg, de a telek hűvösek.",
     "en_a": "[CITY] is warm but has chilly winters.",
     "category": "Home & residence",
-    "group": 177
+    "group": 178,
+    "star": false
   },
   {
     "hu_q": "Milyen az éghajlat [CITY]?",
@@ -1621,7 +1832,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[CITY] meleg, de a telek hűvösek.",
     "en_a": "[CITY] is warm but has chilly winters.",
     "category": "Home & residence",
-    "group": 178
+    "group": 179,
+    "star": true
   },
   {
     "hu_q": "Szeret [CITY] élni?",
@@ -1629,7 +1841,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, szeretek [CITY] élni mert nagyon szeretem a természetet, ez egy nagyon szép kicsi és zöld város.",
     "en_a": "Yes, I like living in [CITY] because I really love nature; it is a very beautiful, small, and green city.",
     "category": "Home & residence",
-    "group": 179
+    "group": 180,
+    "star": true
   },
   {
     "hu_q": "Szereti [CITY]?",
@@ -1637,7 +1850,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, szeretek [CITY] élni mert nagyon szeretem a természetet, ez egy nagyon szép kicsi és zöld város.",
     "en_a": "Yes, I like living in [CITY] because I really love nature; it is a very beautiful, small, and green city.",
     "category": "Home & residence",
-    "group": 179
+    "group": 180,
+    "star": true
   },
   {
     "hu_q": "Miért [CITY] él?",
@@ -1645,7 +1859,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[CITY]ben lakunk a munkahelyem miatt, de szeretünk ott élni.",
     "en_a": "We live here for my work, but we love it!",
     "category": "Home & residence",
-    "group": 180
+    "group": 181,
+    "star": true
   },
   {
     "hu_q": "Miért költözött [CITY]?",
@@ -1653,15 +1868,17 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[CITY]ben lakunk a munkahelyem miatt, de szeretünk ott élni.",
     "en_a": "We live here for my work, but we love it!",
     "category": "Home & residence",
-    "group": 180
+    "group": 181,
+    "star": true
   },
   {
     "hu_q": "Hol dolgozik a férje?",
     "en_q": "Where does your husband work?",
-    "hu_a": "[EMPLOYER]. Ő szoftverfejlesztő.",
-    "en_a": "[EMPLOYER]. He is a software developer.",
+    "hu_a": "A férjem [EMPLOYER]-nél dolgozik. Ő szoftverfejlesztő.",
+    "en_a": "My husband works at [EMPLOYER]. He is a software developer.",
     "category": "Family",
-    "group": 181
+    "group": 182,
+    "star": false
   },
   {
     "hu_q": "Mióta él [CITY]?",
@@ -1669,7 +1886,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nyolc éve élünk ott.",
     "en_a": "We have been living here for eight years.",
     "category": "Home & residence",
-    "group": 182
+    "group": 183,
+    "star": true
   },
   {
     "hu_q": "[CITY] város vagy falu?",
@@ -1677,7 +1895,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[CITY] [STATE] egy nagy város.",
     "en_a": "[CITY] is a large city in [STATE].",
     "category": "Home & residence",
-    "group": 183
+    "group": 184,
+    "star": true
   },
   {
     "hu_q": "Mennyi ember él [CITY]?",
@@ -1685,7 +1904,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[CITY] körülbelül félmillió ember él.",
     "en_a": "There are about half a million people living in [CITY].",
     "category": "Home & residence",
-    "group": 184
+    "group": 185,
+    "star": true
   },
   {
     "hu_q": "Mennyi a népesség [CITY]?",
@@ -1693,7 +1913,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[CITY] körülbelül félmillió ember él.",
     "en_a": "There are about half a million people living in [CITY].",
     "category": "Home & residence",
-    "group": 184
+    "group": 185,
+    "star": true
   },
   {
     "hu_q": "Mennyi lakosa van?",
@@ -1701,7 +1922,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "[CITY] körülbelül félmillió ember él.",
     "en_a": "There are about half a million people living in [CITY].",
     "category": "Home & residence",
-    "group": 184
+    "group": 185,
+    "star": true
   },
   {
     "hu_q": "Miért találja érdekesnek a magyar kultúrát?",
@@ -1709,7 +1931,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Szeretem a magyar nyelv különlegességét és a magyar történelem gazdagságát.",
     "en_a": "I love the uniqueness of the Hungarian language and the richness of Hungarian history.",
     "category": "Culture & history",
-    "group": 185
+    "group": 186,
+    "star": true
   },
   {
     "hu_q": "Mit tud a magyar kulturárol?",
@@ -1717,7 +1940,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Ismerem több fontos elemét a magyar kultúrának.\nPéldául ismerem a nemzeti ünnepeket:\nmárcius 15-ét, az 1848-as forradalom emléknapját;\naugusztus 20-át, az államalapítás és Szent István ünnepét;\nvalamint október 23-át, az 1956-os forradalom napját.\nTudom, hogy a magyar nemzeti tánc a csárdás,\negy hagyományos, élénk és páros néptánc.",
     "en_a": "I know several important elements of Hungarian culture. For example, I know the national holidays:\nMarch 15th, the memorial day of the 1848 revolution;\nAugust 20th, the celebration of state foundation and Saint Stephen;\nand October 23rd, the day of the 1956 revolution.\nI know that the Hungarian national dance is the csárdás, a traditional, lively, and partner folk dance.",
     "category": "Culture & history",
-    "group": 186
+    "group": 187,
+    "star": true
   },
   {
     "hu_q": "Ismer magyar ételeket?",
@@ -1725,7 +1949,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, a nagymamám és az ük-nagynéném olyan ételeket készítettek, mint a töltött káposzta és a gulyás. Mostanában szereztem be a családi receptkártyákat!",
     "en_a": "Yes, my grandmother and great-great aunt would make meals like stuffed cabbage and goulash. I recently acquired the family recipe cards!",
     "category": "Culture & history",
-    "group": 187
+    "group": 188,
+    "star": true
   },
   {
     "hu_q": "Tud főzni magyar ételt?",
@@ -1733,7 +1958,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Tudok magyar ételt főzni, de egyelőre csak gulyást.",
     "en_a": "I can cook Hungarian food, but for now only goulash.",
     "category": "Culture & history",
-    "group": 188
+    "group": 189,
+    "star": true
   },
   {
     "hu_q": "Mivel tölti a szabadidejét?",
@@ -1741,7 +1967,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A szabadidőmben szeretek futni, olvasni és a lányammal játszani.",
     "en_a": "In my free time, I like to run, read, and play with my daughter.",
     "category": "Hobbies & free time",
-    "group": 189
+    "group": 190,
+    "star": false
   },
   {
     "hu_q": "Mit szeret csinálni szabadidejében?",
@@ -1749,23 +1976,26 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A szabadidőmben szeretek futni, olvasni és a lányammal játszani.",
     "en_a": "In my free time, I like to run, read, and play with my daughter.",
     "category": "Hobbies & free time",
-    "group": 190
+    "group": 191,
+    "star": false
   },
   {
     "hu_q": "Milyen házimunkát kedvel-szeret csinálni?",
-    "en_q": "What kind of housework/chores you like/not like to do?",
+    "en_q": "What kind of housework/chores you like like to do?",
     "hu_a": "Néha szeretek mosni és főzni. Nem szeretek padlót takarítani.",
     "en_a": "I like to do laundry and cook sometimes. I don't like to clean the floors.",
     "category": "Home & residence",
-    "group": 191
+    "group": 192,
+    "star": true
   },
   {
     "hu_q": "Milyen házimunkát nem kedvel-szeret csinálni?",
-    "en_q": "What kind of housework/chores you like/not like to do?",
+    "en_q": "What kind of housework/chores you not like to do?",
     "hu_a": "Néha szeretek mosni és főzni. Nem szeretek padlót takarítani.",
     "en_a": "I like to do laundry and cook sometimes. I don't like to clean the floors.",
     "category": "Home & residence",
-    "group": 192
+    "group": 193,
+    "star": false
   },
   {
     "hu_q": "Meséljen egy átlagos napjáról-napirendjéről?",
@@ -1773,7 +2003,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Reggel hétkor kelek. Felöltöztetem a lányomat, és megyek dolgozni. Öt körül hazamegyek, vacsorát csinálok, és pihenek lefekvésig.",
     "en_a": "I get up at seven in the morning. I dress my daughter and go to work. I go home around five, make dinner, and rest until bedtime.",
     "category": "Family",
-    "group": 193
+    "group": 194,
+    "star": true
   },
   {
     "hu_q": "Hol nyaralt ezen a nyáron?",
@@ -1781,7 +2012,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
     "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
     "category": "Hobbies & free time",
-    "group": 194
+    "group": 195,
+    "star": true
   },
   {
     "hu_q": "Hova szeret utazni?",
@@ -1789,7 +2021,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Szeretünk utazni a családunkhoz. Ott a gyerekekkel játszunk, és közben utolérjük egymást.",
     "en_a": "We like to travel to our family. There we play with the kids and catch up with each other.",
     "category": "Greeting & closing",
-    "group": 195
+    "group": 196,
+    "star": true
   },
   {
     "hu_q": "Hova szoktak utazni nyáron?",
@@ -1797,7 +2030,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Szeretünk utazni a családunkhoz. Ott a gyerekekkel játszunk, és közben utolérjük egymást.",
     "en_a": "We like to travel to our family. There we play with the kids and catch up with each other.",
     "category": "Greeting & closing",
-    "group": 196
+    "group": 197,
+    "star": true
   },
   {
     "hu_q": "Hová utaztál a nyáron és mit csináltál ott?",
@@ -1805,7 +2039,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
     "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
     "category": "Greeting & closing",
-    "group": 197
+    "group": 198,
+    "star": false
   },
   {
     "hu_q": "Mit szeretsz csinálni a nyaralás alatt?",
@@ -1813,7 +2048,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Szeretek éttermekbe járni, múzeumokat látogatni, és közben pihenni.",
     "en_a": "I like to go to restaurants, visit the museums, and relax inbetween.",
     "category": "Hobbies & free time",
-    "group": 198
+    "group": 199,
+    "star": true
   },
   {
     "hu_q": "Van kedvenc utazási helyed?",
@@ -1821,7 +2057,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nincs kedvenc helyem. Szeretek mindenhová utazni.",
     "en_a": "I don't have a favorite place. I like to travel everywhere.",
     "category": "Greeting & closing",
-    "group": 199
+    "group": 200,
+    "star": true
   },
   {
     "hu_q": "Szokott olvasni magyar könyveket?",
@@ -1829,7 +2066,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Még nem olvastam igazi magyar könyveket, csak babakönyveket a lányomnak — de azokat nagyon élvezem!",
     "en_a": "I haven't read real Hungarian books yet, only picture books for my daughter — but I really enjoy those!",
     "category": "Hobbies & free time",
-    "group": 200
+    "group": 201,
+    "star": false
   },
   {
     "hu_q": "Sportol valamit?",
@@ -1837,7 +2075,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Főleg azért futok, hogy aktív maradjak.",
     "en_a": "I mostly run to stay active.",
     "category": "Hobbies & free time",
-    "group": 201
+    "group": 202,
+    "star": false
   },
   {
     "hu_q": "Ismer magyar írót vagy költőt?",
@@ -1845,7 +2084,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, ismerem Petőfi Sándort aki a nemzeti dalt írta.",
     "en_a": "Yes, I know Sándor Petőfi, who wrote the national song.",
     "category": "Culture & history",
-    "group": 202
+    "group": 203,
+    "star": false
   },
   {
     "hu_q": "Ismer valakit a magyar történelemből vagy irodalomból?",
@@ -1853,7 +2093,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, ismerem Petőfi Sándort aki a nemzeti dalt írta.",
     "en_a": "Yes, I know Sándor Petőfi, who wrote the national song.",
     "category": "Culture & history",
-    "group": 203
+    "group": 204,
+    "star": false
   },
   {
     "hu_q": "Mi a kedvenc színe?",
@@ -1861,7 +2102,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A kedvenc színem a kék.",
     "en_a": "My favorite color is blue.",
     "category": "Daily life & food",
-    "group": 204
+    "group": 205,
+    "star": false
   },
   {
     "hu_q": "Milyen szinű a magyar zászló?",
@@ -1869,7 +2111,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A magyar zászló piros, fehér, és zöld.",
     "en_a": "The Hungarian flag is red, white, and green.",
     "category": "Culture & history",
-    "group": 205
+    "group": 206,
+    "star": false
   },
   {
     "hu_q": "Fel tudja sorolni az amerikai zászló színeit?",
@@ -1877,7 +2120,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az amerikai zászló piros, fehér és kék.",
     "en_a": "The American flag is red, white and blue.",
     "category": "Culture & history",
-    "group": 206
+    "group": 207,
+    "star": false
   },
   {
     "hu_q": "Mit vacsorázott tegnap este?",
@@ -1885,7 +2129,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Tegnap este pizzát ettem vacsorára.",
     "en_a": "I ate pizza for dinner last night.",
     "category": "Daily life & food",
-    "group": 207
+    "group": 208,
+    "star": false
   },
   {
     "hu_q": "Mit reggelizett ma?",
@@ -1893,7 +2138,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Ma reggelire kávét, joghurtot és granolát ettem. A lányom tejet és gyümölcsöt ivott.",
     "en_a": "I had coffee, yogurt and granola for breakfast this morning. My daughter had milk and fruit.",
     "category": "Daily life & food",
-    "group": 208
+    "group": 209,
+    "star": false
   },
   {
     "hu_q": "Mik a kedvenc ételei?",
@@ -1901,7 +2147,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Szeretem a mexikói és a japán ételeket.",
     "en_a": "I like Mexican and Japanese food.",
     "category": "Daily life & food",
-    "group": 209
+    "group": 210,
+    "star": false
   },
   {
     "hu_q": "Milyen nap van ma?",
@@ -1909,7 +2156,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Ma péntek van.",
     "en_a": "Today is Friday",
     "category": "Daily life & food",
-    "group": 210
+    "group": 211,
+    "star": false
   },
   {
     "hu_q": "Melyik a balkeze?",
@@ -1917,7 +2165,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Ez a bal kezem.",
     "en_a": "This is my left hand.",
     "category": "Daily life & food",
-    "group": 211
+    "group": 212,
+    "star": false
   },
   {
     "hu_q": "Melyik a jobbkeze?",
@@ -1925,7 +2174,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Ez a jobb kezem.",
     "en_a": "This is my right had.",
     "category": "Daily life & food",
-    "group": 212
+    "group": 213,
+    "star": false
   },
   {
     "hu_q": "Mit tart a jobb kezében?",
@@ -1933,7 +2183,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A jobb kezemben tollat tartok.",
     "en_a": "I'm holding a pen in my right hand.",
     "category": "Daily life & food",
-    "group": 213
+    "group": 214,
+    "star": false
   },
   {
     "hu_q": "Hány óra van most?",
@@ -1941,7 +2192,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Tiz óra harminc perc van",
     "en_a": "It is ten thirty",
     "category": "Small talk & weather",
-    "group": 214
+    "group": 215,
+    "star": false
   },
   {
     "hu_q": "Mennyi most az idő?",
@@ -1949,7 +2201,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Tiz óra harminc perc van",
     "en_a": "It is ten thirty",
     "category": "Small talk & weather",
-    "group": 214
+    "group": 215,
+    "star": false
   },
   {
     "hu_q": "Milyen idő van most?",
@@ -1957,7 +2210,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az idő szép és meleg.",
     "en_a": "The weather is nice and warm.",
     "category": "Small talk & weather",
-    "group": 215
+    "group": 216,
+    "star": false
   },
   {
     "hu_q": "Mi a (lak)címe?",
@@ -1965,7 +2219,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A cimem 4928 Enlightenment Road, [CITY], NC 27616",
     "en_a": "My address is 4928 Enlightenment Road, [CITY], NC 27616",
     "category": "Documents & application",
-    "group": 216
+    "group": 217,
+    "star": false
   },
   {
     "hu_q": "Itt írja alá!",
@@ -1973,7 +2228,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 217
+    "group": 218,
+    "star": false
   },
   {
     "hu_q": "Kérem irjon alá.",
@@ -1981,7 +2237,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 218
+    "group": 219,
+    "star": false
   },
   {
     "hu_q": "A kérelmet nem a Nagykövetség bírálja el, mi csak továbbítjuk Magyarországra.",
@@ -1989,7 +2246,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben, értem.",
     "en_a": "Okay, I understand.",
     "category": "Documents & application",
-    "group": 219
+    "group": 220,
+    "star": false
   },
   {
     "hu_q": "Körülbelül 6 hónap múlva jelentkezünk.",
@@ -1997,7 +2255,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben, értem.",
     "en_a": "Okay, I understand.",
     "category": "Greeting & closing",
-    "group": 220
+    "group": 221,
+    "star": false
   },
   {
     "hu_q": "Gratulálok!",
@@ -2005,7 +2264,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nagyon szépen köszönöm.",
     "en_a": "Thanks very much.",
     "category": "Greeting & closing",
-    "group": 221
+    "group": 222,
+    "star": false
   },
   {
     "hu_q": "Ön nemsokára magyar állampolgár lesz!",
@@ -2013,7 +2273,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nagyon szépen köszönöm.",
     "en_a": "Thanks very much.",
     "category": "Greeting & closing",
-    "group": 221
+    "group": 222,
+    "star": false
   },
   {
     "hu_q": "Köszönöm szépen, hogy eljött.",
@@ -2021,7 +2282,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Köszönöm az idejét.",
     "en_a": "Thank you the your time.",
     "category": "Greeting & closing",
-    "group": 222
+    "group": 223,
+    "star": false
   },
   {
     "hu_q": "Mi a terve ha megkapja a magyar útlevelet?",
@@ -2029,7 +2291,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Családommal gyakran szeretnék Magyarországra utazni.",
     "en_a": "I plan to travel to Hungary often with my family.",
     "category": "Documents & application",
-    "group": 223
+    "group": 224,
+    "star": false
   },
   {
     "hu_q": "Melyik városban élne és miért?",
@@ -2037,7 +2300,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Budapesten élnék! Imádom a termálfürdő‑kultúrát, a gyönyörű építészetet és a kedves embereket.",
     "en_a": "I would live in Budapest! I love the thermal bath culture, the beautiful architecture, and the friendly people.",
     "category": "Home & residence",
-    "group": 224
+    "group": 225,
+    "star": false
   },
   {
     "hu_q": "Hol szeretne élni Budapesten?",
@@ -2045,7 +2309,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Szeretnék Budapesten a második kerületben élni, mert sok park van a lányom számára, és még mindig közel van a belvároshoz.",
     "en_a": "I would like to live in the second district of Budapest because there are many parks for my daughter, and it is still close to the city center.",
     "category": "Home & residence",
-    "group": 225
+    "group": 226,
+    "star": false
   },
   {
     "hu_q": "Magyar nemzeti ünnepeket ismer?",
@@ -2053,7 +2318,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, ismerem\n- március 15 (tizenötödikét) az 1848-as forradalom ünnepét,\n- augusztus 20 (huszadikát) Szent István napját,\n- október 23 (huszonharmadikát) az 1956-os forradalom ünnepét.",
     "en_a": "I know these Hungarian national holidays:\n- March 15 is the holiday of the 1848 revolution,\n- August 20 is the holiday of the founding of the state or Saint Stephen's Day,\n- October 23 is the holiday of the 1956 revolution.",
     "category": "Culture & history",
-    "group": 226
+    "group": 227,
+    "star": false
   },
   {
     "hu_q": "Ismer magyar nemzeti ünnepeket?",
@@ -2061,7 +2327,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, ismerem\n- március 15 (tizenötödikét) az 1848-as forradalom ünnepét,\n- augusztus 20 (huszadikát) az államalapítás ünnepét vagy Szent István napját,\n- október 23 (huszonharmadikát) az 1956-os forradalom ünnepét.",
     "en_a": "I know these Hungarian national holidays:\n- March 15 is the holiday of the 1848 revolution,\n- August 20 is the holiday of the founding of the state or Saint Stephen's Day,\n- October 23 is the holiday of the 1956 revolution.",
     "category": "Culture & history",
-    "group": 227
+    "group": 228,
+    "star": false
   },
   {
     "hu_q": "Mi a magyar nemzeti himnusz cime?",
@@ -2069,7 +2336,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A magyar nemzeti himnusz címe \"Himnusz\". Kölcsey Ferenc írta a szöveget.",
     "en_a": "The title of the Hungarian national anthem is \"Himnusz.\" Ferenc Kölcsey wrote the lyrics.",
     "category": "Culture & history",
-    "group": 228
+    "group": 229,
+    "star": false
   },
   {
     "hu_q": "Mi a magyar nemzeti dal cime?",
@@ -2077,7 +2345,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A magyar nemzeti dal címe \"Nemzeti dal\". Petőfi Sándor írta.",
     "en_a": "The title of the Hungarian national song is \"Nemzeti dal.\" It was written by Sándor Petőfi.",
     "category": "Culture & history",
-    "group": 229
+    "group": 230,
+    "star": false
   },
   {
     "hu_q": "Mi a magyar nemzeti tanc?",
@@ -2085,7 +2354,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A magyar nemzeti tánc a Csárdás, egy hagyományos néptánc.",
     "en_a": "The Hungarian national dance is the \"Csárdás,\" a traditional folk dance.",
     "category": "Culture & history",
-    "group": 230
+    "group": 231,
+    "star": false
   },
   {
     "hu_q": "Mit fog csinálni ha végzett a konzulátuson?",
@@ -2093,7 +2363,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Ebédelünk, aztán visszamegyünk a hotelbe, hogy a lányom aludjon.",
     "en_a": "We have lunch, then we go back to the hotel so that my daughter can sleep.",
     "category": "Greeting & closing",
-    "group": 231
+    "group": 232,
+    "star": false
   },
   {
     "hu_q": "Mit csinált ma az interjú előtt?",
@@ -2101,7 +2372,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Az interjú előtt felkeltem és reggeliztem a családommal.",
     "en_a": "Before the interview, I woke up and had breakfast with my family.",
     "category": "General",
-    "group": 232
+    "group": 233,
+    "star": false
   },
   {
     "hu_q": "Kérem fáradjon a gép elé.",
@@ -2109,7 +2381,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Alright.",
     "category": "Greeting & closing",
-    "group": 233
+    "group": 234,
+    "star": false
   },
   {
     "hu_q": "Most ujjlenyomatokat veszünk Öntől.",
@@ -2117,7 +2390,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben, értem.",
     "en_a": "Okay, I understand.",
     "category": "Interview procedure",
-    "group": 234
+    "group": 235,
+    "star": false
   },
   {
     "hu_q": "Először a jobb/bal kezének a 4 ujját tegye le egyszerre.",
@@ -2125,7 +2399,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 235
+    "group": 236,
+    "star": false
   },
   {
     "hu_q": "Kérem tegye le a elöször a jobb kezének négy újját egyszerre.",
@@ -2133,7 +2408,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 236
+    "group": 237,
+    "star": false
   },
   {
     "hu_q": "Most a két hüvelykujját tegye le egyszerre.",
@@ -2141,7 +2417,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 237
+    "group": 238,
+    "star": false
   },
   {
     "hu_q": "Most lefényképezzük.",
@@ -2149,7 +2426,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 238
+    "group": 239,
+    "star": false
   },
   {
     "hu_q": "Most fényképet készitünk.",
@@ -2157,7 +2435,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 239
+    "group": 240,
+    "star": false
   },
   {
     "hu_q": "Hol szeretné letenni az állampolgársági esküt?",
@@ -2165,7 +2444,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Itt, [STATE] [CITY]‑ben kérem.",
     "en_a": "Here in [STATE] [CITY], please",
     "category": "Interview procedure",
-    "group": 240
+    "group": 241,
+    "star": false
   },
   {
     "hu_q": "Hol akarja az esküt letenni?",
@@ -2173,7 +2453,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Itt, [STATE] [CITY]‑ben kérem.",
     "en_a": "Here in [STATE] [CITY], please",
     "category": "Interview procedure",
-    "group": 241
+    "group": 242,
+    "star": false
   },
   {
     "hu_q": "A hitelesitésért 23 dollárt kell fizetni egyenként és csak bankkártyával lehet fizetni. Ez így megfelel Önnek?",
@@ -2181,7 +2462,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben, értem.",
     "en_a": "Okay, I understand.",
     "category": "Interview procedure",
-    "group": 242
+    "group": 243,
+    "star": false
   },
   {
     "hu_q": "Kérem nézze meg a képernyőn hogy jó-e az aláirás",
@@ -2189,7 +2471,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Minden rendben van. Az aláirás jó.",
     "en_a": "All is well. The signature is good.",
     "category": "Interview procedure",
-    "group": 243
+    "group": 244,
+    "star": false
   },
   {
     "hu_q": "Rakja rendbe a dokumentumokat az asztalra",
@@ -2197,7 +2480,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Documents & application",
-    "group": 244
+    "group": 245,
+    "star": false
   },
   {
     "hu_q": "Kérem álljon fel.",
@@ -2205,7 +2489,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 245
+    "group": 246,
+    "star": false
   },
   {
     "hu_q": "Kérem menjen a másik szobába. Kérem fáradjon a másik helységbe.",
@@ -2213,7 +2498,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Home & residence",
-    "group": 246
+    "group": 247,
+    "star": false
   },
   {
     "hu_q": "Milyen volt a gyerekkora?",
@@ -2221,7 +2507,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Jó gyerekkorom volt. Sok gyerek élt a környéken, és semmi miatt nem aggódtam.",
     "en_a": "I had a good childhood. Many children lived in the neighborhood, and I didn't worry about anything.",
     "category": "Daily life & food",
-    "group": 247
+    "group": 248,
+    "star": false
   },
   {
     "hu_q": "Ki segitett kitölteni a kérelmet?",
@@ -2229,7 +2516,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Senki sem segített. Egyedül töltöttem ki a kérelmet.",
     "en_a": "Nobody helped me. I filled out the application on my own",
     "category": "Documents & application",
-    "group": 248
+    "group": 249,
+    "star": false
   },
   {
     "hu_q": "Senki sem segített egy kicsit sem?",
@@ -2237,7 +2525,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Nem, senki sem segített nekem.",
     "en_a": "No, no one helped me.",
     "category": "General",
-    "group": 249
+    "group": 250,
+    "star": false
   },
   {
     "hu_q": "Hogyan használja a nevét?",
@@ -2245,7 +2534,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A leánykori nevemet használom, [MY NAME].",
     "en_a": "I use my maiden name, [MY NAME].",
     "category": "Personal details",
-    "group": 250
+    "group": 251,
+    "star": false
   },
   {
     "hu_q": "Hányszor nyújtotta be a kérelmet a magyar állampolgárságra?",
@@ -2253,7 +2543,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Most először.",
     "en_a": "This is the first time.",
     "category": "Documents & application",
-    "group": 251
+    "group": 252,
+    "star": false
   },
   {
     "hu_q": "Híres magyar embereket ismer?",
@@ -2261,7 +2552,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, ismerem Magyar Petér miniszterelnököt, Rubik Ernő feltalálót és Petőfi Sándor költőt.",
     "en_a": "Yes, I know Prime Minister Peter Magyar, inventor Ernő Rubik, and poet Sándor Petőfi.",
     "category": "Culture & history",
-    "group": 252
+    "group": 253,
+    "star": false
   },
   {
     "hu_q": "Melyik országok veszik körül Magyarországot?",
@@ -2269,7 +2561,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Magyarország északon Szlovákiával, keleten Ukrajnával és Romániával, délen Szerbiával és Horvátországgal, és nyugaton Szlovéniával és Ausztriával határos.",
     "en_a": "Hungary borders Slovakia to the north, Ukraine and Romania to the east, Serbia and Croatia to the south, and Slovenia and Austria to the west.",
     "category": "Culture & history",
-    "group": 253
+    "group": 254,
+    "star": false
   },
   {
     "hu_q": "Tudja-e hogy melyik országokban Magyarországon kívül élnek magyarok nagy számban?",
@@ -2277,7 +2570,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, Romániában, Szlovákiában, Szerbiában, és Ukrajnában.",
     "en_a": "Yes, in Romania, Slovakia, Serbia, and Ukraine.",
     "category": "Ancestry & origin",
-    "group": 254
+    "group": 255,
+    "star": false
   },
   {
     "hu_q": "És tudja-e hogy ezek a területek most miért nem tartoznak Magyarországhoz?",
@@ -2285,7 +2579,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Tudom, hogy a trianoni békeszerződés miatt.",
     "en_a": "I know it's because of the Treaty of Trianon.",
     "category": "Culture & history",
-    "group": 255
+    "group": 256,
+    "star": false
   },
   {
     "hu_q": "Milyen közlekedési eszközt szokott használni a városában?",
@@ -2293,7 +2588,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Általában autóval megyünk.",
     "en_a": "We usually drive.",
     "category": "Daily life & food",
-    "group": 256
+    "group": 257,
+    "star": false
   },
   {
     "hu_q": "Mit csinál holnap?",
@@ -2301,7 +2597,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A hétvégét itt töltjük. Lehet, hogy ellátogatunk a National Mall-ra.",
     "en_a": "We are staying the weekend. We may visit the National Mall.",
     "category": "Daily life & food",
-    "group": 257
+    "group": 258,
+    "star": false
   },
   {
     "hu_q": "Milyen típusú könyveket szeret?",
@@ -2309,7 +2606,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Szeretek thriller és fantasy könyveket olvasni.",
     "en_a": "I like to read thriller and fantasy books.",
     "category": "Hobbies & free time",
-    "group": 258
+    "group": 259,
+    "star": false
   },
   {
     "hu_q": "Milyen fajta zenét hallgat?",
@@ -2317,7 +2615,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Szeretek indie zenét hallgatni.",
     "en_a": "I like to listen to indie music.",
     "category": "Hobbies & free time",
-    "group": 259
+    "group": 260,
+    "star": false
   },
   {
     "hu_q": "Hol tanult meg főzni?",
@@ -2325,7 +2624,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Megtanultam magamtól főzni.",
     "en_a": "I taught myself to cook.",
     "category": "Language learning",
-    "group": 260
+    "group": 261,
+    "star": false
   },
   {
     "hu_q": "Meséljen a legjobb barátjáról.",
@@ -2333,7 +2633,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A legjobb barátom szintén üzleti elemző. Kedves, okos és nagyon vicces.",
     "en_a": "My best friend is also a business analyst. She is kind, smart, and very funny.",
     "category": "Family",
-    "group": 261
+    "group": 262,
+    "star": false
   },
   {
     "hu_q": "Hova járt álltalános iskolába?",
@@ -2341,7 +2642,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A Mary Esther Általános Iskolába jártam.",
     "en_a": "I went to Mary Esther Elementary School",
     "category": "Visiting Hungary",
-    "group": 262
+    "group": 263,
+    "star": false
   },
   {
     "hu_q": "Hova járt középiskolába?",
@@ -2349,7 +2651,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "A Navarre Középiskolába jártam.",
     "en_a": "I went to Navarre High School.",
     "category": "Visiting Hungary",
-    "group": 263
+    "group": 264,
+    "star": false
   },
   {
     "hu_q": "Tagja vagy valamelyik magyar közösségnek?",
@@ -2357,7 +2660,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Néhány magyar Facebook-csoport tagja vagyok.",
     "en_a": "I am a member of a few Hungarian Facebook groups.",
     "category": "Motivation & future",
-    "group": 264
+    "group": 265,
+    "star": true
   },
   {
     "hu_q": "Mi a terve a jövőben?",
@@ -2365,7 +2669,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Folytatom a magyar tanulást, mert szeretnénk egyszer Magyarországra költözni.",
     "en_a": "I continue learning Hungarian because we would like to move to Hungary someday.",
     "category": "Motivation & future",
-    "group": 265
+    "group": 266,
+    "star": false
   },
   {
     "hu_q": "Mi a terve a jövőre nézve?",
@@ -2373,7 +2678,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Folytatom a magyar tanulást, mert szeretnénk egyszer Magyarországra költözni.",
     "en_a": "I continue learning Hungarian because we would like to move to Hungary someday.",
     "category": "Motivation & future",
-    "group": 266
+    "group": 267,
+    "star": false
   },
   {
     "hu_q": "Kérem hivja ide a férjét hogy ő is aláirja a nyomtatványokat. formanyomtatványokat",
@@ -2381,7 +2687,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Rendben, köszönöm. [SPOUSE], come here.",
     "en_a": "Ok, thank you. [SPOUSE], come here.",
     "category": "Interview procedure",
-    "group": 267
+    "group": 268,
+    "star": false
   },
   {
     "hu_q": "Ön írta maga?",
@@ -2389,7 +2696,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, magam írtam.",
     "en_a": "Yes, I wrote by myself.",
     "category": "General",
-    "group": 268
+    "group": 269,
+    "star": false
   },
   {
     "hu_q": "Tud ön maga írni?",
@@ -2397,7 +2705,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, tudok egyedül írni.",
     "en_a": "Yes, I can write by myself.",
     "category": "General",
-    "group": 269
+    "group": 270,
+    "star": false
   },
   {
     "hu_q": "Utaznál újra Magyarországra?",
@@ -2405,7 +2714,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, szeretnék több várost látni",
     "en_a": "Yes, I would like to see more cities",
     "category": "Greeting & closing",
-    "group": 270
+    "group": 271,
+    "star": false
   },
   {
     "hu_q": "Járt már [VILLAGE]?",
@@ -2413,7 +2723,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Sajnos még nem utaztam el [VILLAGE].",
     "en_a": "Unfortunately, I have not traveled to [VILLAGE] yet.",
     "category": "Ancestry & origin",
-    "group": 271
+    "group": 272,
+    "star": false
   },
   {
     "hu_q": "Ön szereti a munkáját?",
@@ -2421,7 +2732,8 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Igen, szeretem a munkámat. Érdekes.",
     "en_a": "Yes, I like my job. It's interesting.",
     "category": "Education & work",
-    "group": 272
+    "group": 273,
+    "star": false
   },
   {
     "hu_q": "Mely városokat szeretné meglátogatni Magyarországon?",
@@ -2429,6 +2741,7 @@ window.HUNGARIAN_DATA = [
     "hu_a": "Szeretnék ellátogatni Pécsre, Szegedre és Budapestre.",
     "en_a": "I would like to visit Pecs, Szeged, and Budapest.",
     "category": "Ancestry & origin",
-    "group": 273
+    "group": 274,
+    "star": false
   }
 ];
