@@ -2018,8 +2018,8 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Hova szeret utazni?",
     "en_q": "Where do you like travelling?",
-    "hu_a": "Szeretünk utazni a családunkhoz. Ott a gyerekekkel játszunk, és közben utolérjük egymást.",
-    "en_a": "We like to travel to our family. There we play with the kids and catch up with each other.",
+    "hu_a": "Szeretünk utazni a családunkhoz. Ott úszunk a medencében és napozunk az udvarban.",
+    "en_a": "We love to travel to our family. There we swim in the pool and sunbathe in the yard.",
     "category": "Greeting & closing",
     "group": 196,
     "star": true
@@ -2027,8 +2027,8 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Hova szoktak utazni nyáron?",
     "en_q": "Where do you usually travel in the summer?",
-    "hu_a": "Szeretünk utazni a családunkhoz. Ott a gyerekekkel játszunk, és közben utolérjük egymást.",
-    "en_a": "We like to travel to our family. There we play with the kids and catch up with each other.",
+    "hu_a": "Szeretünk utazni a családunkhoz. Ott úszunk a medencében és napozunk az udvarban.",
+    "en_a": "We love to travel to our family. There we swim in the pool and sunbathe in the yard.",
     "category": "Greeting & closing",
     "group": 197,
     "star": true
@@ -2135,7 +2135,7 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Mit reggelizett ma?",
     "en_q": "What did you have for breakfast today?",
-    "hu_a": "Ma reggelire kávét, joghurtot és granolát ettem. A lányom tejet és gyümölcsöt ivott.",
+    "hu_a": "Ma reggelire kávét, joghurtot és granolát ettem. A lányom tejet ivott és gyümölcsöt evett .",
     "en_a": "I had coffee, yogurt and granola for breakfast this morning. My daughter had milk and fruit.",
     "category": "Daily life & food",
     "group": 209,
@@ -2742,6 +2742,15 @@ window.HUNGARIAN_DATA = [
     "en_a": "I would like to visit Pecs, Szeged, and Budapest.",
     "category": "Ancestry & origin",
     "group": 274,
+    "star": false
+  },
+  {
+    "hu_q": "Mivel játszol a lányoddal?",
+    "en_q": "What do you play with your daughter?",
+    "hu_a": "Játékokkal és babákkal játszunk.",
+    "en_a": "We play with toys and dolls.",
+    "category": "Family",
+    "group": 275,
     "star": false
   }
 ];
