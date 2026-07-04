@@ -1541,7 +1541,7 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Mit szeretne megnézni Magyarországon?",
     "en_q": "What would you like to see in Hungary?",
-    "hu_a": "Szeretnék látni [VILLAGE], ahol a dédnagymamám született.",
+    "hu_a": "Szeretnék látni [VILLAGE], ahol a dédanyám született.",
     "en_a": "I would like to see [VILLAGE] where my great-grandmother was born",
     "category": "Ancestry & origin",
     "group": 149,
@@ -1937,8 +1937,8 @@ window.HUNGARIAN_DATA = [
   {
     "hu_q": "Mit tud a magyar kulturárol?",
     "en_q": "What do you know about Hungarian culture?",
-    "hu_a": "Ismerem több fontos elemét a magyar kultúrának.\nPéldául ismerem a nemzeti ünnepeket:\nmárcius 15-ét, az 1848-as forradalom emléknapját;\naugusztus 20-át, az államalapítás és Szent István ünnepét;\nvalamint október 23-át, az 1956-os forradalom napját.\nTudom, hogy a magyar nemzeti tánc a csárdás,\negy hagyományos, élénk és páros néptánc.",
-    "en_a": "I know several important elements of Hungarian culture. For example, I know the national holidays:\nMarch 15th, the memorial day of the 1848 revolution;\nAugust 20th, the celebration of state foundation and Saint Stephen;\nand October 23rd, the day of the 1956 revolution.\nI know that the Hungarian national dance is the csárdás, a traditional, lively, and partner folk dance.",
+    "hu_a": "Ismerem több fontos elemét a magyar kultúrának. Főleg a nemzeti néptánc, a csárdás, meg néhány nemzeti ünnep.",
+    "en_a": "I know several important elements of Hungarian culture. Mainly the national folk dance, the csárdás, and a few national holidays.",
     "category": "Culture & history",
     "group": 187,
     "star": true
