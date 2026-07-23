@@ -1937,7 +1937,7 @@
   {
     "hu_q": "Mit tud a magyar kulturárol?",
     "en_q": "What do you know about Hungarian culture?",
-    "hu_a": "Ismerem több fontos elemét a magyar kultúrának. Főleg a nemzeti néptánc, a csárdás, meg néhány nemzeti ünnep.",
+    "hu_a": "Ismerem több fontos elemét a magyar kultúrának. Főleg a nemzeti néptánc, a csárdás, és néhány nemzeti ünnep.",
     "en_a": "I know several important elements of Hungarian culture. Mainly the national folk dance, the csárdás, and a few national holidays.",
     "category": "Culture & history",
     "group": 187,
@@ -1998,7 +1998,7 @@
     "star": false
   },
   {
-    "hu_q": "Meséljen egy átlagos napjáról-napirendjéről?",
+    "hu_q": "Meséljen egy átlagos napjáról?",
     "en_q": "Tell me the average about your day/your daily routine?",
     "hu_a": "Reggel hétkor kelek. Felöltöztetem a lányomat, és megyek dolgozni. Öt körül hazamegyek, vacsorát csinálok, és pihenek lefekvésig.",
     "en_a": "I get up at seven in the morning. I dress my daughter and go to work. I go home around five, make dinner, and rest until bedtime.",
@@ -2007,12 +2007,21 @@
     "star": true
   },
   {
+    "hu_q": "Meséljen egy átlagos napirendjéről?",
+    "en_q": "Tell me the average about your day/your daily routine?",
+    "hu_a": "Reggel hétkor kelek. Felöltöztetem a lányomat, és megyek dolgozni. Öt körül hazamegyek, vacsorát csinálok, és pihenek lefekvésig.",
+    "en_a": "I get up at seven in the morning. I dress my daughter and go to work. I go home around five, make dinner, and rest until bedtime.",
+    "category": "General",
+    "group": 195,
+    "star": true
+  },
+  {
     "hu_q": "Hol nyaralt ezen a nyáron?",
     "en_q": "Where did you vacation this summer?",
     "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
     "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
     "category": "Hobbies & free time",
-    "group": 195,
+    "group": 196,
     "star": true
   },
   {
@@ -2021,7 +2030,7 @@
     "hu_a": "Szeretünk utazni a családunkhoz. Ott úszunk a medencében és napozunk az udvarban.",
     "en_a": "We love to travel to our family. There we swim in the pool and sunbathe in the yard.",
     "category": "Greeting & closing",
-    "group": 196,
+    "group": 197,
     "star": true
   },
   {
@@ -2030,7 +2039,7 @@
     "hu_a": "Szeretünk utazni a családunkhoz. Ott úszunk a medencében és napozunk az udvarban.",
     "en_a": "We love to travel to our family. There we swim in the pool and sunbathe in the yard.",
     "category": "Greeting & closing",
-    "group": 197,
+    "group": 198,
     "star": true
   },
   {
@@ -2039,7 +2048,7 @@
     "hu_a": "Nyáron a családommal Budapesten jártunk, és nagyon megszerettem a várost a kedves emberek, a családbarát hangulat és a gazdag ételek miatt.",
     "en_a": "In the summer, I visited Budapest with my family, and I grew very fond of the city because of the friendly people, the family-friendly atmosphere, and the rich food.",
     "category": "Greeting & closing",
-    "group": 198,
+    "group": 199,
     "star": false
   },
   {
@@ -2048,7 +2057,7 @@
     "hu_a": "Szeretek éttermekbe járni, múzeumokat látogatni, és közben pihenni.",
     "en_a": "I like to go to restaurants, visit the museums, and relax inbetween.",
     "category": "Hobbies & free time",
-    "group": 199,
+    "group": 200,
     "star": true
   },
   {
@@ -2057,7 +2066,7 @@
     "hu_a": "Nincs kedvenc helyem. Szeretek mindenhová utazni.",
     "en_a": "I don't have a favorite place. I like to travel everywhere.",
     "category": "Greeting & closing",
-    "group": 200,
+    "group": 201,
     "star": true
   },
   {
@@ -2066,16 +2075,16 @@
     "hu_a": "Még nem olvastam igazi magyar könyveket, csak babakönyveket a lányomnak — de azokat nagyon élvezem!",
     "en_a": "I haven't read real Hungarian books yet, only picture books for my daughter — but I really enjoy those!",
     "category": "Hobbies & free time",
-    "group": 201,
+    "group": 202,
     "star": false
   },
   {
     "hu_q": "Sportol valamit?",
     "en_q": "Do you play sports?",
-    "hu_a": "Főleg azért futok, hogy aktív maradjak.",
-    "en_a": "I mostly run to stay active.",
+    "hu_a": "Igen, néha futok, általában reggel.",
+    "en_a": "Yes, sometimes I run usually in the morning.",
     "category": "Hobbies & free time",
-    "group": 202,
+    "group": 203,
     "star": false
   },
   {
@@ -2084,7 +2093,7 @@
     "hu_a": "Igen, ismerem Petőfi Sándort aki a nemzeti dalt írta.",
     "en_a": "Yes, I know Sándor Petőfi, who wrote the national song.",
     "category": "Culture & history",
-    "group": 203,
+    "group": 204,
     "star": false
   },
   {
@@ -2093,7 +2102,7 @@
     "hu_a": "Igen, ismerem Petőfi Sándort aki a nemzeti dalt írta.",
     "en_a": "Yes, I know Sándor Petőfi, who wrote the national song.",
     "category": "Culture & history",
-    "group": 204,
+    "group": 205,
     "star": false
   },
   {
@@ -2102,7 +2111,7 @@
     "hu_a": "A kedvenc színem a kék.",
     "en_a": "My favorite color is blue.",
     "category": "Daily life & food",
-    "group": 205,
+    "group": 206,
     "star": false
   },
   {
@@ -2111,7 +2120,7 @@
     "hu_a": "A magyar zászló piros, fehér, és zöld.",
     "en_a": "The Hungarian flag is red, white, and green.",
     "category": "Culture & history",
-    "group": 206,
+    "group": 207,
     "star": false
   },
   {
@@ -2120,16 +2129,16 @@
     "hu_a": "Az amerikai zászló piros, fehér és kék.",
     "en_a": "The American flag is red, white and blue.",
     "category": "Culture & history",
-    "group": 207,
+    "group": 208,
     "star": false
   },
   {
     "hu_q": "Mit vacsorázott tegnap este?",
     "en_q": "What did you have for dinner last night?",
-    "hu_a": "Tegnap este pizzát ettem vacsorára.",
+    "hu_a": "Tegnap este pizzát ettünk vacsorára.",
     "en_a": "I ate pizza for dinner last night.",
     "category": "Daily life & food",
-    "group": 208,
+    "group": 209,
     "star": false
   },
   {
@@ -2138,7 +2147,7 @@
     "hu_a": "Ma reggelire kávét, joghurtot és granolát ettem. A lányom tejet ivott és gyümölcsöt evett .",
     "en_a": "I had coffee, yogurt and granola for breakfast this morning. My daughter had milk and fruit.",
     "category": "Daily life & food",
-    "group": 209,
+    "group": 210,
     "star": false
   },
   {
@@ -2147,7 +2156,7 @@
     "hu_a": "Szeretem a mexikói és a japán ételeket.",
     "en_a": "I like Mexican and Japanese food.",
     "category": "Daily life & food",
-    "group": 210,
+    "group": 211,
     "star": false
   },
   {
@@ -2156,7 +2165,7 @@
     "hu_a": "Ma péntek van.",
     "en_a": "Today is Friday",
     "category": "Daily life & food",
-    "group": 211,
+    "group": 212,
     "star": false
   },
   {
@@ -2165,16 +2174,16 @@
     "hu_a": "Ez a bal kezem.",
     "en_a": "This is my left hand.",
     "category": "Daily life & food",
-    "group": 212,
+    "group": 213,
     "star": false
   },
   {
-    "hu_q": "Melyik a jobbkeze?",
+    "hu_q": "Melyik a jobb keze?",
     "en_q": "Which hand is your right hand?",
     "hu_a": "Ez a jobb kezem.",
-    "en_a": "This is my right had.",
+    "en_a": "This is my right hand.",
     "category": "Daily life & food",
-    "group": 213,
+    "group": 214,
     "star": false
   },
   {
@@ -2183,7 +2192,7 @@
     "hu_a": "A jobb kezemben tollat tartok.",
     "en_a": "I'm holding a pen in my right hand.",
     "category": "Daily life & food",
-    "group": 214,
+    "group": 215,
     "star": false
   },
   {
@@ -2192,7 +2201,7 @@
     "hu_a": "Tiz óra harminc perc van",
     "en_a": "It is ten thirty",
     "category": "Small talk & weather",
-    "group": 215,
+    "group": 216,
     "star": false
   },
   {
@@ -2201,7 +2210,7 @@
     "hu_a": "Tiz óra harminc perc van",
     "en_a": "It is ten thirty",
     "category": "Small talk & weather",
-    "group": 215,
+    "group": 216,
     "star": false
   },
   {
@@ -2210,7 +2219,7 @@
     "hu_a": "Az idő szép és meleg.",
     "en_a": "The weather is nice and warm.",
     "category": "Small talk & weather",
-    "group": 216,
+    "group": 217,
     "star": false
   },
   {
@@ -2219,7 +2228,7 @@
     "hu_a": "A cimem 4928 Enlightenment Road, [CITY], NC 27616",
     "en_a": "My address is 4928 Enlightenment Road, [CITY], NC 27616",
     "category": "Documents & application",
-    "group": 217,
+    "group": 218,
     "star": false
   },
   {
@@ -2228,7 +2237,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 218,
+    "group": 219,
     "star": false
   },
   {
@@ -2237,7 +2246,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 219,
+    "group": 220,
     "star": false
   },
   {
@@ -2246,7 +2255,7 @@
     "hu_a": "Rendben, értem.",
     "en_a": "Okay, I understand.",
     "category": "Documents & application",
-    "group": 220,
+    "group": 221,
     "star": false
   },
   {
@@ -2255,7 +2264,7 @@
     "hu_a": "Rendben, értem.",
     "en_a": "Okay, I understand.",
     "category": "Greeting & closing",
-    "group": 221,
+    "group": 222,
     "star": false
   },
   {
@@ -2264,7 +2273,7 @@
     "hu_a": "Nagyon szépen köszönöm.",
     "en_a": "Thanks very much.",
     "category": "Greeting & closing",
-    "group": 222,
+    "group": 223,
     "star": false
   },
   {
@@ -2273,7 +2282,7 @@
     "hu_a": "Nagyon szépen köszönöm.",
     "en_a": "Thanks very much.",
     "category": "Greeting & closing",
-    "group": 222,
+    "group": 223,
     "star": false
   },
   {
@@ -2282,7 +2291,7 @@
     "hu_a": "Köszönöm az idejét.",
     "en_a": "Thank you the your time.",
     "category": "Greeting & closing",
-    "group": 223,
+    "group": 224,
     "star": false
   },
   {
@@ -2291,7 +2300,7 @@
     "hu_a": "Családommal gyakran szeretnék Magyarországra utazni.",
     "en_a": "I plan to travel to Hungary often with my family.",
     "category": "Documents & application",
-    "group": 224,
+    "group": 225,
     "star": false
   },
   {
@@ -2300,7 +2309,7 @@
     "hu_a": "Budapesten élnék! Imádom a termálfürdő‑kultúrát, a gyönyörű építészetet és a kedves embereket.",
     "en_a": "I would live in Budapest! I love the thermal bath culture, the beautiful architecture, and the friendly people.",
     "category": "Home & residence",
-    "group": 225,
+    "group": 226,
     "star": false
   },
   {
@@ -2309,7 +2318,7 @@
     "hu_a": "Szeretnék Budapesten a második kerületben élni, mert sok park van a lányom számára, és még mindig közel van a belvároshoz.",
     "en_a": "I would like to live in the second district of Budapest because there are many parks for my daughter, and it is still close to the city center.",
     "category": "Home & residence",
-    "group": 226,
+    "group": 227,
     "star": false
   },
   {
@@ -2318,7 +2327,7 @@
     "hu_a": "Igen, ismerem\n- március 15 (tizenötödikét) az 1848-as forradalom ünnepét,\n- augusztus 20 (huszadikát) Szent István napját,\n- október 23 (huszonharmadikát) az 1956-os forradalom ünnepét.",
     "en_a": "I know these Hungarian national holidays:\n- March 15 is the holiday of the 1848 revolution,\n- August 20 is the holiday of the founding of the state or Saint Stephen's Day,\n- October 23 is the holiday of the 1956 revolution.",
     "category": "Culture & history",
-    "group": 227,
+    "group": 228,
     "star": false
   },
   {
@@ -2327,7 +2336,7 @@
     "hu_a": "Igen, ismerem\n- március 15 (tizenötödikét) az 1848-as forradalom ünnepét,\n- augusztus 20 (huszadikát) az államalapítás ünnepét vagy Szent István napját,\n- október 23 (huszonharmadikát) az 1956-os forradalom ünnepét.",
     "en_a": "I know these Hungarian national holidays:\n- March 15 is the holiday of the 1848 revolution,\n- August 20 is the holiday of the founding of the state or Saint Stephen's Day,\n- October 23 is the holiday of the 1956 revolution.",
     "category": "Culture & history",
-    "group": 228,
+    "group": 229,
     "star": false
   },
   {
@@ -2336,7 +2345,7 @@
     "hu_a": "A magyar nemzeti himnusz címe \"Himnusz\". Kölcsey Ferenc írta a szöveget.",
     "en_a": "The title of the Hungarian national anthem is \"Himnusz.\" Ferenc Kölcsey wrote the lyrics.",
     "category": "Culture & history",
-    "group": 229,
+    "group": 230,
     "star": false
   },
   {
@@ -2345,7 +2354,7 @@
     "hu_a": "A magyar nemzeti dal címe \"Nemzeti dal\". Petőfi Sándor írta.",
     "en_a": "The title of the Hungarian national song is \"Nemzeti dal.\" It was written by Sándor Petőfi.",
     "category": "Culture & history",
-    "group": 230,
+    "group": 231,
     "star": false
   },
   {
@@ -2354,7 +2363,7 @@
     "hu_a": "A magyar nemzeti tánc a Csárdás, egy hagyományos néptánc.",
     "en_a": "The Hungarian national dance is the \"Csárdás,\" a traditional folk dance.",
     "category": "Culture & history",
-    "group": 231,
+    "group": 232,
     "star": false
   },
   {
@@ -2363,7 +2372,7 @@
     "hu_a": "Ebédelünk, aztán visszamegyünk a hotelbe, hogy a lányom aludjon.",
     "en_a": "We have lunch, then we go back to the hotel so that my daughter can sleep.",
     "category": "Greeting & closing",
-    "group": 232,
+    "group": 233,
     "star": false
   },
   {
@@ -2372,7 +2381,7 @@
     "hu_a": "Az interjú előtt felkeltem és reggeliztem a családommal.",
     "en_a": "Before the interview, I woke up and had breakfast with my family.",
     "category": "General",
-    "group": 233,
+    "group": 234,
     "star": false
   },
   {
@@ -2381,7 +2390,7 @@
     "hu_a": "Rendben.",
     "en_a": "Alright.",
     "category": "Greeting & closing",
-    "group": 234,
+    "group": 235,
     "star": false
   },
   {
@@ -2390,7 +2399,7 @@
     "hu_a": "Rendben, értem.",
     "en_a": "Okay, I understand.",
     "category": "Interview procedure",
-    "group": 235,
+    "group": 236,
     "star": false
   },
   {
@@ -2399,7 +2408,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 236,
+    "group": 237,
     "star": false
   },
   {
@@ -2408,7 +2417,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 237,
+    "group": 238,
     "star": false
   },
   {
@@ -2417,7 +2426,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 238,
+    "group": 239,
     "star": false
   },
   {
@@ -2426,7 +2435,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 239,
+    "group": 240,
     "star": false
   },
   {
@@ -2435,7 +2444,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 240,
+    "group": 241,
     "star": false
   },
   {
@@ -2444,7 +2453,7 @@
     "hu_a": "Itt, [STATE] [CITY]‑ben kérem.",
     "en_a": "Here in [STATE] [CITY], please",
     "category": "Interview procedure",
-    "group": 241,
+    "group": 242,
     "star": false
   },
   {
@@ -2453,7 +2462,7 @@
     "hu_a": "Itt, [STATE] [CITY]‑ben kérem.",
     "en_a": "Here in [STATE] [CITY], please",
     "category": "Interview procedure",
-    "group": 242,
+    "group": 243,
     "star": false
   },
   {
@@ -2462,7 +2471,7 @@
     "hu_a": "Rendben, értem.",
     "en_a": "Okay, I understand.",
     "category": "Interview procedure",
-    "group": 243,
+    "group": 244,
     "star": false
   },
   {
@@ -2471,7 +2480,7 @@
     "hu_a": "Minden rendben van. Az aláirás jó.",
     "en_a": "All is well. The signature is good.",
     "category": "Interview procedure",
-    "group": 244,
+    "group": 245,
     "star": false
   },
   {
@@ -2480,7 +2489,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Documents & application",
-    "group": 245,
+    "group": 246,
     "star": false
   },
   {
@@ -2489,7 +2498,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Interview procedure",
-    "group": 246,
+    "group": 247,
     "star": false
   },
   {
@@ -2498,7 +2507,7 @@
     "hu_a": "Rendben.",
     "en_a": "Okay.",
     "category": "Home & residence",
-    "group": 247,
+    "group": 248,
     "star": false
   },
   {
@@ -2507,7 +2516,7 @@
     "hu_a": "Jó gyerekkorom volt. Sok gyerek élt a környéken, és semmi miatt nem aggódtam.",
     "en_a": "I had a good childhood. Many children lived in the neighborhood, and I didn't worry about anything.",
     "category": "Daily life & food",
-    "group": 248,
+    "group": 249,
     "star": false
   },
   {
@@ -2516,7 +2525,7 @@
     "hu_a": "Senki sem segített. Egyedül töltöttem ki a kérelmet.",
     "en_a": "Nobody helped me. I filled out the application on my own",
     "category": "Documents & application",
-    "group": 249,
+    "group": 250,
     "star": false
   },
   {
@@ -2525,7 +2534,7 @@
     "hu_a": "Nem, senki sem segített nekem.",
     "en_a": "No, no one helped me.",
     "category": "General",
-    "group": 250,
+    "group": 251,
     "star": false
   },
   {
@@ -2534,7 +2543,7 @@
     "hu_a": "A leánykori nevemet használom, [MY NAME].",
     "en_a": "I use my maiden name, [MY NAME].",
     "category": "Personal details",
-    "group": 251,
+    "group": 252,
     "star": false
   },
   {
@@ -2543,7 +2552,7 @@
     "hu_a": "Most először.",
     "en_a": "This is the first time.",
     "category": "Documents & application",
-    "group": 252,
+    "group": 253,
     "star": false
   },
   {
@@ -2552,7 +2561,7 @@
     "hu_a": "Igen, ismerem Magyar Petér miniszterelnököt, Rubik Ernő feltalálót és Petőfi Sándor költőt.",
     "en_a": "Yes, I know Prime Minister Peter Magyar, inventor Ernő Rubik, and poet Sándor Petőfi.",
     "category": "Culture & history",
-    "group": 253,
+    "group": 254,
     "star": false
   },
   {
@@ -2561,7 +2570,7 @@
     "hu_a": "Magyarország északon Szlovákiával, keleten Ukrajnával és Romániával, délen Szerbiával és Horvátországgal, és nyugaton Szlovéniával és Ausztriával határos.",
     "en_a": "Hungary borders Slovakia to the north, Ukraine and Romania to the east, Serbia and Croatia to the south, and Slovenia and Austria to the west.",
     "category": "Culture & history",
-    "group": 254,
+    "group": 255,
     "star": false
   },
   {
@@ -2570,7 +2579,7 @@
     "hu_a": "Igen, Romániában, Szlovákiában, Szerbiában, és Ukrajnában.",
     "en_a": "Yes, in Romania, Slovakia, Serbia, and Ukraine.",
     "category": "Ancestry & origin",
-    "group": 255,
+    "group": 256,
     "star": false
   },
   {
@@ -2579,7 +2588,7 @@
     "hu_a": "Tudom, hogy a trianoni békeszerződés miatt.",
     "en_a": "I know it's because of the Treaty of Trianon.",
     "category": "Culture & history",
-    "group": 256,
+    "group": 257,
     "star": false
   },
   {
@@ -2588,7 +2597,7 @@
     "hu_a": "Általában autóval megyünk.",
     "en_a": "We usually drive.",
     "category": "Daily life & food",
-    "group": 257,
+    "group": 258,
     "star": false
   },
   {
@@ -2597,7 +2606,7 @@
     "hu_a": "A hétvégét itt töltjük. Lehet, hogy ellátogatunk a National Mall-ra.",
     "en_a": "We are staying the weekend. We may visit the National Mall.",
     "category": "Daily life & food",
-    "group": 258,
+    "group": 259,
     "star": false
   },
   {
@@ -2606,7 +2615,7 @@
     "hu_a": "Szeretek thriller és fantasy könyveket olvasni.",
     "en_a": "I like to read thriller and fantasy books.",
     "category": "Hobbies & free time",
-    "group": 259,
+    "group": 260,
     "star": false
   },
   {
@@ -2615,7 +2624,7 @@
     "hu_a": "Szeretek indie zenét hallgatni.",
     "en_a": "I like to listen to indie music.",
     "category": "Hobbies & free time",
-    "group": 260,
+    "group": 261,
     "star": false
   },
   {
@@ -2624,7 +2633,7 @@
     "hu_a": "Megtanultam magamtól főzni.",
     "en_a": "I taught myself to cook.",
     "category": "Language learning",
-    "group": 261,
+    "group": 262,
     "star": false
   },
   {
@@ -2633,7 +2642,7 @@
     "hu_a": "A legjobb barátom szintén üzleti elemző. Kedves, okos és nagyon vicces.",
     "en_a": "My best friend is also a business analyst. She is kind, smart, and very funny.",
     "category": "Family",
-    "group": 262,
+    "group": 263,
     "star": false
   },
   {
@@ -2642,7 +2651,7 @@
     "hu_a": "A Mary Esther Általános Iskolába jártam.",
     "en_a": "I went to Mary Esther Elementary School",
     "category": "Visiting Hungary",
-    "group": 263,
+    "group": 264,
     "star": false
   },
   {
@@ -2651,7 +2660,7 @@
     "hu_a": "A Navarre Középiskolába jártam.",
     "en_a": "I went to Navarre High School.",
     "category": "Visiting Hungary",
-    "group": 264,
+    "group": 265,
     "star": false
   },
   {
@@ -2660,7 +2669,7 @@
     "hu_a": "Néhány magyar Facebook-csoport tagja vagyok.",
     "en_a": "I am a member of a few Hungarian Facebook groups.",
     "category": "Motivation & future",
-    "group": 265,
+    "group": 266,
     "star": true
   },
   {
@@ -2669,7 +2678,7 @@
     "hu_a": "Folytatom a magyar tanulást, mert szeretnénk egyszer Magyarországra költözni.",
     "en_a": "I continue learning Hungarian because we would like to move to Hungary someday.",
     "category": "Motivation & future",
-    "group": 266,
+    "group": 267,
     "star": false
   },
   {
@@ -2678,7 +2687,7 @@
     "hu_a": "Folytatom a magyar tanulást, mert szeretnénk egyszer Magyarországra költözni.",
     "en_a": "I continue learning Hungarian because we would like to move to Hungary someday.",
     "category": "Motivation & future",
-    "group": 267,
+    "group": 268,
     "star": false
   },
   {
@@ -2687,7 +2696,7 @@
     "hu_a": "Rendben, köszönöm. [SPOUSE], come here.",
     "en_a": "Ok, thank you. [SPOUSE], come here.",
     "category": "Interview procedure",
-    "group": 268,
+    "group": 269,
     "star": false
   },
   {
@@ -2696,7 +2705,7 @@
     "hu_a": "Igen, magam írtam.",
     "en_a": "Yes, I wrote by myself.",
     "category": "General",
-    "group": 269,
+    "group": 270,
     "star": false
   },
   {
@@ -2705,7 +2714,7 @@
     "hu_a": "Igen, tudok egyedül írni.",
     "en_a": "Yes, I can write by myself.",
     "category": "General",
-    "group": 270,
+    "group": 271,
     "star": false
   },
   {
@@ -2714,7 +2723,7 @@
     "hu_a": "Igen, szeretnék több várost látni",
     "en_a": "Yes, I would like to see more cities",
     "category": "Greeting & closing",
-    "group": 271,
+    "group": 272,
     "star": false
   },
   {
@@ -2723,7 +2732,7 @@
     "hu_a": "Sajnos még nem utaztam el [VILLAGE].",
     "en_a": "Unfortunately, I have not traveled to [VILLAGE] yet.",
     "category": "Ancestry & origin",
-    "group": 272,
+    "group": 273,
     "star": false
   },
   {
@@ -2732,7 +2741,7 @@
     "hu_a": "Igen, szeretem a munkámat. Érdekes.",
     "en_a": "Yes, I like my job. It's interesting.",
     "category": "Education & work",
-    "group": 273,
+    "group": 274,
     "star": false
   },
   {
@@ -2741,7 +2750,7 @@
     "hu_a": "Szeretnék ellátogatni Pécsre, Szegedre és Budapestre.",
     "en_a": "I would like to visit Pecs, Szeged, and Budapest.",
     "category": "Ancestry & origin",
-    "group": 274,
+    "group": 275,
     "star": false
   },
   {
@@ -2750,7 +2759,7 @@
     "hu_a": "Játékokkal és babákkal játszunk.",
     "en_a": "We play with toys and dolls.",
     "category": "Family",
-    "group": 275,
+    "group": 276,
     "star": false
   }
 ]
